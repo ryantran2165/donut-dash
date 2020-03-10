@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     [SerializeField] private GameObject player;
+
     private Vector3 vec3;
     private float initialY;
 

@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 400f;
     [SerializeField] private Transform groundTransform;
     [SerializeField] private LayerMask whatIsGround;
+
     private Rigidbody2D rigidBody;
     private bool facingRight = true;
     private bool isGrounded = true;
