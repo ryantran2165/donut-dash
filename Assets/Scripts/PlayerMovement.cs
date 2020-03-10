@@ -26,14 +26,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Poll input
         horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
         {
             jump = true;
         }
 
+        // Cast circle to check if grounded
         isGrounded = false;
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundTransform.position, .2f, whatIsGround);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundTransform.position, .5f, whatIsGround);
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
@@ -45,23 +47,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isGrounded)
-        {
-            movement.Set(horizontalMove * Time.fixedDeltaTime, 0);
-            rigidBody.AddForce(movement);
+        // Move horizontal
+        movement.Set(horizontalMove * Time.fixedDeltaTime, 0);
+        rigidBody.AddForce(movement);
 
-            // Clamp
-            if (rigidBody.velocity.x > maxSpeed)
-            {
-                rigidBody.velocity = new Vector2(maxSpeed, rigidBody.velocity.y);
-            }
-            else if (rigidBody.velocity.x < -maxSpeed)
-            {
-                rigidBody.velocity = new Vector2(-maxSpeed, rigidBody.velocity.y);
-            }
+        // Clamp velocity
+        if (rigidBody.velocity.x > maxSpeed)
+        {
+            rigidBody.velocity = new Vector2(maxSpeed, rigidBody.velocity.y);
+        }
+        else if (rigidBody.velocity.x < -maxSpeed)
+        {
+            rigidBody.velocity = new Vector2(-maxSpeed, rigidBody.velocity.y);
         }
 
-        // Flip sprite horizontal
+        //Flip sprite horizontal
         if ((horizontalMove > 0 && !facingRight) || (horizontalMove < 0 && facingRight))
         {
             facingRight = !facingRight;
@@ -77,6 +77,11 @@ public class PlayerMovement : MonoBehaviour
             rigidBody.AddForce(Vector2.up * jumpForce);
         }
         jump = false;
+    }
+
+    public void changeMaxSpeed(float dMaxSpeed)
+    {
+        maxSpeed += dMaxSpeed;
     }
 
 }
