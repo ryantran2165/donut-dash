@@ -5,6 +5,7 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     [SerializeField] private int thiccValue;
+    [SerializeField] private int scoreValue;
     [SerializeField] private ParticleSystem eatParticleSystem;
 
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class Food : MonoBehaviour
         {
             Player player = collision.gameObject.GetComponent<Player>();
             player.addThicc(thiccValue);
+            player.addFoodScore(scoreValue);
             Instantiate(eatParticleSystem, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

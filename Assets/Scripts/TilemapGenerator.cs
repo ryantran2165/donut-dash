@@ -8,20 +8,22 @@ public class TilemapGenerator : MonoBehaviour
     [SerializeField] private Tile roadTile;
     [SerializeField] private Tile dirtTile;
     [SerializeField] private Tile spikeTile;
-    [SerializeField] private Player player;
     [SerializeField] private Camera camera;
+    [SerializeField] private GameObject spikeCollider;
 
     private Tilemap tilemap;
     private EdgeCollider2D edgeCollider;
     private List<Vector2> edgeColliderPoints;
 
     private float horzExtentHalf;
-    private const int GENERATE_BUFFER = 5;
     private int nextX = 40;
     private int previousType = TYPE_NORMAL;
+    private Vector2[] probabilities;
+
+    private const int GENERATE_BUFFER = 5;
     private const int TYPE_NORMAL = 0;
     private const int TYPE_PIT = 1;
-    private Vector2[] probabilities;
+    private const float ROAD_Y = .9f;
 
     // Start is called before the first frame update
     void Start()
@@ -85,7 +87,7 @@ public class TilemapGenerator : MonoBehaviour
         tilemap.SetTile(new Vector3Int(nextX, -2, 0), dirtTile);
 
         // Modify end point
-        edgeColliderPoints[edgeColliderPoints.Count - 1] = new Vector2(nextX + 1, 0.9f);
+        edgeColliderPoints[edgeColliderPoints.Count - 1] = new Vector2(nextX + 1, ROAD_Y);
 
         // Advance next spawn x by 1
         nextX++;
@@ -100,10 +102,13 @@ public class TilemapGenerator : MonoBehaviour
         tilemap.SetTile(new Vector3Int(nextX + 1, -2, 0), spikeTile);
 
         // Add 4 new points before the last point
-        edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX, 0.9f));
+        edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX, ROAD_Y));
         edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX, -1.7f));
         edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX + 2, -1.7f));
-        edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX + 2, 0.9f));
+        edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX + 2, ROAD_Y));
+
+        // Add collision
+        Instantiate(spikeCollider, new Vector3(nextX + 1, -1f, 0), Quaternion.identity);
 
         // Advance next spawn x by 2
         nextX += 2;

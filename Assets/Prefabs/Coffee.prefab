@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 732530592916638141}
   - component: {fileID: 732530592916638140}
   m_Layer: 0
-  m_Name: Donut
+  m_Name: Coffee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7794089555839914965, guid: 779c24dd571b9de45aa011e1fb5d398a,
+  m_Sprite: {fileID: -3476685616388068169, guid: eca33cda0f4b90143b70c3bc3cbd8935,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -95,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 732530592916638017}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b03ef005013e2ae4891586802eb0a05e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2e0231d47a1aa5342b8d520681d4f4ab, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -121,7 +121,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.8299994, y: 4.8299994}
+    oldSize: {x: 5.44, y: 6.08}
     newSize: {x: 4.8299994, y: 4.8299994}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2581139a1e91b140926dca795ef2b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thiccValue: 100
-  scoreValue: 50
+  thiccValue: 50
+  scoreValue: 25
   eatParticleSystem: {fileID: 7406497105139192426, guid: eb84f2640645e05469e6eae4da1710b9,
     type: 3}
