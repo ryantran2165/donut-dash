@@ -3247,9 +3247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6dfa169a084b8c44aca8172808e15e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foods:
-  - {fileID: 732530592916638017, guid: 6c078cbaec6c1c4468654475eee26b1a, type: 3}
-  - {fileID: 732530592916638017, guid: f04c53aa03da82e4fb7e6b6d8a247804, type: 3}
+  donut: {fileID: 732530592916638017, guid: 6c078cbaec6c1c4468654475eee26b1a, type: 3}
+  coffee: {fileID: 732530592916638017, guid: f04c53aa03da82e4fb7e6b6d8a247804, type: 3}
   tilemap: {fileID: 1512278116}
   camera: {fileID: 519420031}
 --- !u!4 &2062535550

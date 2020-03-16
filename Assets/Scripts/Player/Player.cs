@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     // Animation
     private Animator animator;
     public const int THIC_THRESHOLD = 1000;
-    public const int THICC_THRESHOLD = 2000;
+    public const int THICC_THRESHOLD = 3000;
 
     // Score
     private int scoreByFood;

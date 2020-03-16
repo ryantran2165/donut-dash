@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2581139a1e91b140926dca795ef2b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thiccValue: 100
-  scoreValue: 150
+  thiccValue: 150
+  scoreValue: 225
   eatParticleSystem: {fileID: 7406497105139192426, guid: eb84f2640645e05469e6eae4da1710b9,
     type: 3}
   consumeSound: {fileID: 3444220539518907414, guid: 057a49c860f497d49849bacf17482772,

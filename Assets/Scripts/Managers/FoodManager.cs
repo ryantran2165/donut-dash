@@ -5,9 +5,16 @@ using UnityEngine.Tilemaps;
 
 public class FoodManager : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> foods;
+    [SerializeField] private GameObject donut;
+    [SerializeField] private GameObject coffee;
     [SerializeField] private Tilemap tilemap;
     [SerializeField] private Camera camera;
+
+    private GameObject[] foods;
+
+    private float[] probabilities;
+    private const float DONUT_PROBABILITY = .8f;
+    private const float COFFEE_PROBABILITY = .2f;
 
     private float horzExtentHalf;
     private float lastSpawnX;
@@ -25,6 +32,14 @@ public class FoodManager : MonoBehaviour
         horzExtentHalf = vertExtentHalf * Screen.width / Screen.height;
         lastSpawnX = Random.Range(0f, horzExtentHalf);
         nextSpawnInterval = horzExtentHalf * 2f;
+
+        foods = new GameObject[2];
+        foods[0] = donut;
+        foods[1] = coffee;
+
+        probabilities = new float[2];
+        probabilities[0] = DONUT_PROBABILITY;
+        probabilities[1] = COFFEE_PROBABILITY;
     }
 
     // Update is called once per frame
@@ -38,10 +53,24 @@ public class FoodManager : MonoBehaviour
             float spawnX = rightEdge + 1f;
             bool isOverPit = tilemap.GetTile(new Vector3Int((int) spawnX, 0, 0)) == null;
             float spawnY = Random.Range(isOverPit ? MIN_FOOD_Y_PIT : MIN_FOOD_Y_GROUND, MAX_FOOD_Y);
-            GameObject randomFood = foods[Random.Range(0, foods.Count)];
-            Instantiate(randomFood, new Vector3(spawnX, spawnY, 0f), Quaternion.identity);
+            Instantiate(getRandomFood(), new Vector3(spawnX, spawnY, 0f), Quaternion.identity);
             lastSpawnX = spawnX;
             nextSpawnInterval = Random.Range(MIN_SPAWN_INTERVAL, MAX_SPAWN_INTERVAL);
         }
+    }
+
+    private GameObject getRandomFood()
+    {
+        int index = 0;
+        float rand = Random.value;
+
+        while (rand > 0)
+        {
+            rand -= probabilities[index];
+            index++;
+        }
+
+        index--;
+        return foods[index];
     }
 }

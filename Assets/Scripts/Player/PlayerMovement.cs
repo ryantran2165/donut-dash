@@ -22,6 +22,10 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalMove;
     private Vector2 movement;
 
+    private const float STIC_VOLUME = .5f;
+    private const float THIC_VOLUME = .5f;
+    private const float THICC_VOLUME = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,14 +61,14 @@ public class PlayerMovement : MonoBehaviour
         {
             if (player.getThiccLevel() < Player.THIC_THRESHOLD) // Stic
             {
-                audioSource.PlayOneShot(sticWalkSound);
+                audioSource.PlayOneShot(sticWalkSound, STIC_VOLUME);
             }
             else if (player.getThiccLevel() < Player.THICC_THRESHOLD) // Thic
             {
-                audioSource.PlayOneShot(thicWalkSound);
+                audioSource.PlayOneShot(thicWalkSound, THIC_VOLUME);
             } else // Thicc+
             {
-                audioSource.PlayOneShot(thiccWalkSound);
+                audioSource.PlayOneShot(thiccWalkSound, THICC_VOLUME);
             }
         }
     }
