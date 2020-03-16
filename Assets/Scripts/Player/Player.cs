@@ -10,10 +10,20 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject gameOver;
     [SerializeField] private Text gameOverText;
     [SerializeField] private ParticleSystem deathParticleSystem;
+    [SerializeField] private RuntimeAnimatorController sticController;
+    [SerializeField] private RuntimeAnimatorController thicController;
+    [SerializeField] private RuntimeAnimatorController thiccController;
+    [SerializeField] private AudioSource bgm;
+    [SerializeField] private GameObject deathSound;
 
     private int thiccLevel;
     private Rigidbody2D rigidBody;
     private PlayerMovement playerMovement;
+
+    // Animation
+    private Animator animator;
+    public const int THIC_THRESHOLD = 1000;
+    public const int THICC_THRESHOLD = 2000;
 
     // Score
     private int scoreByFood;
@@ -28,17 +38,25 @@ public class Player : MonoBehaviour
     private const float DISTANCE_PER_SCORE = 1f;
     private const int THICC_PER_LETTER = 1000;
 
+    private const float PITCH_PER_THICC = 0.0001f;
+
     // Start is called before the first frame update
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
         playerMovement = GetComponent<PlayerMovement>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         updateScore();
+    }
+
+    public int getThiccLevel()
+    {
+        return thiccLevel;
     }
 
     public void addThicc(int thicc)
@@ -57,12 +75,19 @@ public class Player : MonoBehaviour
         playerMovement.updateJumpForce(thicc * JUMP_FORCE_PER_THICC);
 
         updateThicc();
+        updateAnimation();
+        updateBGM();
     }
 
     private void updateThicc()
     {
         int numExtraLetters = Mathf.Abs(thiccLevel / THICC_PER_LETTER);
-        string newText = thiccLevel <= 0 ? "stic" : "thic";
+        // If thic, reduce by one 'c' in order to start at 'thic' instead of 'thicc'
+        if (thiccLevel >= THICC_PER_LETTER)
+        {
+            numExtraLetters--;
+        }
+        string newText = thiccLevel < THIC_THRESHOLD ? "stic" : "thic";
 
         for (int i = 0; i < numExtraLetters; i++)
         {
@@ -70,6 +95,27 @@ public class Player : MonoBehaviour
         }
 
         thiccText.text = newText;
+    }
+
+    private void updateAnimation()
+    {
+        if (thiccLevel < THIC_THRESHOLD) // Stic
+        {
+            animator.runtimeAnimatorController = sticController;
+        }
+        else if (thiccLevel < THICC_THRESHOLD) // Thic
+        {
+            animator.runtimeAnimatorController = thicController;
+        }
+        else // Thicc+
+        {
+            animator.runtimeAnimatorController = thiccController;
+        }
+    }
+
+    private void updateBGM()
+    {
+        bgm.pitch = Mathf.Max(.25f, 1f - thiccLevel * PITCH_PER_THICC);
     }
 
     public void addFoodScore(int foodScore)
@@ -95,6 +141,7 @@ public class Player : MonoBehaviour
         gameOver.SetActive(true);
         gameOverText.text = "Game Over!\nScore: " + scoreText.text + "\nYou were " + thiccText.text + "!\nPress 'R' to replay!";
         Instantiate(deathParticleSystem, transform.position, Quaternion.identity);
+        Instantiate(deathSound, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 

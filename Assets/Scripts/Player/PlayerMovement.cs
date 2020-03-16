@@ -9,7 +9,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 400f;
     [SerializeField] private Transform groundTransform;
     [SerializeField] private LayerMask whatIsGround;
+    [SerializeField] private AudioClip sticWalkSound;
+    [SerializeField] private AudioClip thicWalkSound;
+    [SerializeField] private AudioClip thiccWalkSound;
 
+    private AudioSource audioSource;
+    private Player player;
     private Rigidbody2D rigidBody;
     private bool facingRight = true;
     private bool isGrounded = true;
@@ -20,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        player = GetComponent<Player>();
         rigidBody = GetComponent<Rigidbody2D>();
         movement = new Vector2();
     }
@@ -42,6 +49,22 @@ public class PlayerMovement : MonoBehaviour
             if (colliders[i].gameObject != gameObject)
             {
                 isGrounded = true;
+            }
+        }
+
+        // Walk sound
+        if (horizontalMove != 0 && isGrounded && !audioSource.isPlaying)
+        {
+            if (player.getThiccLevel() < Player.THIC_THRESHOLD) // Stic
+            {
+                audioSource.PlayOneShot(sticWalkSound);
+            }
+            else if (player.getThiccLevel() < Player.THICC_THRESHOLD) // Thic
+            {
+                audioSource.PlayOneShot(thicWalkSound);
+            } else // Thicc+
+            {
+                audioSource.PlayOneShot(thiccWalkSound);
             }
         }
     }

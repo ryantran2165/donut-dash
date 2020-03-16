@@ -143,6 +143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thiccValue: 100
-  scoreValue: 100
+  scoreValue: 150
   eatParticleSystem: {fileID: 7406497105139192426, guid: eb84f2640645e05469e6eae4da1710b9,
+    type: 3}
+  consumeSound: {fileID: 3444220539518907414, guid: 057a49c860f497d49849bacf17482772,
     type: 3}

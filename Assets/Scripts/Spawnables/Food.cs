@@ -7,6 +7,7 @@ public class Food : MonoBehaviour
     [SerializeField] private int thiccValue;
     [SerializeField] private int scoreValue;
     [SerializeField] private ParticleSystem eatParticleSystem;
+    [SerializeField] private GameObject consumeSound;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class Food : MonoBehaviour
             player.addThicc(thiccValue);
             player.addFoodScore(scoreValue);
             Instantiate(eatParticleSystem, transform.position, Quaternion.identity);
+            Instantiate(consumeSound, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

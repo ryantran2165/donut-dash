@@ -1,0 +1,6085 @@
+fileFormatVersion: 2
+guid: cc7423f81274a6d4cb9afcf02c2cf79b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4592315495491129459
+    second: Stic Copper 13 fps_0
+  - first:
+      213: -1048889360205396790
+    second: Stic Copper 13 fps_1
+  - first:
+      213: 8188859333553195280
+    second: Stic Copper 13 fps_2
+  - first:
+      213: -3271548225007836739
+    second: Stic Copper 13 fps_3
+  - first:
+      213: -274480112584214261
+    second: Stic Copper 13 fps_4
+  - first:
+      213: -6594501936506813125
+    second: Stic Copper 13 fps_5
+  - first:
+      213: 5528235700475262762
+    second: Stic Copper 13 fps_6
+  - first:
+      213: 5474887076546502759
+    second: Stic Copper 13 fps_7
+  - first:
+      213: -8923727838826315035
+    second: Stic Copper 13 fps_8
+  - first:
+      213: 7775741332246078596
+    second: Stic Copper 13 fps_9
+  - first:
+      213: -4895179093749172282
+    second: Stic Copper 13 fps_0
+  - first:
+      213: -4475076962761304819
+    second: Stic Copper 13 fps_1
+  - first:
+      213: -7768768315560456554
+    second: Stic Copper 13 fps_2
+  - first:
+      213: -7416154875128683396
+    second: Stic Copper 13 fps_3
+  - first:
+      213: 4661890018924079185
+    second: Stic Copper 13 fps_4
+  - first:
+      213: -6812674134420037038
+    second: Stic Copper 13 fps_5
+  - first:
+      213: 2863714802454425643
+    second: Stic Copper 13 fps_6
+  - first:
+      213: 8768400748824078893
+    second: Stic Copper 13 fps_7
+  - first:
+      213: -7463539033477050210
+    second: Stic Copper 13 fps_8
+  - first:
+      213: -1314051744507511500
+    second: Stic Copper 13 fps_9
+  - first:
+      213: 7113478404676307231
+    second: Stic Copper 13 fps_10
+  - first:
+      213: 2459883445517652772
+    second: Stic Copper 13 fps_11
+  - first:
+      213: -7470618120167027997
+    second: Stic Copper 13 fps_12
+  - first:
+      213: 7340265466745878765
+    second: Stic Copper 13 fps_13
+  - first:
+      213: -1688716519097415411
+    second: Stic Copper 13 fps_14
+  - first:
+      213: -3699395602944386901
+    second: Stic Copper 13 fps_15
+  - first:
+      213: 4634337840275522218
+    second: Stic Copper 13 fps_16
+  - first:
+      213: -3783902611874264425
+    second: Stic Copper 13 fps_17
+  - first:
+      213: 584140660082181944
+    second: Stic Copper 13 fps_18
+  - first:
+      213: -5471631769126031376
+    second: Stic Copper 13 fps_19
+  - first:
+      213: 5054179847604931753
+    second: Stic Copper 13 fps_20
+  - first:
+      213: -5504314460099908279
+    second: Stic Copper 13 fps_21
+  - first:
+      213: -5894486074640016686
+    second: Stic Copper 13 fps_22
+  - first:
+      213: -4934023900845545303
+    second: Stic Copper 13 fps_23
+  - first:
+      213: 1236749841023446656
+    second: Stic Copper 13 fps_24
+  - first:
+      213: 2994779275048756672
+    second: Stic Copper 13 fps_25
+  - first:
+      213: 6524264159577535234
+    second: Stic Copper 13 fps_26
+  - first:
+      213: 2583066800247917642
+    second: Stic Copper 13 fps_27
+  - first:
+      213: 1573355751669980426
+    second: Stic Copper 13 fps_28
+  - first:
+      213: 5554351266079153115
+    second: Stic Copper 13 fps_29
+  - first:
+      213: -6930590855402386795
+    second: Stic Copper 13 fps_30
+  - first:
+      213: 670383455250656448
+    second: Stic Copper 13 fps_31
+  - first:
+      213: -222442804756973096
+    second: Stic Copper 13 fps_32
+  - first:
+      213: 4465141712294872671
+    second: Stic Copper 13 fps_33
+  - first:
+      213: 7096837380104204086
+    second: Stic Copper 13 fps_34
+  - first:
+      213: -6260858679427541354
+    second: Stic Copper 13 fps_35
+  - first:
+      213: 3851817939403319653
+    second: Stic Copper 13 fps_36
+  - first:
+      213: 4119681179457789738
+    second: Stic Copper 13 fps_37
+  - first:
+      213: -2340712077109625871
+    second: Stic Copper 13 fps_38
+  - first:
+      213: -2492831477404722003
+    second: Stic Copper 13 fps_39
+  - first:
+      213: -4607247692781188318
+    second: Stic Copper 13 fps_40
+  - first:
+      213: -1426074432911690207
+    second: Stic Copper 13 fps_41
+  - first:
+      213: -529290985473015722
+    second: Stic Copper 13 fps_42
+  - first:
+      213: -439378799394617995
+    second: Stic Copper 13 fps_43
+  - first:
+      213: -6022563832635294963
+    second: Stic Copper 13 fps_44
+  - first:
+      213: 7347420611856758571
+    second: Stic Copper 13 fps_45
+  - first:
+      213: 5213493653350336590
+    second: Stic Copper 13 fps_46
+  - first:
+      213: -5018129790033606240
+    second: Stic Copper 13 fps_47
+  - first:
+      213: -5320052992724236732
+    second: Stic Copper 13 fps_48
+  - first:
+      213: -313351509373749505
+    second: Stic Copper 13 fps_49
+  - first:
+      213: 1797576380472048448
+    second: Stic Copper 13 fps_50
+  - first:
+      213: -6793583942885561229
+    second: Stic Copper 13 fps_51
+  - first:
+      213: 4404891278516042329
+    second: Stic Copper 13 fps_52
+  - first:
+      213: -7129644637325705811
+    second: Stic Copper 13 fps_53
+  - first:
+      213: -6690553194480918086
+    second: Stic Copper 13 fps_54
+  - first:
+      213: -2561542435730547802
+    second: Stic Copper 13 fps_55
+  - first:
+      213: -2616795489889299675
+    second: Stic Copper 13 fps_56
+  - first:
+      213: 3669862303415816155
+    second: Stic Copper 13 fps_57
+  - first:
+      213: 1289017722974103658
+    second: Stic Copper 13 fps_58
+  - first:
+      213: 7461690004093716165
+    second: Stic Copper 13 fps_59
+  - first:
+      213: -5990919259504869043
+    second: Stic Copper 13 fps_60
+  - first:
+      213: -3591887944186309936
+    second: Stic Copper 13 fps_61
+  - first:
+      213: 8053592374563497286
+    second: Stic Copper 13 fps_62
+  - first:
+      213: -3987980957042714131
+    second: Stic Copper 13 fps_63
+  - first:
+      213: -6490706361358228318
+    second: Stic Copper 13 fps_64
+  - first:
+      213: 4612281716127458761
+    second: Stic Copper 13 fps_65
+  - first:
+      213: 1459812123291806435
+    second: Stic Copper 13 fps_66
+  - first:
+      213: -4281807391041697107
+    second: Stic Copper 13 fps_67
+  - first:
+      213: 2533888410371104146
+    second: Stic Copper 13 fps_68
+  - first:
+      213: -2325332206019994885
+    second: Stic Copper 13 fps_69
+  - first:
+      213: 2117417135896236435
+    second: Stic Copper 13 fps_70
+  - first:
+      213: -9107165229355019789
+    second: Stic Copper 13 fps_71
+  - first:
+      213: 7995485986272226371
+    second: Stic Copper 13 fps_72
+  - first:
+      213: -6398744935044381713
+    second: Stic Copper 13 fps_73
+  - first:
+      213: -885113437637310952
+    second: Stic Copper 13 fps_74
+  - first:
+      213: -8768485280732003454
+    second: Stic Copper 13 fps_75
+  - first:
+      213: -6618716730709939939
+    second: Stic Copper 13 fps_76
+  - first:
+      213: -469480651496206295
+    second: Stic Copper 13 fps_77
+  - first:
+      213: 3418622305966175000
+    second: Stic Copper 13 fps_78
+  - first:
+      213: -838305414995206325
+    second: Stic Copper 13 fps_79
+  - first:
+      213: -4385257293883449679
+    second: Stic Copper 13 fps_80
+  - first:
+      213: -2765749654876154179
+    second: Stic Copper 13 fps_81
+  - first:
+      213: -6240323923497958450
+    second: Stic Copper 13 fps_82
+  - first:
+      213: -1751120906215772347
+    second: Stic Copper 13 fps_83
+  - first:
+      213: 5507798143352684444
+    second: Stic Copper 13 fps_84
+  - first:
+      213: 1821475699800358534
+    second: Stic Copper 13 fps_85
+  - first:
+      213: 8021538529296879438
+    second: Stic Copper 13 fps_86
+  - first:
+      213: -7134489792713141850
+    second: Stic Copper 13 fps_87
+  - first:
+      213: -3499951066305498612
+    second: Stic Copper 13 fps_88
+  - first:
+      213: 5159508681155741152
+    second: Stic Copper 13 fps_89
+  - first:
+      213: 9066658187442851363
+    second: Stic Copper 13 fps_90
+  - first:
+      213: 6896108404793912933
+    second: Stic Copper 13 fps_91
+  - first:
+      213: 8125988597332133768
+    second: Stic Copper 13 fps_92
+  - first:
+      213: 3494013241416016751
+    second: Stic Copper 13 fps_93
+  - first:
+      213: -4305429349402254893
+    second: Stic Copper 13 fps_94
+  - first:
+      213: -5540661447364677452
+    second: Stic Copper 13 fps_95
+  - first:
+      213: 4036501349380818357
+    second: Stic Copper 13 fps_96
+  - first:
+      213: 9069651770471090375
+    second: Stic Copper 13 fps_97
+  - first:
+      213: -2603053180034033093
+    second: Stic Copper 13 fps_98
+  - first:
+      213: -4652787539163877080
+    second: Stic Copper 13 fps_99
+  - first:
+      213: -1329771560445301805
+    second: Stic Copper 13 fps_100
+  - first:
+      213: 7752703617985482045
+    second: Stic Copper 13 fps_101
+  - first:
+      213: 2561129959815942399
+    second: Stic Copper 13 fps_102
+  - first:
+      213: -7031000855108848460
+    second: Stic Copper 13 fps_103
+  - first:
+      213: 8755764937243329534
+    second: Stic Copper 13 fps_104
+  - first:
+      213: -1988148013635426559
+    second: Stic Copper 13 fps_105
+  - first:
+      213: -4430855196863163969
+    second: Stic Copper 13 fps_106
+  - first:
+      213: -3208059832001485265
+    second: Stic Copper 13 fps_107
+  - first:
+      213: -6736761782559031665
+    second: Stic Copper 13 fps_108
+  - first:
+      213: 7937679022062699741
+    second: Stic Copper 13 fps_109
+  - first:
+      213: 7427581024726778941
+    second: Stic Copper 13 fps_110
+  - first:
+      213: -7261674038001017205
+    second: Stic Copper 13 fps_111
+  - first:
+      213: -4587672642936025898
+    second: Stic Copper 13 fps_112
+  - first:
+      213: -8380612815621292405
+    second: Stic Copper 13 fps_113
+  - first:
+      213: 3440894083300626811
+    second: Stic Copper 13 fps_114
+  - first:
+      213: -7544711935702299477
+    second: Stic Copper 13 fps_115
+  - first:
+      213: -8444378490059364585
+    second: Stic Copper 13 fps_116
+  - first:
+      213: 48651855798358480
+    second: Stic Copper 13 fps_117
+  - first:
+      213: 5434258950418085435
+    second: Stic Copper 13 fps_118
+  - first:
+      213: -6464979992206333456
+    second: Stic Copper 13 fps_119
+  - first:
+      213: 7909897119485726492
+    second: Stic Copper 13 fps_120
+  - first:
+      213: -5230771872903304434
+    second: Stic Copper 13 fps_121
+  - first:
+      213: -8289218613186168993
+    second: Stic Copper 13 fps_122
+  - first:
+      213: 4167263745852338640
+    second: Stic Copper 13 fps_123
+  - first:
+      213: -4108676988954481121
+    second: Stic Copper 13 fps_124
+  - first:
+      213: 868762731616467443
+    second: Stic Copper 13 fps_125
+  - first:
+      213: -1096070007476236789
+    second: Stic Copper 13 fps_126
+  - first:
+      213: 247122311951761487
+    second: Stic Copper 13 fps_127
+  - first:
+      213: -4336083527770677754
+    second: Stic Copper 13 fps_128
+  - first:
+      213: -8551639181338505178
+    second: Stic Copper 13 fps_129
+  - first:
+      213: 2410837704834426664
+    second: Stic Copper 13 fps_130
+  - first:
+      213: -7234056768012481330
+    second: Stic Copper 13 fps_131
+  - first:
+      213: 2856269740818173112
+    second: Stic Copper 13 fps_132
+  - first:
+      213: 5742383503510421157
+    second: Stic Copper 13 fps_133
+  - first:
+      213: 728623063428096805
+    second: Stic Copper 13 fps_134
+  - first:
+      213: 5085786426688630323
+    second: Stic Copper 13 fps_135
+  - first:
+      213: -4862870405951749973
+    second: Stic Copper 13 fps_136
+  - first:
+      213: 538124382640288979
+    second: Stic Copper 13 fps_137
+  - first:
+      213: 4710822268137695792
+    second: Stic Copper 13 fps_138
+  - first:
+      213: 1385244638052851504
+    second: Stic Copper 13 fps_139
+  - first:
+      213: -6433704440629503784
+    second: Stic Copper 13 fps_140
+  - first:
+      213: -438621615747133121
+    second: Stic Copper 13 fps_141
+  - first:
+      213: -3130985088486116163
+    second: Stic Copper 13 fps_142
+  - first:
+      213: -783399332797174947
+    second: Stic Copper 13 fps_143
+  - first:
+      213: -5813503478489821141
+    second: Stic Copper 13 fps_144
+  - first:
+      213: -9074123586590696015
+    second: Stic Copper 13 fps_145
+  - first:
+      213: -6860088855682372457
+    second: Stic Copper 13 fps_146
+  - first:
+      213: 6092449091050165384
+    second: Stic Copper 13 fps_147
+  - first:
+      213: -169300706579777413
+    second: Stic Copper 13 fps_148
+  - first:
+      213: -6728546604613341409
+    second: Stic Copper 13 fps_149
+  - first:
+      213: -1410060646415588099
+    second: Stic Copper 13 fps_150
+  - first:
+      213: 3544560313889744874
+    second: Stic Copper 13 fps_151
+  - first:
+      213: -2987810403982534121
+    second: Stic Copper 13 fps_152
+  - first:
+      213: 6392831003731855625
+    second: Stic Copper 13 fps_153
+  - first:
+      213: -7019662039370050736
+    second: Stic Copper 13 fps_154
+  - first:
+      213: -2946028839675588562
+    second: Stic Copper 13 fps_155
+  - first:
+      213: -8666190375088165326
+    second: Stic Copper 13 fps_156
+  - first:
+      213: -5887655307860389343
+    second: Stic Copper 13 fps_157
+  - first:
+      213: -5410372275652356981
+    second: Stic Copper 13 fps_158
+  - first:
+      213: -2690091097424956647
+    second: Stic Copper 13 fps_159
+  - first:
+      213: 6096076942460781043
+    second: Stic Copper 13 fps_160
+  - first:
+      213: -3221938418232213371
+    second: Stic Copper 13 fps_161
+  - first:
+      213: -9223095382546528690
+    second: Stic Copper 13 fps_162
+  - first:
+      213: 6508222153699830831
+    second: Stic Copper 13 fps_163
+  - first:
+      213: -7046764898833643472
+    second: Stic Copper 13 fps_164
+  - first:
+      213: 4437376654893779170
+    second: Stic Copper 13 fps_165
+  - first:
+      213: 1065492537382289905
+    second: Stic Copper 13 fps_166
+  - first:
+      213: 3101556165065695057
+    second: Stic Copper 13 fps_167
+  - first:
+      213: -3236451708581143891
+    second: Stic Copper 13 fps_168
+  - first:
+      213: -805701751967637814
+    second: Stic Copper 13 fps_169
+  - first:
+      213: -276911301814466633
+    second: Stic Copper 13 fps_170
+  - first:
+      213: 8027918236484388910
+    second: Stic Copper 13 fps_171
+  - first:
+      213: -1323464559206636831
+    second: Stic Copper 13 fps_172
+  - first:
+      213: 1460646624281424537
+    second: Stic Copper 13 fps_173
+  - first:
+      213: -3105628247303039456
+    second: Stic Copper 13 fps_174
+  - first:
+      213: -6652813793145301661
+    second: Stic Copper 13 fps_175
+  - first:
+      213: 5770846396974443957
+    second: Stic Copper 13 fps_176
+  - first:
+      213: 5002930418777785135
+    second: Stic Copper 13 fps_177
+  - first:
+      213: 7905210817444441924
+    second: Stic Copper 13 fps_178
+  - first:
+      213: 634809194007318576
+    second: Stic Copper 13 fps_179
+  - first:
+      213: 6905471024014958565
+    second: Stic Copper 13 fps_180
+  - first:
+      213: -6963491420078513522
+    second: Stic Copper 13 fps_181
+  - first:
+      213: -2786093826247032362
+    second: Stic Copper 13 fps_182
+  - first:
+      213: -5980457873382137933
+    second: Stic Copper 13 fps_183
+  - first:
+      213: -5237927211509721013
+    second: Stic Copper 13 fps_184
+  - first:
+      213: -2297897104571261756
+    second: Stic Copper 13 fps_185
+  - first:
+      213: -5919434056031610567
+    second: Stic Copper 13 fps_186
+  - first:
+      213: -4270423580707250842
+    second: Stic Copper 13 fps_187
+  - first:
+      213: 237413025115104387
+    second: Stic Copper 13 fps_188
+  - first:
+      213: -4844835837826168877
+    second: Stic Copper 13 fps_189
+  - first:
+      213: -2577183049767606032
+    second: Stic Copper 13 fps_190
+  - first:
+      213: 325443744385371630
+    second: Stic Copper 13 fps_191
+  - first:
+      213: 7214221266232650356
+    second: Stic Copper 13 fps_192
+  - first:
+      213: 2034418065244320899
+    second: Stic Copper 13 fps_193
+  - first:
+      213: -8833450730303669838
+    second: Stic Copper 13 fps_194
+  - first:
+      213: -3307742683499734067
+    second: Stic Copper 13 fps_195
+  - first:
+      213: -2194316457413459496
+    second: Stic Copper 13 fps_196
+  - first:
+      213: 392644756930221104
+    second: Stic Copper 13 fps_197
+  - first:
+      213: 498280908405200658
+    second: Stic Copper 13 fps_198
+  - first:
+      213: -7615291829694844127
+    second: Stic Copper 13 fps_199
+  - first:
+      213: 5724580302330183032
+    second: Stic Copper 13 fps_200
+  - first:
+      213: 2665991050441007079
+    second: Stic Copper 13 fps_201
+  - first:
+      213: -7914264403514520722
+    second: Stic Copper 13 fps_202
+  - first:
+      213: 1242498276060204645
+    second: Stic Copper 13 fps_203
+  - first:
+      213: -476146141213107408
+    second: Stic Copper 13 fps_204
+  - first:
+      213: -8195446792981064603
+    second: Stic Copper 13 fps_205
+  - first:
+      213: 4517943717716712239
+    second: Stic Copper 13 fps_206
+  - first:
+      213: 3738798454837823891
+    second: Stic Copper 13 fps_207
+  - first:
+      213: 8720522320246982526
+    second: Stic Copper 13 fps_208
+  - first:
+      213: -2097613144160128760
+    second: Stic Copper 13 fps_209
+  - first:
+      213: -1443520746844198352
+    second: Stic Copper 13 fps_210
+  - first:
+      213: 8063507943779408398
+    second: Stic Copper 13 fps_211
+  - first:
+      213: -2553064283955439679
+    second: Stic Copper 13 fps_212
+  - first:
+      213: 1206649855112949917
+    second: Stic Copper 13 fps_213
+  - first:
+      213: -2731836626835497718
+    second: Stic Copper 13 fps_214
+  - first:
+      213: 1283610840527982348
+    second: Stic Copper 13 fps_215
+  - first:
+      213: 6032995237549594942
+    second: Stic Copper 13 fps_216
+  - first:
+      213: -3291783017570791789
+    second: Stic Copper 13 fps_217
+  - first:
+      213: -4703548192409216047
+    second: Stic Copper 13 fps_218
+  - first:
+      213: 6736023523357586146
+    second: Stic Copper 13 fps_219
+  - first:
+      213: 3994374059339725008
+    second: Stic Copper 13 fps_220
+  - first:
+      213: -6150145076497196649
+    second: Stic Copper 13 fps_221
+  - first:
+      213: 1451070779720986112
+    second: Stic Copper 13 fps_222
+  - first:
+      213: 1478467048737462215
+    second: Stic Copper 13 fps_223
+  - first:
+      213: 8830072508874361594
+    second: Stic Copper 13 fps_224
+  - first:
+      213: 6328328363465798548
+    second: Stic Copper 13 fps_225
+  - first:
+      213: -6638860460727804587
+    second: Stic Copper 13 fps_226
+  - first:
+      213: 839289261029456731
+    second: Stic Copper 13 fps_227
+  - first:
+      213: 2936985244565567749
+    second: Stic Copper 13 fps_228
+  - first:
+      213: -3096775164906168628
+    second: Stic Copper 13 fps_229
+  - first:
+      213: 3796713959831848856
+    second: Stic Copper 13 fps_230
+  - first:
+      213: -6171809257454720764
+    second: Stic Copper 13 fps_231
+  - first:
+      213: -2892508555102956331
+    second: Stic Copper 13 fps_232
+  - first:
+      213: 2404952050493342527
+    second: Stic Copper 13 fps_233
+  - first:
+      213: -6764419968890170218
+    second: Stic Copper 13 fps_234
+  - first:
+      213: -8597413927244634410
+    second: Stic Copper 13 fps_235
+  - first:
+      213: -4090024161509170590
+    second: Stic Copper 13 fps_236
+  - first:
+      213: -6853185318745944529
+    second: Stic Copper 13 fps_237
+  - first:
+      213: 978175425094197576
+    second: Stic Copper 13 fps_238
+  - first:
+      213: -8218191910449542083
+    second: Stic Copper 13 fps_239
+  - first:
+      213: 4494178031616120001
+    second: Stic Copper 13 fps_240
+  - first:
+      213: 6845238725736501817
+    second: Stic Copper 13 fps_241
+  - first:
+      213: 7402585545825246835
+    second: Stic Copper 13 fps_242
+  - first:
+      213: 3342352609381899014
+    second: Stic Copper 13 fps_243
+  - first:
+      213: -896828849358594525
+    second: Stic Copper 13 fps_244
+  - first:
+      213: -7263714941751908551
+    second: Stic Copper 13 fps_245
+  - first:
+      213: 1885719700451436182
+    second: Stic Copper 13 fps_246
+  - first:
+      213: 1925912887592077029
+    second: Stic Copper 13 fps_247
+  - first:
+      213: -4531421505207659791
+    second: Stic Copper 13 fps_248
+  - first:
+      213: -6295803667893398619
+    second: Stic Copper 13 fps_249
+  - first:
+      213: -4542741229539668343
+    second: Stic Copper 13 fps_250
+  - first:
+      213: -9212870893812954802
+    second: Stic Copper 13 fps_251
+  - first:
+      213: 4721600906235793236
+    second: Stic Copper 13 fps_252
+  - first:
+      213: 7403859137864009260
+    second: Stic Copper 13 fps_253
+  - first:
+      213: 2019508312439435225
+    second: Stic Copper 13 fps_254
+  - first:
+      213: 5179829363061768835
+    second: Stic Copper 13 fps_255
+  - first:
+      213: 6901343321991583194
+    second: Stic Copper 13 fps_256
+  - first:
+      213: -7324492549158231594
+    second: Stic Copper 13 fps_257
+  - first:
+      213: -5561680942544466582
+    second: Stic Copper 13 fps_258
+  - first:
+      213: 7866076604975437772
+    second: Stic Copper 13 fps_259
+  - first:
+      213: -8109600094702320213
+    second: Stic Copper 13 fps_260
+  - first:
+      213: 258656245011710896
+    second: Stic Copper 13 fps_261
+  - first:
+      213: 6773531158393410985
+    second: Stic Copper 13 fps_262
+  - first:
+      213: 8532853456450905555
+    second: Stic Copper 13 fps_263
+  - first:
+      213: -8428597051987461924
+    second: Stic Copper 13 fps_264
+  - first:
+      213: -4365390370273340623
+    second: Stic Copper 13 fps_265
+  - first:
+      213: 4366843443770070165
+    second: Stic Copper 13 fps_266
+  - first:
+      213: 842487312482667227
+    second: Stic Copper 13 fps_267
+  - first:
+      213: 2068483884910176464
+    second: Stic Copper 13 fps_268
+  - first:
+      213: -808928367684269230
+    second: Stic Copper 13 fps_269
+  - first:
+      213: 1213674477858284040
+    second: Stic Copper 13 fps_270
+  - first:
+      213: 3927485524369101601
+    second: Stic Copper 13 fps_271
+  - first:
+      213: -8251630036533381368
+    second: Stic Copper 13 fps_272
+  - first:
+      213: -221564839505052470
+    second: Stic Copper 13 fps_273
+  - first:
+      213: 888980076297423614
+    second: Stic Copper 13 fps_274
+  - first:
+      213: -6698095858045345122
+    second: Stic Copper 13 fps_275
+  - first:
+      213: -6146331983061258151
+    second: Stic Copper 13 fps_276
+  - first:
+      213: 5393067045613011640
+    second: Stic Copper 13 fps_277
+  - first:
+      213: 8606032732682733461
+    second: Stic Copper 13 fps_278
+  - first:
+      213: -8655080545750368866
+    second: Stic Copper 13 fps_279
+  - first:
+      213: -1822574268187723082
+    second: Stic Copper 13 fps_280
+  - first:
+      213: -4404593691767931850
+    second: Stic Copper 13 fps_281
+  - first:
+      213: 9073141348884362221
+    second: Stic Copper 13 fps_282
+  - first:
+      213: 4773435256681704650
+    second: Stic Copper 13 fps_283
+  - first:
+      213: -7402127772439926063
+    second: Stic Copper 13 fps_284
+  - first:
+      213: 2358840926572312034
+    second: Stic Copper 13 fps_285
+  - first:
+      213: -4474824525787271315
+    second: Stic Copper 13 fps_286
+  - first:
+      213: 8960095217565905468
+    second: Stic Copper 13 fps_287
+  - first:
+      213: -9160073257856594179
+    second: Stic Copper 13 fps_288
+  - first:
+      213: -2597989446399372007
+    second: Stic Copper 13 fps_289
+  - first:
+      213: -5061904267371577689
+    second: Stic Copper 13 fps_290
+  - first:
+      213: -995890153275062356
+    second: Stic Copper 13 fps_291
+  - first:
+      213: 2649755460328344400
+    second: Stic Copper 13 fps_292
+  - first:
+      213: 7866478652807201462
+    second: Stic Copper 13 fps_293
+  - first:
+      213: -7866903327451386819
+    second: Stic Copper 13 fps_294
+  - first:
+      213: 1862284466474299220
+    second: Stic Copper 13 fps_295
+  - first:
+      213: -4720807336560231270
+    second: Stic Copper 13 fps_296
+  - first:
+      213: 4792127203662169902
+    second: Stic Copper 13 fps_297
+  - first:
+      213: -8361442200028710498
+    second: Stic Copper 13 fps_298
+  - first:
+      213: 8274125245244598939
+    second: Stic Copper 13 fps_299
+  - first:
+      213: 2504831558818429364
+    second: Stic Copper 13 fps_300
+  - first:
+      213: -1897270875636217932
+    second: Stic Copper 13 fps_301
+  - first:
+      213: 5194935977261894928
+    second: Stic Copper 13 fps_302
+  - first:
+      213: -79420961341842738
+    second: Stic Copper 13 fps_303
+  - first:
+      213: 7452031433181005919
+    second: Stic Copper 13 fps_304
+  - first:
+      213: -2612978613390016
+    second: Stic Copper 13 fps_305
+  - first:
+      213: -2508316552720194345
+    second: Stic Copper 13 fps_306
+  - first:
+      213: 6637440209951781525
+    second: Stic Copper 13 fps_307
+  - first:
+      213: -1793588410900933100
+    second: Stic Copper 13 fps_308
+  - first:
+      213: 7539033205983051253
+    second: Stic Copper 13 fps_309
+  - first:
+      213: -6223408520042494837
+    second: Stic Copper 13 fps_310
+  - first:
+      213: 1974354638247761722
+    second: Stic Copper 13 fps_311
+  - first:
+      213: 2979269490667345104
+    second: Stic Copper 13 fps_312
+  - first:
+      213: 3226260942499261553
+    second: Stic Copper 13 fps_313
+  - first:
+      213: 1988522451253567044
+    second: Stic Copper 13 fps_314
+  - first:
+      213: 3034983198995591229
+    second: Stic Copper 13 fps_315
+  - first:
+      213: 9058761131155420755
+    second: Stic Copper 13 fps_316
+  - first:
+      213: -6970457863690504528
+    second: Stic Copper 13 fps_317
+  - first:
+      213: -5484419869685211110
+    second: Stic Copper 13 fps_318
+  - first:
+      213: -2357039224363010370
+    second: Stic Copper 13 fps_319
+  - first:
+      213: 7967518923537490774
+    second: Stic Copper 13 fps_320
+  - first:
+      213: 1505729864696918469
+    second: Stic Copper 13 fps_321
+  - first:
+      213: -7148279598489920231
+    second: Stic Copper 13 fps_322
+  - first:
+      213: -4630963843665855510
+    second: Stic Copper 13 fps_323
+  - first:
+      213: -6324663096771004337
+    second: Stic Copper 13 fps_324
+  - first:
+      213: -3688493601142689092
+    second: Stic Copper 13 fps_325
+  - first:
+      213: -9167355783760660992
+    second: Stic Copper 13 fps_326
+  - first:
+      213: 7536239656085347749
+    second: Stic Copper 13 fps_327
+  - first:
+      213: -6316354449897146262
+    second: Stic Copper 13 fps_328
+  - first:
+      213: -1669332197087386110
+    second: Stic Copper 13 fps_329
+  - first:
+      213: 6252420767608610487
+    second: Stic Copper 13 fps_330
+  - first:
+      213: -8470244591650681048
+    second: Stic Copper 13 fps_331
+  - first:
+      213: -5023715755119945195
+    second: Stic Copper 13 fps_332
+  - first:
+      213: -1943370769176330509
+    second: Stic Copper 13 fps_333
+  - first:
+      213: -1258258939236884189
+    second: Stic Copper 13 fps_334
+  - first:
+      213: -6341752207586244661
+    second: Stic Copper 13 fps_335
+  - first:
+      213: 2365408783089562744
+    second: Stic Copper 13 fps_336
+  - first:
+      213: -8509302725584760430
+    second: Stic Copper 13 fps_337
+  - first:
+      213: 7689814314160967205
+    second: Stic Copper 13 fps_338
+  - first:
+      213: -8385999674094937269
+    second: Stic Copper 13 fps_339
+  - first:
+      213: 490269255138479636
+    second: Stic Copper 13 fps_340
+  - first:
+      213: -4367986078785627392
+    second: Stic Copper 13 fps_341
+  - first:
+      213: -4843077686491654096
+    second: Stic Copper 13 fps_342
+  - first:
+      213: -4499276250610808606
+    second: Stic Copper 13 fps_343
+  - first:
+      213: -8147176153941554896
+    second: Stic Copper 13 fps_344
+  - first:
+      213: 1086513233592388090
+    second: Stic Copper 13 fps_345
+  - first:
+      213: 3773256374550595550
+    second: Stic Copper 13 fps_346
+  - first:
+      213: 7397081574988427205
+    second: Stic Copper 13 fps_347
+  - first:
+      213: -5839551926491235296
+    second: Stic Copper 13 fps_348
+  - first:
+      213: -401052883351774181
+    second: Stic Copper 13 fps_349
+  - first:
+      213: -4896560853335642216
+    second: Stic Copper 13 fps_350
+  - first:
+      213: 7679201928987897695
+    second: Stic Copper 13 fps_351
+  - first:
+      213: 3779150287867446586
+    second: Stic Copper 13 fps_352
+  - first:
+      213: -3043061550012304931
+    second: Stic Copper 13 fps_353
+  - first:
+      213: 2694666491966442312
+    second: Stic Copper 13 fps_354
+  - first:
+      213: 9207496310033534619
+    second: Stic Copper 13 fps_355
+  - first:
+      213: -2929400815157709362
+    second: Stic Copper 13 fps_356
+  - first:
+      213: -2658655292654244891
+    second: Stic Copper 13 fps_357
+  - first:
+      213: 2380638557399975866
+    second: Stic Copper 13 fps_358
+  - first:
+      213: -3299049069128305959
+    second: Stic Copper 13 fps_359
+  - first:
+      213: -2780152544315960775
+    second: Stic Copper 13 fps_360
+  - first:
+      213: 9094944050674164999
+    second: Stic Copper 13 fps_361
+  - first:
+      213: -2106952916063240805
+    second: Stic Copper 13 fps_362
+  - first:
+      213: -9073451062398024255
+    second: Stic Copper 13 fps_363
+  - first:
+      213: 6801682058513251609
+    second: Stic Copper 13 fps_364
+  - first:
+      213: 3104495114296337001
+    second: Stic Copper 13 fps_365
+  - first:
+      213: 4237561303351113665
+    second: Stic Copper 13 fps_366
+  - first:
+      213: 5015731396209495856
+    second: Stic Copper 13 fps_367
+  - first:
+      213: 2504281217247478879
+    second: Stic Copper 13 fps_368
+  - first:
+      213: -5427731802897426368
+    second: Stic Copper 13 fps_369
+  - first:
+      213: -6196115666489126644
+    second: Stic Copper 13 fps_370
+  - first:
+      213: 4494582052157499054
+    second: Stic Copper 13 fps_371
+  - first:
+      213: 6148941050687747178
+    second: Stic Copper 13 fps_372
+  - first:
+      213: -3802935508416996219
+    second: Stic Copper 13 fps_373
+  - first:
+      213: -566806012089734449
+    second: Stic Copper 13 fps_374
+  - first:
+      213: -4117606190281446150
+    second: Stic Copper 13 fps_375
+  - first:
+      213: -1448780660348247952
+    second: Stic Copper 13 fps_376
+  - first:
+      213: -8870163795057734592
+    second: Stic Copper 13 fps_377
+  - first:
+      213: 234987592265081830
+    second: Stic Copper 13 fps_378
+  - first:
+      213: 7838375734813529654
+    second: Stic Copper 13 fps_379
+  - first:
+      213: -8790695903461822316
+    second: Stic Copper 13 fps_380
+  - first:
+      213: 5005679898441258294
+    second: Stic Copper 13 fps_381
+  - first:
+      213: 3149376485970598495
+    second: Stic Copper 13 fps_382
+  - first:
+      213: -258723756341865745
+    second: Stic Copper 13 fps_383
+  - first:
+      213: 3154039991533135477
+    second: Stic Copper 13 fps_384
+  - first:
+      213: 7518847071449735438
+    second: Stic Copper 13 fps_385
+  - first:
+      213: 4430160092258369985
+    second: Stic Copper 13 fps_386
+  - first:
+      213: -4311910170614535681
+    second: Stic Copper 13 fps_387
+  - first:
+      213: 4671252628666609924
+    second: Stic Copper 13 fps_388
+  - first:
+      213: 8059159773317226666
+    second: Stic Copper 13 fps_389
+  - first:
+      213: 6507700036607169928
+    second: Stic Copper 13 fps_390
+  - first:
+      213: 3359792268130319073
+    second: Stic Copper 13 fps_391
+  - first:
+      213: 5180261696405772385
+    second: Stic Copper 13 fps_392
+  - first:
+      213: 1520655640044449459
+    second: Stic Copper 13 fps_393
+  - first:
+      213: -2429830504875404686
+    second: Stic Copper 13 fps_394
+  - first:
+      213: -8259097711123477410
+    second: Stic Copper 13 fps_395
+  - first:
+      213: -4469605914085438225
+    second: Stic Copper 13 fps_396
+  - first:
+      213: 2127193643593964418
+    second: Stic Copper 13 fps_397
+  - first:
+      213: -4062204096958564212
+    second: Stic Copper 13 fps_398
+  - first:
+      213: -6098376699739053668
+    second: Stic Copper 13 fps_399
+  - first:
+      213: -8485445869735530863
+    second: Stic Copper 13 fps_400
+  - first:
+      213: 5182450988783530429
+    second: Stic Copper 13 fps_401
+  - first:
+      213: -8260341842124312052
+    second: Stic Copper 13 fps_402
+  - first:
+      213: -5773921182776525121
+    second: Stic Copper 13 fps_403
+  - first:
+      213: -8567931307700955193
+    second: Stic Copper 13 fps_404
+  - first:
+      213: 7393416713176744383
+    second: Stic Copper 13 fps_405
+  - first:
+      213: 6056340755515688034
+    second: Stic Copper 13 fps_406
+  - first:
+      213: 5295831990625419037
+    second: Stic Copper 13 fps_407
+  - first:
+      213: -580335677022340888
+    second: Stic Copper 13 fps_408
+  - first:
+      213: 6003369917547272587
+    second: Stic Copper 13 fps_409
+  - first:
+      213: 7492992637660623417
+    second: Stic Copper 13 fps_410
+  - first:
+      213: -340630358905449410
+    second: Stic Copper 13 fps_411
+  - first:
+      213: 4837921145292962150
+    second: Stic Copper 13 fps_412
+  - first:
+      213: 7862603275480539399
+    second: Stic Copper 13 fps_413
+  - first:
+      213: -3194147709903818004
+    second: Stic Copper 13 fps_414
+  - first:
+      213: 4515587579625605699
+    second: Stic Copper 13 fps_415
+  - first:
+      213: 2872414150677056533
+    second: Stic Copper 13 fps_416
+  - first:
+      213: 3248546862001806065
+    second: Stic Copper 13 fps_417
+  - first:
+      213: -1781038811397874357
+    second: Stic Copper 13 fps_418
+  - first:
+      213: -8421147934278250887
+    second: Stic Copper 13 fps_419
+  - first:
+      213: 7010285209942377229
+    second: Stic Copper 13 fps_420
+  - first:
+      213: -9011184027649508643
+    second: Stic Copper 13 fps_421
+  - first:
+      213: 5875601282864141925
+    second: Stic Copper 13 fps_422
+  - first:
+      213: 983168709540102070
+    second: Stic Copper 13 fps_423
+  - first:
+      213: -2654164854920037172
+    second: Stic Copper 13 fps_424
+  - first:
+      213: -3320746064738869592
+    second: Stic Copper 13 fps_425
+  - first:
+      213: 8778073385420830952
+    second: Stic Copper 13 fps_426
+  - first:
+      213: -4694446007548528882
+    second: Stic Copper 13 fps_427
+  - first:
+      213: -1445431167776872527
+    second: Stic Copper 13 fps_428
+  - first:
+      213: -5529420362645839411
+    second: Stic Copper 13 fps_429
+  - first:
+      213: -7365233225168389150
+    second: Stic Copper 13 fps_430
+  - first:
+      213: -553993949523689570
+    second: Stic Copper 13 fps_431
+  - first:
+      213: -2877616926456553477
+    second: Stic Copper 13 fps_432
+  - first:
+      213: 6842951448661825829
+    second: Stic Copper 13 fps_433
+  - first:
+      213: 7001067681678080180
+    second: Stic Copper 13 fps_434
+  - first:
+      213: -7006182750271624517
+    second: Stic Copper 13 fps_435
+  - first:
+      213: -2435857104993021013
+    second: Stic Copper 13 fps_436
+  - first:
+      213: -3798130153708797699
+    second: Stic Copper 13 fps_437
+  - first:
+      213: 7378840891422579192
+    second: Stic Copper 13 fps_438
+  - first:
+      213: -5771009261851745843
+    second: Stic Copper 13 fps_439
+  - first:
+      213: 1404467957589603987
+    second: Stic Copper 13 fps_440
+  - first:
+      213: 7421217990365551785
+    second: Stic Copper 13 fps_441
+  - first:
+      213: 112236837752475490
+    second: Stic Copper 13 fps_442
+  - first:
+      213: -459621419947139011
+    second: Stic Copper 13 fps_443
+  - first:
+      213: 8544314689832043016
+    second: Stic Copper 13 fps_444
+  - first:
+      213: -4390962436606999382
+    second: Stic Copper 13 fps_445
+  - first:
+      213: -6429211201914220714
+    second: Stic Copper 13 fps_446
+  - first:
+      213: 6496827132504954939
+    second: Stic Copper 13 fps_447
+  - first:
+      213: -3403526349893133561
+    second: Stic Copper 13 fps_448
+  - first:
+      213: -2955620646526322820
+    second: Stic Copper 13 fps_449
+  - first:
+      213: 5181636489908259972
+    second: Stic Copper 13 fps_450
+  - first:
+      213: -892030560984591402
+    second: Stic Copper 13 fps_451
+  - first:
+      213: -5076460165995780017
+    second: Stic Copper 13 fps_452
+  - first:
+      213: -3249279844675710513
+    second: Stic Copper 13 fps_453
+  - first:
+      213: 671064118556700239
+    second: Stic Copper 13 fps_454
+  - first:
+      213: 1550054304990307965
+    second: Stic Copper 13 fps_455
+  - first:
+      213: 9006986124303988422
+    second: Stic Copper 13 fps_456
+  - first:
+      213: 2779097748612092530
+    second: Stic Copper 13 fps_457
+  - first:
+      213: -7544659688268775880
+    second: Stic Copper 13 fps_458
+  - first:
+      213: 4798645668544389297
+    second: Stic Copper 13 fps_459
+  - first:
+      213: -4979210652916013065
+    second: Stic Copper 13 fps_460
+  - first:
+      213: 3271879387607650335
+    second: Stic Copper 13 fps_461
+  - first:
+      213: 1976501061499396551
+    second: Stic Copper 13 fps_462
+  - first:
+      213: -6008380165255060484
+    second: Stic Copper 13 fps_463
+  - first:
+      213: -7977997781026507371
+    second: Stic Copper 13 fps_464
+  - first:
+      213: 651221844271400487
+    second: Stic Copper 13 fps_465
+  - first:
+      213: -2597418555939792487
+    second: Stic Copper 13 fps_466
+  - first:
+      213: 2827418756421998440
+    second: Stic Copper 13 fps_467
+  - first:
+      213: 8919833573839598475
+    second: Stic Copper 13 fps_468
+  - first:
+      213: 7428960069996438642
+    second: Stic Copper 13 fps_469
+  - first:
+      213: -7819972392730947626
+    second: Stic Copper 13 fps_470
+  - first:
+      213: -2086329170088858787
+    second: Stic Copper 13 fps_471
+  - first:
+      213: -2393675131508099615
+    second: Stic Copper 13 fps_472
+  - first:
+      213: -8822467672539149808
+    second: Stic Copper 13 fps_473
+  - first:
+      213: -7871693182846374965
+    second: Stic Copper 13 fps_474
+  - first:
+      213: -5695441177452465258
+    second: Stic Copper 13 fps_475
+  - first:
+      213: 2087409011102547714
+    second: Stic Copper 13 fps_476
+  - first:
+      213: 4581343849873994010
+    second: Stic Copper 13 fps_477
+  - first:
+      213: -6810072482727461973
+    second: Stic Copper 13 fps_478
+  - first:
+      213: 2686524604186237505
+    second: Stic Copper 13 fps_479
+  - first:
+      213: -7164586475158618555
+    second: Stic Copper 13 fps_480
+  - first:
+      213: 6223383101841809291
+    second: Stic Copper 13 fps_481
+  - first:
+      213: 746085354124375919
+    second: Stic Copper 13 fps_482
+  - first:
+      213: -4526449264883073863
+    second: Stic Copper 13 fps_483
+  - first:
+      213: 3894211615561544605
+    second: Stic Copper 13 fps_484
+  - first:
+      213: -2280088323432956554
+    second: Stic Copper 13 fps_485
+  - first:
+      213: -3286579680596922292
+    second: Stic Copper 13 fps_486
+  - first:
+      213: -9101562394943196113
+    second: Stic Copper 13 fps_487
+  - first:
+      213: -8173764260608496516
+    second: Stic Copper 13 fps_488
+  - first:
+      213: -5817498817773925305
+    second: Stic Copper 13 fps_489
+  - first:
+      213: 4508047173077413197
+    second: Stic Copper 13 fps_490
+  - first:
+      213: 4358976699530337924
+    second: Stic Copper 13 fps_491
+  - first:
+      213: -8903874613018308455
+    second: Stic Copper 13 fps_492
+  - first:
+      213: -2358685425563352616
+    second: Stic Copper 13 fps_493
+  - first:
+      213: 6800948533679029919
+    second: Stic Copper 13 fps_494
+  - first:
+      213: 9170676191023358328
+    second: Stic Copper 13 fps_495
+  - first:
+      213: 1907267719981950122
+    second: Stic Copper 13 fps_496
+  - first:
+      213: -4310653791412359778
+    second: Stic Copper 13 fps_497
+  - first:
+      213: -2075251229527048241
+    second: Stic Copper 13 fps_498
+  - first:
+      213: 3722844230108338315
+    second: Stic Copper 13 fps_499
+  - first:
+      213: 2736413276910773531
+    second: Stic Copper 13 fps_500
+  - first:
+      213: -3550593704419017150
+    second: Stic Copper 13 fps_501
+  - first:
+      213: -3002975798870199144
+    second: Stic Copper 13 fps_502
+  - first:
+      213: 2600816559672721598
+    second: Stic Copper 13 fps_503
+  - first:
+      213: -4431745547548074871
+    second: Stic Copper 13 fps_504
+  - first:
+      213: -6763434846187588522
+    second: Stic Copper 13 fps_505
+  - first:
+      213: 6132351296254817986
+    second: Stic Copper 13 fps_506
+  - first:
+      213: -5225750355956087525
+    second: Stic Copper 13 fps_507
+  - first:
+      213: 898272533183151024
+    second: Stic Copper 13 fps_508
+  - first:
+      213: -9049957623763742189
+    second: Stic Copper 13 fps_509
+  - first:
+      213: 7791709573581592668
+    second: Stic Copper 13 fps_510
+  - first:
+      213: 2455238220084043239
+    second: Stic Copper 13 fps_511
+  - first:
+      213: 8458547056723436925
+    second: Stic Copper 13 fps_512
+  - first:
+      213: -2365920063435804587
+    second: Stic Copper 13 fps_513
+  - first:
+      213: -1376623725458412214
+    second: Stic Copper 13 fps_514
+  - first:
+      213: 5044188871939629660
+    second: Stic Copper 13 fps_515
+  - first:
+      213: 8467067891096136351
+    second: Stic Copper 13 fps_516
+  - first:
+      213: 5281690154203567012
+    second: Stic Copper 13 fps_517
+  - first:
+      213: -8808889650942859221
+    second: Stic Copper 13 fps_518
+  - first:
+      213: 4632051383725787817
+    second: Stic Copper 13 fps_519
+  - first:
+      213: -4171571127763582345
+    second: Stic Copper 13 fps_520
+  - first:
+      213: 175586680189382437
+    second: Stic Copper 13 fps_521
+  - first:
+      213: 6293299241975479006
+    second: Stic Copper 13 fps_522
+  - first:
+      213: -6973286998495229890
+    second: Stic Copper 13 fps_523
+  - first:
+      213: 8793160543744480290
+    second: Stic Copper 13 fps_524
+  - first:
+      213: 4558550212127244176
+    second: Stic Copper 13 fps_525
+  - first:
+      213: -7309780529154071269
+    second: Stic Copper 13 fps_526
+  - first:
+      213: -6045515339656523107
+    second: Stic Copper 13 fps_527
+  - first:
+      213: -3284592809701905976
+    second: Stic Copper 13 fps_528
+  - first:
+      213: 7237455280904528716
+    second: Stic Copper 13 fps_529
+  - first:
+      213: -2486099014853486171
+    second: Stic Copper 13 fps_530
+  - first:
+      213: -5641043974506358234
+    second: Stic Copper 13 fps_531
+  - first:
+      213: 72398182204717766
+    second: Stic Copper 13 fps_532
+  - first:
+      213: -392477124136665089
+    second: Stic Copper 13 fps_533
+  - first:
+      213: 4446998102402940986
+    second: Stic Copper 13 fps_534
+  - first:
+      213: -2433219221496103034
+    second: Stic Copper 13 fps_535
+  - first:
+      213: -1613788407108326051
+    second: Stic Copper 13 fps_536
+  - first:
+      213: 7258776143469501623
+    second: Stic Copper 13 fps_537
+  - first:
+      213: 3887394371789866794
+    second: Stic Copper 13 fps_538
+  - first:
+      213: -4437602177239641617
+    second: Stic Copper 13 fps_539
+  - first:
+      213: 3151174485839405062
+    second: Stic Copper 13 fps_540
+  - first:
+      213: -1193975378840684026
+    second: Stic Copper 13 fps_541
+  - first:
+      213: 4051701733567007439
+    second: Stic Copper 13 fps_542
+  - first:
+      213: 6741948046487640530
+    second: Stic Copper 13 fps_543
+  - first:
+      213: 1029212479536506603
+    second: Stic Copper 13 fps_544
+  - first:
+      213: -7374173277937442179
+    second: Stic Copper 13 fps_545
+  - first:
+      213: -9167990251358055260
+    second: Stic Copper 13 fps_546
+  - first:
+      213: -1616749445904364913
+    second: Stic Copper 13 fps_547
+  - first:
+      213: 9074726704698020094
+    second: Stic Copper 13 fps_548
+  - first:
+      213: 8760558404341627529
+    second: Stic Copper 13 fps_549
+  - first:
+      213: -2149727068825985668
+    second: Stic Copper 13 fps_550
+  - first:
+      213: 8896082458217471572
+    second: Stic Copper 13 fps_551
+  - first:
+      213: 795190620176718640
+    second: Stic Copper 13 fps_552
+  - first:
+      213: 3729847980731943489
+    second: Stic Copper 13 fps_553
+  - first:
+      213: 9012304798991930049
+    second: Stic Copper 13 fps_554
+  - first:
+      213: 1489485973771149349
+    second: Stic Copper 13 fps_555
+  - first:
+      213: 3752522911804424855
+    second: Stic Copper 13 fps_556
+  - first:
+      213: -4805509884241730855
+    second: Stic Copper 13 fps_557
+  - first:
+      213: -7610027461966021287
+    second: Stic Copper 13 fps_558
+  - first:
+      213: -8223642490723730890
+    second: Stic Copper 13 fps_559
+  - first:
+      213: -5652593984344677771
+    second: Stic Copper 13 fps_560
+  - first:
+      213: -7345963891151049500
+    second: Stic Copper 13 fps_561
+  - first:
+      213: 3848456287889194204
+    second: Stic Copper 13 fps_562
+  - first:
+      213: 5238214222520821831
+    second: Stic Copper 13 fps_563
+  - first:
+      213: 8052860514686692598
+    second: Stic Copper 13 fps_564
+  - first:
+      213: 4579425469160286453
+    second: Stic Copper 13 fps_565
+  - first:
+      213: 1549239509073367833
+    second: Stic Copper 13 fps_566
+  - first:
+      213: -3578831142350356215
+    second: Stic Copper 13 fps_567
+  - first:
+      213: -3398599085840652946
+    second: Stic Copper 13 fps_568
+  - first:
+      213: 6184218747649728721
+    second: Stic Copper 13 fps_569
+  - first:
+      213: 62114603071080221
+    second: Stic Copper 13 fps_570
+  - first:
+      213: -9113797320969024827
+    second: Stic Copper 13 fps_571
+  - first:
+      213: -1055046525103395034
+    second: Stic Copper 13 fps_572
+  - first:
+      213: 7692907478976050173
+    second: Stic Copper 13 fps_573
+  - first:
+      213: -3713882799585812127
+    second: Stic Copper 13 fps_574
+  - first:
+      213: 4511383352512952490
+    second: Stic Copper 13 fps_575
+  - first:
+      213: 4477568845508992328
+    second: Stic Copper 13 fps_576
+  - first:
+      213: 5939462151853468120
+    second: Stic Copper 13 fps_577
+  - first:
+      213: -6390701576239191734
+    second: Stic Copper 13 fps_578
+  - first:
+      213: -9090759655815026904
+    second: Stic Copper 13 fps_579
+  - first:
+      213: 2523425685260008368
+    second: Stic Copper 13 fps_580
+  - first:
+      213: 5428417140609608101
+    second: Stic Copper 13 fps_581
+  - first:
+      213: -4214653609697868010
+    second: Stic Copper 13 fps_582
+  - first:
+      213: 1916439065073835149
+    second: Stic Copper 13 fps_583
+  - first:
+      213: -5388248514256207965
+    second: Stic Copper 13 fps_584
+  - first:
+      213: 8993959528514816162
+    second: Stic Copper 13 fps_585
+  - first:
+      213: 8978229373057940312
+    second: Stic Copper 13 fps_586
+  - first:
+      213: -2714184895321189649
+    second: Stic Copper 13 fps_587
+  - first:
+      213: 8023664756136327216
+    second: Stic Copper 13 fps_588
+  - first:
+      213: -3602390852698986287
+    second: Stic Copper 13 fps_589
+  - first:
+      213: -4390043323606164613
+    second: Stic Copper 13 fps_590
+  - first:
+      213: -5849248739256028799
+    second: Stic Copper 13 fps_591
+  - first:
+      213: -235512496542127921
+    second: Stic Copper 13 fps_592
+  - first:
+      213: -4391527823693310125
+    second: Stic Copper 13 fps_593
+  - first:
+      213: 1504585083202336817
+    second: Stic Copper 13 fps_594
+  - first:
+      213: 3904067980186862140
+    second: Stic Copper 13 fps_595
+  - first:
+      213: -6000626882561531974
+    second: Stic Copper 13 fps_596
+  - first:
+      213: -2856490018644217819
+    second: Stic Copper 13 fps_597
+  - first:
+      213: 501956086563017007
+    second: Stic Copper 13 fps_598
+  - first:
+      213: 7385513500745726939
+    second: Stic Copper 13 fps_599
+  - first:
+      213: -2530079113396412434
+    second: Stic Copper 13 fps_600
+  - first:
+      213: -6126606046281212821
+    second: Stic Copper 13 fps_601
+  - first:
+      213: -8845540310814191808
+    second: Stic Copper 13 fps_602
+  - first:
+      213: -7352396228792055931
+    second: Stic Copper 13 fps_603
+  - first:
+      213: -5127343034183180017
+    second: Stic Copper 13 fps_604
+  - first:
+      213: -710932079932990799
+    second: Stic Copper 13 fps_605
+  - first:
+      213: 3844634131669660905
+    second: Stic Copper 13 fps_606
+  - first:
+      213: -6544455306206243264
+    second: Stic Copper 13 fps_607
+  - first:
+      213: 5695763805169674390
+    second: Stic Copper 13 fps_608
+  - first:
+      213: 3769595648944461530
+    second: Stic Copper 13 fps_609
+  - first:
+      213: 8172181289044193901
+    second: Stic Copper 13 fps_610
+  - first:
+      213: 2556445801189116597
+    second: Stic Copper 13 fps_611
+  - first:
+      213: -3269129444692991140
+    second: Stic Copper 13 fps_612
+  - first:
+      213: -3946533438897570689
+    second: Stic Copper 13 fps_613
+  - first:
+      213: 5835433825623632776
+    second: Stic Copper 13 fps_614
+  - first:
+      213: 749830419373816487
+    second: Stic Copper 13 fps_615
+  - first:
+      213: 1351783225600293920
+    second: Stic Copper 13 fps_616
+  - first:
+      213: -6926495610401265551
+    second: Stic Copper 13 fps_617
+  - first:
+      213: 906274059777843286
+    second: Stic Copper 13 fps_618
+  - first:
+      213: 3587038153674126601
+    second: Stic Copper 13 fps_619
+  - first:
+      213: -7947118923244514952
+    second: Stic Copper 13 fps_620
+  - first:
+      213: 7040904524307128052
+    second: Stic Copper 13 fps_621
+  - first:
+      213: -8837679850663803255
+    second: Stic Copper 13 fps_622
+  - first:
+      213: -481486092746979370
+    second: Stic Copper 13 fps_623
+  - first:
+      213: 8713365380389609492
+    second: Stic Copper 13 fps_624
+  - first:
+      213: 4219259440851811216
+    second: Stic Copper 13 fps_625
+  - first:
+      213: 6685235534266917117
+    second: Stic Copper 13 fps_626
+  - first:
+      213: -1385204269960578641
+    second: Stic Copper 13 fps_627
+  - first:
+      213: 3962204986292094908
+    second: Stic Copper 13 fps_628
+  - first:
+      213: -1860916747328716275
+    second: Stic Copper 13 fps_629
+  - first:
+      213: 5578239788259935765
+    second: Stic Copper 13 fps_630
+  - first:
+      213: 464602863876834817
+    second: Stic Copper 13 fps_631
+  - first:
+      213: 2521293687711687617
+    second: Stic Copper 13 fps_632
+  - first:
+      213: -8317807210072057876
+    second: Stic Copper 13 fps_633
+  - first:
+      213: 4093850208570703774
+    second: Stic Copper 13 fps_634
+  - first:
+      213: -4176958763300527460
+    second: Stic Copper 13 fps_635
+  - first:
+      213: -491938561277899981
+    second: Stic Copper 13 fps_636
+  - first:
+      213: 3258099976506626544
+    second: Stic Copper 13 fps_637
+  - first:
+      213: 1798461590610018772
+    second: Stic Copper 13 fps_638
+  - first:
+      213: -5530921873405615805
+    second: Stic Copper 13 fps_639
+  - first:
+      213: 6764951388481341429
+    second: Stic Copper 13 fps_640
+  - first:
+      213: 2278564006908260698
+    second: Stic Copper 13 fps_641
+  - first:
+      213: -7439914545483094836
+    second: Stic Copper 13 fps_642
+  - first:
+      213: -6644716589101813635
+    second: Stic Copper 13 fps_643
+  - first:
+      213: -1086755472890048455
+    second: Stic Copper 13 fps_644
+  - first:
+      213: -885016738782986770
+    second: Stic Copper 13 fps_645
+  - first:
+      213: 7143688532709647583
+    second: Stic Copper 13 fps_646
+  - first:
+      213: 1915181086758023618
+    second: Stic Copper 13 fps_647
+  - first:
+      213: -4202595225720025324
+    second: Stic Copper 13 fps_648
+  - first:
+      213: 411620950087780998
+    second: Stic Copper 13 fps_649
+  - first:
+      213: -2807015446307731839
+    second: Stic Copper 13 fps_650
+  - first:
+      213: 6905218722074016893
+    second: Stic Copper 13 fps_651
+  - first:
+      213: 1279600231236995140
+    second: Stic Copper 13 fps_652
+  - first:
+      213: 8704634430522281561
+    second: Stic Copper 13 fps_653
+  - first:
+      213: 8087114736790103800
+    second: Stic Copper 13 fps_654
+  - first:
+      213: -6235329766145315101
+    second: Stic Copper 13 fps_655
+  - first:
+      213: -6224387281829905290
+    second: Stic Copper 13 fps_656
+  - first:
+      213: 364902768427062671
+    second: Stic Copper 13 fps_657
+  - first:
+      213: -1550041107513781263
+    second: Stic Copper 13 fps_658
+  - first:
+      213: 5718520059823647606
+    second: Stic Copper 13 fps_659
+  - first:
+      213: -1633600201272338811
+    second: Stic Copper 13 fps_660
+  - first:
+      213: -3418994038098738142
+    second: Stic Copper 13 fps_661
+  - first:
+      213: 8455952432513920263
+    second: Stic Copper 13 fps_662
+  - first:
+      213: 4961867163309910318
+    second: Stic Copper 13 fps_663
+  - first:
+      213: 9194295171521560392
+    second: Stic Copper 13 fps_664
+  - first:
+      213: -2123518345847642102
+    second: Stic Copper 13 fps_665
+  - first:
+      213: 179176515362866112
+    second: Stic Copper 13 fps_666
+  - first:
+      213: 3934059523048954017
+    second: Stic Copper 13 fps_667
+  - first:
+      213: 3902466547463332621
+    second: Stic Copper 13 fps_668
+  - first:
+      213: 5696078668168024467
+    second: Stic Copper 13 fps_669
+  - first:
+      213: -1896254523645524119
+    second: Stic Copper 13 fps_670
+  - first:
+      213: -4887990992251813258
+    second: Stic Copper 13 fps_671
+  - first:
+      213: -7876626461808015133
+    second: Stic Copper 13 fps_672
+  - first:
+      213: -6156539377379214781
+    second: Stic Copper 13 fps_673
+  - first:
+      213: -4404507613488777480
+    second: Stic Copper 13 fps_674
+  - first:
+      213: 5731671853389314178
+    second: Stic Copper 13 fps_675
+  - first:
+      213: -3076860063612186734
+    second: Stic Copper 13 fps_676
+  - first:
+      213: 7633554507839072055
+    second: Stic Copper 13 fps_677
+  - first:
+      213: 8899804527593061958
+    second: Stic Copper 13 fps_678
+  - first:
+      213: -7084184332860691339
+    second: Stic Copper 13 fps_679
+  - first:
+      213: 8364464459273893319
+    second: Stic Copper 13 fps_680
+  - first:
+      213: 7846632869696927194
+    second: Stic Copper 13 fps_681
+  - first:
+      213: 3263981849168922404
+    second: Stic Copper 13 fps_682
+  - first:
+      213: -1807487766890941881
+    second: Stic Copper 13 fps_683
+  - first:
+      213: -1289209419652848068
+    second: Stic Copper 13 fps_684
+  - first:
+      213: -3315533515374933360
+    second: Stic Copper 13 fps_685
+  - first:
+      213: 4507638047388720705
+    second: Stic Copper 13 fps_686
+  - first:
+      213: -1092459367464720400
+    second: Stic Copper 13 fps_687
+  - first:
+      213: -6832105689806950136
+    second: Stic Copper 13 fps_688
+  - first:
+      213: -102722117804933299
+    second: Stic Copper 13 fps_689
+  - first:
+      213: 2913002723869745068
+    second: Stic Copper 13 fps_690
+  - first:
+      213: 465729860328697732
+    second: Stic Copper 13 fps_691
+  - first:
+      213: 69599120526441219
+    second: Stic Copper 13 fps_692
+  - first:
+      213: 6112132717967418255
+    second: Stic Copper 13 fps_693
+  - first:
+      213: 8606518178249343925
+    second: Stic Copper 13 fps_694
+  - first:
+      213: -1007389435900724316
+    second: Stic Copper 13 fps_695
+  - first:
+      213: 2880949683330656712
+    second: Stic Copper 13 fps_696
+  - first:
+      213: -3511170929933372052
+    second: Stic Copper 13 fps_697
+  - first:
+      213: -3281143714982995729
+    second: Stic Copper 13 fps_698
+  - first:
+      213: 2076392589630125686
+    second: Stic Copper 13 fps_699
+  - first:
+      213: 787743646502861122
+    second: Stic Copper 13 fps_700
+  - first:
+      213: -2659635311264679712
+    second: Stic Copper 13 fps_701
+  - first:
+      213: -1350665837832045131
+    second: Stic Copper 13 fps_702
+  - first:
+      213: 7522135651139372608
+    second: Stic Copper 13 fps_703
+  - first:
+      213: -5328140197914854243
+    second: Stic Copper 13 fps_704
+  - first:
+      213: -8522353321929120993
+    second: Stic Copper 13 fps_705
+  - first:
+      213: -8217870121230448014
+    second: Stic Copper 13 fps_706
+  - first:
+      213: -1987949022603517365
+    second: Stic Copper 13 fps_707
+  - first:
+      213: -5526910365512490782
+    second: Stic Copper 13 fps_708
+  - first:
+      213: 7002150799370698055
+    second: Stic Copper 13 fps_709
+  - first:
+      213: 8144333438593405599
+    second: Stic Copper 13 fps_710
+  - first:
+      213: -4382588164085002526
+    second: Stic Copper 13 fps_711
+  - first:
+      213: -4771588110362165021
+    second: Stic Copper 13 fps_712
+  - first:
+      213: -3938292392748863079
+    second: Stic Copper 13 fps_713
+  - first:
+      213: -8497053764775256455
+    second: Stic Copper 13 fps_714
+  - first:
+      213: 2330813067371836586
+    second: Stic Copper 13 fps_715
+  - first:
+      213: 7504840271920405484
+    second: Stic Copper 13 fps_716
+  - first:
+      213: 5447646027731359456
+    second: Stic Copper 13 fps_717
+  - first:
+      213: -2106263858413139294
+    second: Stic Copper 13 fps_718
+  - first:
+      213: 7118917897112188734
+    second: Stic Copper 13 fps_719
+  - first:
+      213: 4498320550819037931
+    second: Stic Copper 13 fps_720
+  - first:
+      213: 2177199329052646956
+    second: Stic Copper 13 fps_721
+  - first:
+      213: 4563921409478873675
+    second: Stic Copper 13 fps_722
+  - first:
+      213: -7445663145750800862
+    second: Stic Copper 13 fps_723
+  - first:
+      213: -4769477091211511490
+    second: Stic Copper 13 fps_724
+  - first:
+      213: 6302548320035764927
+    second: Stic Copper 13 fps_725
+  - first:
+      213: 4204228253400893094
+    second: Stic Copper 13 fps_726
+  - first:
+      213: 782474176052351488
+    second: Stic Copper 13 fps_727
+  - first:
+      213: 7689949580872880198
+    second: Stic Copper 13 fps_728
+  - first:
+      213: -8145704421329079986
+    second: Stic Copper 13 fps_729
+  - first:
+      213: 4425643218339079011
+    second: Stic Copper 13 fps_730
+  - first:
+      213: 5509150830766456905
+    second: Stic Copper 13 fps_731
+  - first:
+      213: 3106693762108837828
+    second: Stic Copper 13 fps_732
+  - first:
+      213: 575999777101774090
+    second: Stic Copper 13 fps_733
+  - first:
+      213: 6634651035465939524
+    second: Stic Copper 13 fps_734
+  - first:
+      213: -3682082546852543175
+    second: Stic Copper 13 fps_735
+  - first:
+      213: 2639762206927699785
+    second: Stic Copper 13 fps_736
+  - first:
+      213: -8174992953073140445
+    second: Stic Copper 13 fps_737
+  - first:
+      213: -7328065080347147887
+    second: Stic Copper 13 fps_738
+  - first:
+      213: 550821885708689731
+    second: Stic Copper 13 fps_739
+  - first:
+      213: 649087710234471141
+    second: Stic Copper 13 fps_740
+  - first:
+      213: -6792953860346995167
+    second: Stic Copper 13 fps_741
+  - first:
+      213: 1272985327387959829
+    second: Stic Copper 13 fps_742
+  - first:
+      213: 7218995695727711750
+    second: Stic Copper 13 fps_743
+  - first:
+      213: 4029970575628272788
+    second: Stic Copper 13 fps_744
+  - first:
+      213: 8511819953622851499
+    second: Stic Copper 13 fps_745
+  - first:
+      213: 7343791875864502332
+    second: Stic Copper 13 fps_746
+  - first:
+      213: -6391023291055793548
+    second: Stic Copper 13 fps_747
+  - first:
+      213: -8127222616062578395
+    second: Stic Copper 13 fps_748
+  - first:
+      213: 2677400627766054378
+    second: Stic Copper 13 fps_749
+  - first:
+      213: -2967330592057448470
+    second: Stic Copper 13 fps_750
+  - first:
+      213: -1120077744176522747
+    second: Stic Copper 13 fps_751
+  - first:
+      213: 6197513563404045873
+    second: Stic Copper 13 fps_752
+  - first:
+      213: -8462519907706365589
+    second: Stic Copper 13 fps_753
+  - first:
+      213: -3423969505955874690
+    second: Stic Copper 13 fps_754
+  - first:
+      213: 7146246467161863930
+    second: Stic Copper 13 fps_755
+  - first:
+      213: 8546837842739853475
+    second: Stic Copper 13 fps_756
+  - first:
+      213: -3094748450287778119
+    second: Stic Copper 13 fps_757
+  - first:
+      213: 6277652204744932279
+    second: Stic Copper 13 fps_758
+  - first:
+      213: -1932714192437533278
+    second: Stic Copper 13 fps_759
+  - first:
+      213: -6982695352598797312
+    second: Stic Copper 13 fps_760
+  - first:
+      213: -318069612630692571
+    second: Stic Copper 13 fps_761
+  - first:
+      213: 3360681122056510021
+    second: Stic Copper 13 fps_762
+  - first:
+      213: -307826607908698183
+    second: Stic Copper 13 fps_763
+  - first:
+      213: -1868612873697585473
+    second: Stic Copper 13 fps_764
+  - first:
+      213: -7496616799301399273
+    second: Stic Copper 13 fps_765
+  - first:
+      213: 932342194215102326
+    second: Stic Copper 13 fps_766
+  - first:
+      213: 447296834956475164
+    second: Stic Copper 13 fps_767
+  - first:
+      213: 4451217709631383704
+    second: Stic Copper 13 fps_768
+  - first:
+      213: 7581660992652659059
+    second: Stic Copper 13 fps_769
+  - first:
+      213: -8774298540854922873
+    second: Stic Copper 13 fps_770
+  - first:
+      213: 4902802868512402682
+    second: Stic Copper 13 fps_771
+  - first:
+      213: 5001953782028403876
+    second: Stic Copper 13 fps_772
+  - first:
+      213: -9051181300772790443
+    second: Stic Copper 13 fps_773
+  - first:
+      213: -870874432734908886
+    second: Stic Copper 13 fps_774
+  - first:
+      213: -2834281064874741803
+    second: Stic Copper 13 fps_775
+  - first:
+      213: 4997954529667160587
+    second: Stic Copper 13 fps_776
+  - first:
+      213: -7579496107313653949
+    second: Stic Copper 13 fps_777
+  - first:
+      213: 6448059333635645332
+    second: Stic Copper 13 fps_778
+  - first:
+      213: 2660043212216271593
+    second: Stic Copper 13 fps_779
+  - first:
+      213: 7776768801735368754
+    second: Stic Copper 13 fps_780
+  - first:
+      213: -6684500796700706753
+    second: Stic Copper 13 fps_781
+  - first:
+      213: 4812535643163099636
+    second: Stic Copper 13 fps_782
+  - first:
+      213: 862376514473860788
+    second: Stic Copper 13 fps_783
+  - first:
+      213: -1614057203555142792
+    second: Stic Copper 13 fps_784
+  - first:
+      213: 4844795276681879260
+    second: Stic Copper 13 fps_785
+  - first:
+      213: 7097824423615086710
+    second: Stic Copper 13 fps_786
+  - first:
+      213: 6211394048677350499
+    second: Stic Copper 13 fps_787
+  - first:
+      213: -4389226458923986505
+    second: Stic Copper 13 fps_788
+  - first:
+      213: -4728471468773720709
+    second: Stic Copper 13 fps_789
+  - first:
+      213: 5012897270444666722
+    second: Stic Copper 13 fps_790
+  - first:
+      213: -2519763943353695968
+    second: Stic Copper 13 fps_791
+  - first:
+      213: -4668247751641255989
+    second: Stic Copper 13 fps_792
+  - first:
+      213: -5834034597970777359
+    second: Stic Copper 13 fps_793
+  - first:
+      213: -7158908393547198501
+    second: Stic Copper 13 fps_794
+  - first:
+      213: -1782444384321164850
+    second: Stic Copper 13 fps_795
+  - first:
+      213: -299558551615248147
+    second: Stic Copper 13 fps_796
+  - first:
+      213: 2364596054711437220
+    second: Stic Copper 13 fps_797
+  - first:
+      213: -4033740182789064136
+    second: Stic Copper 13 fps_798
+  - first:
+      213: -520066032032341210
+    second: Stic Copper 13 fps_799
+  - first:
+      213: -878442528497694900
+    second: Stic Copper 13 fps_800
+  - first:
+      213: -622198525675128447
+    second: Stic Copper 13 fps_801
+  - first:
+      213: -1575638345074075799
+    second: Stic Copper 13 fps_802
+  - first:
+      213: -2487366166889142429
+    second: Stic Copper 13 fps_803
+  - first:
+      213: -8557777081778534412
+    second: Stic Copper 13 fps_804
+  - first:
+      213: -3433141498715642450
+    second: Stic Copper 13 fps_805
+  - first:
+      213: -5233947965057497418
+    second: Stic Copper 13 fps_806
+  - first:
+      213: 6239558684787338019
+    second: Stic Copper 13 fps_807
+  - first:
+      213: 4322811816992847899
+    second: Stic Copper 13 fps_808
+  - first:
+      213: 5667551043586546992
+    second: Stic Copper 13 fps_809
+  - first:
+      213: 5643277556506476244
+    second: Stic Copper 13 fps_810
+  - first:
+      213: 452695065966840456
+    second: Stic Copper 13 fps_811
+  - first:
+      213: -1559281024596899447
+    second: Stic Copper 13 fps_812
+  - first:
+      213: 3007369874074023204
+    second: Stic Copper 13 fps_813
+  - first:
+      213: -8769438305853078464
+    second: Stic Copper 13 fps_814
+  - first:
+      213: -8951770728822708432
+    second: Stic Copper 13 fps_815
+  - first:
+      213: -1566104893657931039
+    second: Stic Copper 13 fps_816
+  - first:
+      213: 8328995372930833153
+    second: Stic Copper 13 fps_817
+  - first:
+      213: -7191466799690373543
+    second: Stic Copper 13 fps_818
+  - first:
+      213: 401012791613313677
+    second: Stic Copper 13 fps_819
+  - first:
+      213: 7831156910369865074
+    second: Stic Copper 13 fps_820
+  - first:
+      213: 2024730065524471807
+    second: Stic Copper 13 fps_821
+  - first:
+      213: -7353262632628042591
+    second: Stic Copper 13 fps_822
+  - first:
+      213: 1443212869963051738
+    second: Stic Copper 13 fps_823
+  - first:
+      213: 3016622804080782614
+    second: Stic Copper 13 fps_824
+  - first:
+      213: 5610463787448693200
+    second: Stic Copper 13 fps_825
+  - first:
+      213: -1966407417792295811
+    second: Stic Copper 13 fps_826
+  - first:
+      213: -6352023534406659982
+    second: Stic Copper 13 fps_827
+  - first:
+      213: 7404139330080456375
+    second: Stic Copper 13 fps_828
+  - first:
+      213: 5469562870544006881
+    second: Stic Copper 13 fps_829
+  - first:
+      213: 639412534475805542
+    second: Stic Copper 13 fps_830
+  - first:
+      213: 6363623006889173538
+    second: Stic Copper 13 fps_831
+  - first:
+      213: -1740540090461838626
+    second: Stic Copper 13 fps_832
+  - first:
+      213: 3075333782436522284
+    second: Stic Copper 13 fps_833
+  - first:
+      213: 928915584364705689
+    second: Stic Copper 13 fps_834
+  - first:
+      213: -3347726392321851334
+    second: Stic Copper 13 fps_835
+  - first:
+      213: -7786066388455867848
+    second: Stic Copper 13 fps_836
+  - first:
+      213: 1048813745620156605
+    second: Stic Copper 13 fps_837
+  - first:
+      213: -7772134736492158324
+    second: Stic Copper 13 fps_838
+  - first:
+      213: 7251662110245618150
+    second: Stic Copper 13 fps_839
+  - first:
+      213: 9024758217046552748
+    second: Stic Copper 13 fps_840
+  - first:
+      213: -4495854571853599010
+    second: Stic Copper 13 fps_841
+  - first:
+      213: -1880626919735964764
+    second: Stic Copper 13 fps_842
+  - first:
+      213: -8460944793387258154
+    second: Stic Copper 13 fps_843
+  - first:
+      213: 8991416746830302012
+    second: Stic Copper 13 fps_844
+  - first:
+      213: -718543706244808666
+    second: Stic Copper 13 fps_845
+  - first:
+      213: -7872653552309069372
+    second: Stic Copper 13 fps_846
+  - first:
+      213: -2854206600049663964
+    second: Stic Copper 13 fps_847
+  - first:
+      213: 5156470889067235794
+    second: Stic Copper 13 fps_848
+  - first:
+      213: -578793412507789524
+    second: Stic Copper 13 fps_849
+  - first:
+      213: -3081936457941614187
+    second: Stic Copper 13 fps_850
+  - first:
+      213: -4339341724486449130
+    second: Stic Copper 13 fps_851
+  - first:
+      213: -5728376464647627662
+    second: Stic Copper 13 fps_852
+  - first:
+      213: -5879956581429618114
+    second: Stic Copper 13 fps_853
+  - first:
+      213: -4157594988400727551
+    second: Stic Copper 13 fps_854
+  - first:
+      213: -6469317748665183242
+    second: Stic Copper 13 fps_855
+  - first:
+      213: 3322443995863991713
+    second: Stic Copper 13 fps_856
+  - first:
+      213: -4281200375471689830
+    second: Stic Copper 13 fps_857
+  - first:
+      213: -8102401580130442975
+    second: Stic Copper 13 fps_858
+  - first:
+      213: -9130450018662845871
+    second: Stic Copper 13 fps_859
+  - first:
+      213: -1077868270285842585
+    second: Stic Copper 13 fps_860
+  - first:
+      213: -8864828551693833406
+    second: Stic Copper 13 fps_861
+  - first:
+      213: 1384835554010003434
+    second: Stic Copper 13 fps_862
+  - first:
+      213: 2278464871422733731
+    second: Stic Copper 13 fps_863
+  - first:
+      213: -4617459447409309303
+    second: Stic Copper 13 fps_864
+  - first:
+      213: 3178458368799743373
+    second: Stic Copper 13 fps_865
+  - first:
+      213: -7553113855855262517
+    second: Stic Copper 13 fps_866
+  - first:
+      213: -8257219126922774024
+    second: Stic Copper 13 fps_867
+  - first:
+      213: -7901264255512614213
+    second: Stic Copper 13 fps_868
+  - first:
+      213: 1071799130114533057
+    second: Stic Copper 13 fps_869
+  - first:
+      213: -8238994526836982333
+    second: Stic Copper 13 fps_870
+  - first:
+      213: 8569102752108664291
+    second: Stic Copper 13 fps_871
+  - first:
+      213: 8604887216469873038
+    second: Stic Copper 13 fps_872
+  - first:
+      213: 3862075742030455945
+    second: Stic Copper 13 fps_873
+  - first:
+      213: -7648155448715360867
+    second: Stic Copper 13 fps_874
+  - first:
+      213: 913263442597110668
+    second: Stic Copper 13 fps_875
+  - first:
+      213: -109061991430054394
+    second: Stic Copper 13 fps_876
+  - first:
+      213: -581869478528455821
+    second: Stic Copper 13 fps_877
+  - first:
+      213: 5501624459812970860
+    second: Stic Copper 13 fps_878
+  - first:
+      213: 5703472199868919146
+    second: Stic Copper 13 fps_879
+  - first:
+      213: -2479855758610754866
+    second: Stic Copper 13 fps_880
+  - first:
+      213: 1078771314160958106
+    second: Stic Copper 13 fps_881
+  - first:
+      213: 4305268213976753947
+    second: Stic Copper 13 fps_882
+  - first:
+      213: 225593958980353452
+    second: Stic Copper 13 fps_883
+  - first:
+      213: -4412405764520381077
+    second: Stic Copper 13 fps_884
+  - first:
+      213: -4395108640746329490
+    second: Stic Copper 13 fps_885
+  - first:
+      213: -3432508781252538822
+    second: Stic Copper 13 fps_886
+  - first:
+      213: -8281986541996555020
+    second: Stic Copper 13 fps_887
+  - first:
+      213: 9215444091836598608
+    second: Stic Copper 13 fps_888
+  - first:
+      213: -4640256508574966388
+    second: Stic Copper 13 fps_889
+  - first:
+      213: -6226173049783975429
+    second: Stic Copper 13 fps_890
+  - first:
+      213: 4972802344529420472
+    second: Stic Copper 13 fps_891
+  - first:
+      213: -4953914111312144636
+    second: Stic Copper 13 fps_892
+  - first:
+      213: -772787452066986969
+    second: Stic Copper 13 fps_893
+  - first:
+      213: 5233866939326630677
+    second: Stic Copper 13 fps_894
+  - first:
+      213: -5082435291079872846
+    second: Stic Copper 13 fps_895
+  - first:
+      213: -2728127711784415130
+    second: Stic Copper 13 fps_896
+  - first:
+      213: -7936466565752004739
+    second: Stic Copper 13 fps_897
+  - first:
+      213: 8760082196514092618
+    second: Stic Copper 13 fps_898
+  - first:
+      213: -4365242304300170303
+    second: Stic Copper 13 fps_899
+  - first:
+      213: -3439706626663877111
+    second: Stic Copper 13 fps_900
+  - first:
+      213: -8022138337566249167
+    second: Stic Copper 13 fps_901
+  - first:
+      213: -2803233214646683264
+    second: Stic Copper 13 fps_902
+  - first:
+      213: 4061773231770816420
+    second: Stic Copper 13 fps_903
+  - first:
+      213: -7707689874362570106
+    second: Stic Copper 13 fps_904
+  - first:
+      213: 8462212494873557823
+    second: Stic Copper 13 fps_905
+  - first:
+      213: 4279325984390914064
+    second: Stic Copper 13 fps_906
+  - first:
+      213: -3626642946208563372
+    second: Stic Copper 13 fps_907
+  - first:
+      213: -6007849522513283505
+    second: Stic Copper 13 fps_908
+  - first:
+      213: -3328301948395935863
+    second: Stic Copper 13 fps_909
+  - first:
+      213: -2929250370792552070
+    second: Stic Copper 13 fps_910
+  - first:
+      213: 3487675953681680739
+    second: Stic Copper 13 fps_911
+  - first:
+      213: -5805516872952285901
+    second: Stic Copper 13 fps_912
+  - first:
+      213: 7531610228262461030
+    second: Stic Copper 13 fps_913
+  - first:
+      213: 2687539749951426521
+    second: Stic Copper 13 fps_914
+  - first:
+      213: 5820354619974809537
+    second: Stic Copper 13 fps_915
+  - first:
+      213: -4989426532700086509
+    second: Stic Copper 13 fps_916
+  - first:
+      213: 5705251054095352442
+    second: Stic Copper 13 fps_917
+  - first:
+      213: -2363023876029309839
+    second: Stic Copper 13 fps_918
+  - first:
+      213: -67443687839217487
+    second: Stic Copper 13 fps_919
+  - first:
+      213: 8144550966587156721
+    second: Stic Copper 13 fps_920
+  - first:
+      213: -2673193708355381561
+    second: Stic Copper 13 fps_921
+  - first:
+      213: -5294478318118722971
+    second: Stic Copper 13 fps_922
+  - first:
+      213: 7496432720869678964
+    second: Stic Copper 13 fps_923
+  - first:
+      213: 6361982398662571373
+    second: Stic Copper 13 fps_924
+  - first:
+      213: -29111057545187454
+    second: Stic Copper 13 fps_925
+  - first:
+      213: 6424651169432628287
+    second: Stic Copper 13 fps_926
+  - first:
+      213: 2466197060696587782
+    second: Stic Copper 13 fps_927
+  - first:
+      213: 5653284666150930533
+    second: Stic Copper 13 fps_928
+  - first:
+      213: -5583370515778832679
+    second: Stic Copper 13 fps_929
+  - first:
+      213: -8303311203923966278
+    second: Stic Copper 13 fps_930
+  - first:
+      213: -7149987239838927119
+    second: Stic Copper 13 fps_931
+  - first:
+      213: 5349208843062634267
+    second: Stic Copper 13 fps_932
+  - first:
+      213: 353333429596834155
+    second: Stic Copper 13 fps_933
+  - first:
+      213: -2977527969965758496
+    second: Stic Copper 13 fps_934
+  - first:
+      213: 7183433867210671414
+    second: Stic Copper 13 fps_935
+  - first:
+      213: 3108329732737159684
+    second: Stic Copper 13 fps_936
+  - first:
+      213: 6276554261766535669
+    second: Stic Copper 13 fps_937
+  - first:
+      213: 7264948441701681449
+    second: Stic Copper 13 fps_938
+  - first:
+      213: 2901365532257697732
+    second: Stic Copper 13 fps_939
+  - first:
+      213: 5096159437519418110
+    second: Stic Copper 13 fps_940
+  - first:
+      213: 4257518456096467772
+    second: Stic Copper 13 fps_941
+  - first:
+      213: -2446060644765914583
+    second: Stic Copper 13 fps_942
+  - first:
+      213: -6839527590086992646
+    second: Stic Copper 13 fps_943
+  - first:
+      213: -2974809405065600526
+    second: Stic Copper 13 fps_944
+  - first:
+      213: -1528236876681121761
+    second: Stic Copper 13 fps_945
+  - first:
+      213: -2928631318685310708
+    second: Stic Copper 13 fps_946
+  - first:
+      213: 7298752954056468105
+    second: Stic Copper 13 fps_947
+  - first:
+      213: -6830809857109299010
+    second: Stic Copper 13 fps_948
+  - first:
+      213: -5674607687667294246
+    second: Stic Copper 13 fps_949
+  - first:
+      213: -2368052806308143117
+    second: Stic Copper 13 fps_950
+  - first:
+      213: 7538618234146369810
+    second: Stic Copper 13 fps_951
+  - first:
+      213: 8016799618067197915
+    second: Stic Copper 13 fps_952
+  - first:
+      213: 6908766874237747948
+    second: Stic Copper 13 fps_953
+  - first:
+      213: -8912272678195203722
+    second: Stic Copper 13 fps_954
+  - first:
+      213: -2711320376123996809
+    second: Stic Copper 13 fps_955
+  - first:
+      213: -1887472398449874298
+    second: Stic Copper 13 fps_956
+  - first:
+      213: 1114903592216205046
+    second: Stic Copper 13 fps_957
+  - first:
+      213: 6066111493081129391
+    second: Stic Copper 13 fps_958
+  - first:
+      213: 8453539336262729691
+    second: Stic Copper 13 fps_959
+  - first:
+      213: 619912193671466216
+    second: Stic Copper 13 fps_960
+  - first:
+      213: 6827663502446028857
+    second: Stic Copper 13 fps_961
+  - first:
+      213: -8618962760664505388
+    second: Stic Copper 13 fps_962
+  - first:
+      213: 1651698928417622324
+    second: Stic Copper 13 fps_963
+  - first:
+      213: 6683516426928127714
+    second: Stic Copper 13 fps_964
+  - first:
+      213: 6715885357374731414
+    second: Stic Copper 13 fps_965
+  - first:
+      213: -7315325098938578715
+    second: Stic Copper 13 fps_966
+  - first:
+      213: 5674957941603732829
+    second: Stic Copper 13 fps_967
+  - first:
+      213: -2521830227500907778
+    second: Stic Copper 13 fps_968
+  - first:
+      213: 5932418517648923812
+    second: Stic Copper 13 fps_969
+  - first:
+      213: 3765426553529718090
+    second: Stic Copper 13 fps_970
+  - first:
+      213: -8530269507686538195
+    second: Stic Copper 13 fps_971
+  - first:
+      213: 6213276598764999888
+    second: Stic Copper 13 fps_972
+  - first:
+      213: -7144865459334328584
+    second: Stic Copper 13 fps_973
+  - first:
+      213: 678736609163574992
+    second: Stic Copper 13 fps_974
+  - first:
+      213: -3849169216757258028
+    second: Stic Copper 13 fps_975
+  - first:
+      213: -8132303884650884618
+    second: Stic Copper 13 fps_976
+  - first:
+      213: -4260516234155144673
+    second: Stic Copper 13 fps_977
+  - first:
+      213: 2070489797750001284
+    second: Stic Copper 13 fps_978
+  - first:
+      213: -7438062605328119605
+    second: Stic Copper 13 fps_979
+  - first:
+      213: -1972761813335257488
+    second: Stic Copper 13 fps_980
+  - first:
+      213: 199274828248388554
+    second: Stic Copper 13 fps_981
+  - first:
+      213: -1285730759324417565
+    second: Stic Copper 13 fps_982
+  - first:
+      213: 379188909912796746
+    second: Stic Copper 13 fps_983
+  - first:
+      213: 2386426698689469298
+    second: Stic Copper 13 fps_984
+  - first:
+      213: 2683026753446683920
+    second: Stic Copper 13 fps_985
+  - first:
+      213: 7375060962368499975
+    second: Stic Copper 13 fps_986
+  - first:
+      213: -7488647257755837829
+    second: Stic Copper 13 fps_987
+  - first:
+      213: 8053375425324410800
+    second: Stic Copper 13 fps_988
+  - first:
+      213: 6813449548387507625
+    second: Stic Copper 13 fps_989
+  - first:
+      213: 5491749022614705059
+    second: Stic Copper 13 fps_990
+  - first:
+      213: 3314989364511409415
+    second: Stic Copper 13 fps_991
+  - first:
+      213: -2414991974161908389
+    second: Stic Copper 13 fps_992
+  - first:
+      213: -2831854831053875470
+    second: Stic Copper 13 fps_993
+  - first:
+      213: 6045940878663351220
+    second: Stic Copper 13 fps_994
+  - first:
+      213: -6958218321518991498
+    second: Stic Copper 13 fps_995
+  - first:
+      213: -621415539500103287
+    second: Stic Copper 13 fps_996
+  - first:
+      213: 7243538047111276941
+    second: Stic Copper 13 fps_997
+  - first:
+      213: 3341822199359257532
+    second: Stic Copper 13 fps_998
+  - first:
+      213: -7017895131252542794
+    second: Stic Copper 13 fps_999
+  - first:
+      213: -6988366809678996271
+    second: Stic Copper 13 fps_1000
+  - first:
+      213: -5644153265014059686
+    second: Stic Copper 13 fps_1001
+  - first:
+      213: 5140363384517179484
+    second: Stic Copper 13 fps_1002
+  - first:
+      213: -5322900344371875750
+    second: Stic Copper 13 fps_1003
+  - first:
+      213: 777995682686965745
+    second: Stic Copper 13 fps_1004
+  - first:
+      213: 5991213288676676375
+    second: Stic Copper 13 fps_1005
+  - first:
+      213: -2965342856725755190
+    second: Stic Copper 13 fps_1006
+  - first:
+      213: 2567617847948629984
+    second: Stic Copper 13 fps_1007
+  - first:
+      213: 4366647776216148523
+    second: Stic Copper 13 fps_1008
+  - first:
+      213: 764236470589349269
+    second: Stic Copper 13 fps_1009
+  - first:
+      213: 392273459005938610
+    second: Stic Copper 13 fps_1010
+  - first:
+      213: -2574007100161924356
+    second: Stic Copper 13 fps_1011
+  - first:
+      213: -3765263313985930548
+    second: Stic Copper 13 fps_1012
+  - first:
+      213: -6453335600919074089
+    second: Stic Copper 13 fps_1013
+  - first:
+      213: -5930743860560652629
+    second: Stic Copper 13 fps_1014
+  - first:
+      213: -8640527117387272399
+    second: Stic Copper 13 fps_1015
+  - first:
+      213: 2345746494060190508
+    second: Stic Copper 13 fps_1016
+  - first:
+      213: 323230500526886591
+    second: Stic Copper 13 fps_1017
+  - first:
+      213: 2256278588173868918
+    second: Stic Copper 13 fps_1018
+  - first:
+      213: 8887566686549426735
+    second: Stic Copper 13 fps_1019
+  - first:
+      213: 3378164526414177093
+    second: Stic Copper 13 fps_1020
+  - first:
+      213: 5465608322427350288
+    second: Stic Copper 13 fps_1021
+  - first:
+      213: 2447673069573269874
+    second: Stic Copper 13 fps_1022
+  - first:
+      213: 4352864383749253697
+    second: Stic Copper 13 fps_1023
+  - first:
+      213: 5001272533259436804
+    second: Stic Copper 13 fps_1024
+  - first:
+      213: -8700748002610809081
+    second: Stic Copper 13 fps_1025
+  - first:
+      213: 5106632564924269452
+    second: Stic Copper 13 fps_1026
+  - first:
+      213: 1054877605317521672
+    second: Stic Copper 13 fps_1027
+  - first:
+      213: -1360094816784713783
+    second: Stic Copper 13 fps_1028
+  - first:
+      213: 455772900959433017
+    second: Stic Copper 13 fps_1029
+  - first:
+      213: 1022886193425104869
+    second: Stic Copper 13 fps_1030
+  - first:
+      213: -8246766725769259930
+    second: Stic Copper 13 fps_1031
+  - first:
+      213: 6432712256037975232
+    second: Stic Copper 13 fps_1032
+  - first:
+      213: -223458391050655487
+    second: Stic Copper 13 fps_1033
+  - first:
+      213: -3064795630363502603
+    second: Stic Copper 13 fps_1034
+  - first:
+      213: -1458743397483175484
+    second: Stic Copper 13 fps_1035
+  - first:
+      213: 6189736959901242927
+    second: Stic Copper 13 fps_1036
+  - first:
+      213: 4107619894272589725
+    second: Stic Copper 13 fps_1037
+  - first:
+      213: 6228611673076100561
+    second: Stic Copper 13 fps_1038
+  - first:
+      213: -5708171346598355839
+    second: Stic Copper 13 fps_1039
+  - first:
+      213: -7085865880864861735
+    second: Stic Copper 13 fps_1040
+  - first:
+      213: -8808194134951915060
+    second: Stic Copper 13 fps_1041
+  - first:
+      213: -4807581553821116173
+    second: Stic Copper 13 fps_1042
+  - first:
+      213: -276922315752230620
+    second: Stic Copper 13 fps_1043
+  - first:
+      213: 4586451889744519534
+    second: Stic Copper 13 fps_1044
+  - first:
+      213: -2285133205155342118
+    second: Stic Copper 13 fps_1045
+  - first:
+      213: -2742253625549110082
+    second: Stic Copper 13 fps_1046
+  - first:
+      213: -6816998605746865203
+    second: Stic Copper 13 fps_1047
+  - first:
+      213: -7032157140418549873
+    second: Stic Copper 13 fps_1048
+  - first:
+      213: 1611053472885918183
+    second: Stic Copper 13 fps_1049
+  - first:
+      213: -2021668880540458775
+    second: Stic Copper 13 fps_1050
+  - first:
+      213: -7924189258862509709
+    second: Stic Copper 13 fps_1051
+  - first:
+      213: -1256154944777706887
+    second: Stic Copper 13 fps_1052
+  - first:
+      213: -3144493204910743772
+    second: Stic Copper 13 fps_1053
+  - first:
+      213: 5172943041825831808
+    second: Stic Copper 13 fps_1054
+  - first:
+      213: -5285376616121256157
+    second: Stic Copper 13 fps_1055
+  - first:
+      213: 4268602774239092552
+    second: Stic Copper 13 fps_1056
+  - first:
+      213: -4468744141523235187
+    second: Stic Copper 13 fps_1057
+  - first:
+      213: -1117362817408877402
+    second: Stic Copper 13 fps_1058
+  - first:
+      213: 7376852048182668507
+    second: Stic Copper 13 fps_1059
+  - first:
+      213: -7854905517254655079
+    second: Stic Copper 13 fps_1060
+  - first:
+      213: -3892840637455924785
+    second: Stic Copper 13 fps_1061
+  - first:
+      213: 8304462334558687113
+    second: Stic Copper 13 fps_1062
+  - first:
+      213: -1257761868532328712
+    second: Stic Copper 13 fps_1063
+  - first:
+      213: 2687030815672103121
+    second: Stic Copper 13 fps_1064
+  - first:
+      213: -4563133291443621423
+    second: Stic Copper 13 fps_1065
+  - first:
+      213: 3830456830824123643
+    second: Stic Copper 13 fps_1066
+  - first:
+      213: 4725160443217325842
+    second: Stic Copper 13 fps_1067
+  - first:
+      213: -3696234857496276873
+    second: Stic Copper 13 fps_1068
+  - first:
+      213: -4952834554004174317
+    second: Stic Copper 13 fps_1069
+  - first:
+      213: 3541155779722919898
+    second: Stic Copper 13 fps_1070
+  - first:
+      213: -7155328759017161408
+    second: Stic Copper 13 fps_1071
+  - first:
+      213: -4505550553041231066
+    second: Stic Copper 13 fps_1072
+  - first:
+      213: 1288853985094940981
+    second: Stic Copper 13 fps_1073
+  - first:
+      213: -2535002885395692217
+    second: Stic Copper 13 fps_1074
+  - first:
+      213: -3040422390367465094
+    second: Stic Copper 13 fps_1075
+  - first:
+      213: 5335467756699917242
+    second: Stic Copper 13 fps_1076
+  - first:
+      213: 7554357829979564414
+    second: Stic Copper 13 fps_1077
+  - first:
+      213: -4969244537883477393
+    second: Stic Copper 13 fps_1078
+  - first:
+      213: -2739056967619410908
+    second: Stic Copper 13 fps_1079
+  - first:
+      213: 6854900608360269363
+    second: Stic Copper 13 fps_1080
+  - first:
+      213: -7142804657597129413
+    second: Stic Copper 13 fps_1081
+  - first:
+      213: -111931383133423182
+    second: Stic Copper 13 fps_1082
+  - first:
+      213: 1032578609288692116
+    second: Stic Copper 13 fps_1083
+  - first:
+      213: -9051059161275591728
+    second: Stic Copper 13 fps_1084
+  - first:
+      213: 3755851407532803310
+    second: Stic Copper 13 fps_1085
+  - first:
+      213: -8176185839663647388
+    second: Stic Copper 13 fps_1086
+  - first:
+      213: -3252630500596467616
+    second: Stic Copper 13 fps_1087
+  - first:
+      213: -5517459083375451963
+    second: Stic Copper 13 fps_1088
+  - first:
+      213: -185521463590849824
+    second: Stic Copper 13 fps_1089
+  - first:
+      213: 5289743957494827890
+    second: Stic Copper 13 fps_1090
+  - first:
+      213: -155574667292467559
+    second: Stic Copper 13 fps_1091
+  - first:
+      213: 2405765544713717859
+    second: Stic Copper 13 fps_1092
+  - first:
+      213: -1077979637427176923
+    second: Stic Copper 13 fps_1093
+  - first:
+      213: 3602146553764836037
+    second: Stic Copper 13 fps_1094
+  - first:
+      213: -1157114374072792415
+    second: Stic Copper 13 fps_1095
+  - first:
+      213: 8141123938545475260
+    second: Stic Copper 13 fps_1096
+  - first:
+      213: 3237701103301614031
+    second: Stic Copper 13 fps_1097
+  - first:
+      213: -1961984035980440471
+    second: Stic Copper 13 fps_1098
+  - first:
+      213: 5084718476213212014
+    second: Stic Copper 13 fps_1099
+  - first:
+      213: 5947061699639240480
+    second: Stic Copper 13 fps_1100
+  - first:
+      213: 8946217196396592418
+    second: Stic Copper 13 fps_1101
+  - first:
+      213: 7093496086954113410
+    second: Stic Copper 13 fps_1102
+  - first:
+      213: -9030465430889194863
+    second: Stic Copper 13 fps_1103
+  - first:
+      213: -2249927301278878796
+    second: Stic Copper 13 fps_1104
+  - first:
+      213: 6131715975995205347
+    second: Stic Copper 13 fps_1105
+  - first:
+      213: -7081866071447200901
+    second: Stic Copper 13 fps_1106
+  - first:
+      213: -1959690823379122510
+    second: Stic Copper 13 fps_1107
+  - first:
+      213: -7715351815380348350
+    second: Stic Copper 13 fps_1108
+  - first:
+      213: -3093661689957345163
+    second: Stic Copper 13 fps_1109
+  - first:
+      213: -2665155148675807709
+    second: Stic Copper 13 fps_1110
+  - first:
+      213: 314680212688463739
+    second: Stic Copper 13 fps_1111
+  - first:
+      213: -4720000996916967439
+    second: Stic Copper 13 fps_1112
+  - first:
+      213: -4815351828885778515
+    second: Stic Copper 13 fps_1113
+  - first:
+      213: 5118323858916949943
+    second: Stic Copper 13 fps_1114
+  - first:
+      213: -498056224999864575
+    second: Stic Copper 13 fps_1115
+  - first:
+      213: 2787294974309583566
+    second: Stic Copper 13 fps_1116
+  - first:
+      213: -3232539116972150926
+    second: Stic Copper 13 fps_1117
+  - first:
+      213: -3314796265741777436
+    second: Stic Copper 13 fps_1118
+  - first:
+      213: -1376973266849347622
+    second: Stic Copper 13 fps_1119
+  - first:
+      213: -7862504265676591931
+    second: Stic Copper 13 fps_1120
+  - first:
+      213: -5806200423792005980
+    second: Stic Copper 13 fps_1121
+  - first:
+      213: 6830866959556532488
+    second: Stic Copper 13 fps_1122
+  - first:
+      213: -8918293152972865079
+    second: Stic Copper 13 fps_1123
+  - first:
+      213: 5058440671706178772
+    second: Stic Copper 13 fps_1124
+  - first:
+      213: 419452344116776448
+    second: Stic Copper 13 fps_1125
+  - first:
+      213: -1604058888575071052
+    second: Stic Copper 13 fps_1126
+  - first:
+      213: -1657973896606363588
+    second: Stic Copper 13 fps_1127
+  - first:
+      213: 9147842431170838522
+    second: Stic Copper 13 fps_1128
+  - first:
+      213: 7105208345926702773
+    second: Stic Copper 13 fps_1129
+  - first:
+      213: 8433177765932757864
+    second: Stic Copper 13 fps_1130
+  - first:
+      213: -5343009617498687066
+    second: Stic Copper 13 fps_1131
+  - first:
+      213: 3937079303602644043
+    second: Stic Copper 13 fps_1132
+  - first:
+      213: -6524122120927795679
+    second: Stic Copper 13 fps_1133
+  - first:
+      213: -5598627600620106517
+    second: Stic Copper 13 fps_1134
+  - first:
+      213: 6762769922795742269
+    second: Stic Copper 13 fps_1135
+  - first:
+      213: 7880251025418903228
+    second: Stic Copper 13 fps_1136
+  - first:
+      213: 5122747513118589821
+    second: Stic Copper 13 fps_1137
+  - first:
+      213: 1337712130060985612
+    second: Stic Copper 13 fps_1138
+  - first:
+      213: 7021845008375694210
+    second: Stic Copper 13 fps_1139
+  - first:
+      213: 7736624888830851675
+    second: Stic Copper 13 fps_1140
+  - first:
+      213: 8378267843395378353
+    second: Stic Copper 13 fps_1141
+  - first:
+      213: 6923215534377252101
+    second: Stic Copper 13 fps_1142
+  - first:
+      213: -8168014398724021367
+    second: Stic Copper 13 fps_1143
+  - first:
+      213: 4407064970473377534
+    second: Stic Copper 13 fps_1144
+  - first:
+      213: -5502167737823731146
+    second: Stic Copper 13 fps_1145
+  - first:
+      213: -5951715997068894795
+    second: Stic Copper 13 fps_1146
+  - first:
+      213: 1879237793581260572
+    second: Stic Copper 13 fps_1147
+  - first:
+      213: 2586545478481620543
+    second: Stic Copper 13 fps_1148
+  - first:
+      213: 370039011768213883
+    second: Stic Copper 13 fps_1149
+  - first:
+      213: 2626786123062446853
+    second: Stic Copper 13 fps_1150
+  - first:
+      213: -2798089960869595073
+    second: Stic Copper 13 fps_1151
+  - first:
+      213: 1052009742168351874
+    second: Stic Copper 13 fps_1152
+  - first:
+      213: -1423832140496227882
+    second: Stic Copper 13 fps_1153
+  - first:
+      213: -5624858694064359364
+    second: Stic Copper 13 fps_1154
+  - first:
+      213: 1849519652258239187
+    second: Stic Copper 13 fps_1155
+  - first:
+      213: -6979587062380577939
+    second: Stic Copper 13 fps_1156
+  - first:
+      213: -4277175616472444355
+    second: Stic Copper 13 fps_1157
+  - first:
+      213: -7540182945773070090
+    second: Stic Copper 13 fps_1158
+  - first:
+      213: -198610350552330265
+    second: Stic Copper 13 fps_1159
+  - first:
+      213: 3244612488801884551
+    second: Stic Copper 13 fps_1160
+  - first:
+      213: 2678695509985047756
+    second: Stic Copper 13 fps_1161
+  - first:
+      213: -3537577855735797069
+    second: Stic Copper 13 fps_1162
+  - first:
+      213: 5450368851721402860
+    second: Stic Copper 13 fps_1163
+  - first:
+      213: -8819852966905954381
+    second: Stic Copper 13 fps_1164
+  - first:
+      213: -3176512185848747924
+    second: Stic Copper 13 fps_1165
+  - first:
+      213: 8574010368090429094
+    second: Stic Copper 13 fps_1166
+  - first:
+      213: -4744801430262169132
+    second: Stic Copper 13 fps_1167
+  - first:
+      213: 9066797164310617540
+    second: Stic Copper 13 fps_1168
+  - first:
+      213: -296010146725372212
+    second: Stic Copper 13 fps_1169
+  - first:
+      213: -572773987491531434
+    second: Stic Copper 13 fps_1170
+  - first:
+      213: -3216074152113574484
+    second: Stic Copper 13 fps_1171
+  - first:
+      213: 3032202622773517474
+    second: Stic Copper 13 fps_1172
+  - first:
+      213: -4233897219193807051
+    second: Stic Copper 13 fps_1173
+  - first:
+      213: -6571739182090830554
+    second: Stic Copper 13 fps_1174
+  - first:
+      213: -4692585206721780976
+    second: Stic Copper 13 fps_1175
+  - first:
+      213: -283456642787727144
+    second: Stic Copper 13 fps_1176
+  - first:
+      213: 1047841918272600118
+    second: Stic Copper 13 fps_1177
+  - first:
+      213: -8954875740796365607
+    second: Stic Copper 13 fps_1178
+  - first:
+      213: -2654894472906996135
+    second: Stic Copper 13 fps_1179
+  - first:
+      213: -1426049995185937826
+    second: Stic Copper 13 fps_1180
+  - first:
+      213: 7263807455867176407
+    second: Stic Copper 13 fps_1181
+  - first:
+      213: 275313749588970395
+    second: Stic Copper 13 fps_1182
+  - first:
+      213: -694404802704508252
+    second: Stic Copper 13 fps_1183
+  - first:
+      213: -2472554534002269271
+    second: Stic Copper 13 fps_1184
+  - first:
+      213: 4138120307488046078
+    second: Stic Copper 13 fps_1185
+  - first:
+      213: 4710506947230931874
+    second: Stic Copper 13 fps_1186
+  - first:
+      213: -4642201273538102906
+    second: Stic Copper 13 fps_1187
+  - first:
+      213: 753971129175698176
+    second: Stic Copper 13 fps_1188
+  - first:
+      213: -9061595579878501089
+    second: Stic Copper 13 fps_1189
+  - first:
+      213: 102274896106088911
+    second: Stic Copper 13 fps_1190
+  - first:
+      213: -1753504659939536774
+    second: Stic Copper 13 fps_1191
+  - first:
+      213: 3954485682759050165
+    second: Stic Copper 13 fps_1192
+  - first:
+      213: 2836928424798388769
+    second: Stic Copper 13 fps_1193
+  - first:
+      213: 3349996376318547694
+    second: Stic Copper 13 fps_1194
+  - first:
+      213: 5886849931023813659
+    second: Stic Copper 13 fps_1195
+  - first:
+      213: 8219498925560433545
+    second: Stic Copper 13 fps_1196
+  - first:
+      213: 8875623383139668522
+    second: Stic Copper 13 fps_1197
+  - first:
+      213: 4371641998743530630
+    second: Stic Copper 13 fps_1198
+  - first:
+      213: 3906979580683794449
+    second: Stic Copper 13 fps_1199
+  - first:
+      213: 373587068047155957
+    second: Stic Copper 13 fps_1200
+  - first:
+      213: -1591066455071528725
+    second: Stic Copper 13 fps_1201
+  - first:
+      213: 752424991029355257
+    second: Stic Copper 13 fps_1202
+  - first:
+      213: 5080442503978219857
+    second: Stic Copper 13 fps_1203
+  - first:
+      213: -3107072952707130638
+    second: Stic Copper 13 fps_1204
+  - first:
+      213: -3502803928699518254
+    second: Stic Copper 13 fps_1205
+  - first:
+      213: -1781401692706335598
+    second: Stic Copper 13 fps_1206
+  - first:
+      213: 7792361618902388405
+    second: Stic Copper 13 fps_1207
+  - first:
+      213: -3060666374379830229
+    second: Stic Copper 13 fps_1208
+  - first:
+      213: -3956521510921012946
+    second: Stic Copper 13 fps_1209
+  - first:
+      213: -1281813136460221458
+    second: Stic Copper 13 fps_1210
+  - first:
+      213: 6798271238972350089
+    second: Stic Copper 13 fps_1211
+  - first:
+      213: 5481407922243668247
+    second: Stic Copper 13 fps_1212
+  - first:
+      213: -6085817218142048567
+    second: Stic Copper 13 fps_1213
+  - first:
+      213: 3291859261654019079
+    second: Stic Copper 13 fps_1214
+  - first:
+      213: 6768576461586768702
+    second: Stic Copper 13 fps_1215
+  - first:
+      213: 1855878523363127999
+    second: Stic Copper 13 fps_1216
+  - first:
+      213: 7350113661663848503
+    second: Stic Copper 13 fps_1217
+  - first:
+      213: 230884995667900377
+    second: Stic Copper 13 fps_1218
+  - first:
+      213: 1921294079999652647
+    second: Stic Copper 13 fps_1219
+  - first:
+      213: 3668743758797467902
+    second: Stic Copper 13 fps_1220
+  - first:
+      213: 6879620472312337837
+    second: Stic Copper 13 fps_1221
+  - first:
+      213: -3492551818915988771
+    second: Stic Copper 13 fps_1222
+  - first:
+      213: -5605057501305311913
+    second: Stic Copper 13 fps_1223
+  - first:
+      213: 7691275832465979180
+    second: Stic Copper 13 fps_1224
+  - first:
+      213: -1337031455008315559
+    second: Stic Copper 13 fps_1225
+  - first:
+      213: -270437269161130374
+    second: Stic Copper 13 fps_1226
+  - first:
+      213: -1502678638413691145
+    second: Stic Copper 13 fps_1227
+  - first:
+      213: -82707922833763387
+    second: Stic Copper 13 fps_1228
+  - first:
+      213: -126549256029123584
+    second: Stic Copper 13 fps_1229
+  - first:
+      213: -704695819348180256
+    second: Stic Copper 13 fps_1230
+  - first:
+      213: -2097227254755779520
+    second: Stic Copper 13 fps_1231
+  - first:
+      213: 1448439504248294316
+    second: Stic Copper 13 fps_1232
+  - first:
+      213: 1546541392438256246
+    second: Stic Copper 13 fps_1233
+  - first:
+      213: -8828248172706946620
+    second: Stic Copper 13 fps_1234
+  - first:
+      213: -2221041096559790908
+    second: Stic Copper 13 fps_1235
+  - first:
+      213: -5197846974268398803
+    second: Stic Copper 13 fps_1236
+  - first:
+      213: -1650458370670181585
+    second: Stic Copper 13 fps_1237
+  - first:
+      213: 7916542737899514612
+    second: Stic Copper 13 fps_1238
+  - first:
+      213: 5335775163397118145
+    second: Stic Copper 13 fps_1239
+  - first:
+      213: 3755162796555128090
+    second: Stic Copper 13 fps_1240
+  - first:
+      213: -437700806091983911
+    second: Stic Copper 13 fps_1241
+  - first:
+      213: 1684604902614356033
+    second: Stic Copper 13 fps_1242
+  - first:
+      213: -2061412447884732545
+    second: Stic Copper 13 fps_1243
+  - first:
+      213: 1374986784432713415
+    second: Stic Copper 13 fps_1244
+  - first:
+      213: -5809965706652520225
+    second: Stic Copper 13 fps_1245
+  - first:
+      213: 3309806419843537183
+    second: Stic Copper 13 fps_1246
+  - first:
+      213: -2796279069413187006
+    second: Stic Copper 13 fps_1247
+  - first:
+      213: 8771591244870197151
+    second: Stic Copper 13 fps_1248
+  - first:
+      213: -2737623558567093671
+    second: Stic Copper 13 fps_1249
+  - first:
+      213: 8955928793585478098
+    second: Stic Copper 13 fps_1250
+  - first:
+      213: 2561047900243037394
+    second: Stic Copper 13 fps_1251
+  - first:
+      213: -3670361437048566537
+    second: Stic Copper 13 fps_1252
+  - first:
+      213: -1909173566167258943
+    second: Stic Copper 13 fps_1253
+  - first:
+      213: -1280851774224615344
+    second: Stic Copper 13 fps_1254
+  - first:
+      213: 3738090902664048768
+    second: Stic Copper 13 fps_1255
+  - first:
+      213: 1160477016696308617
+    second: Stic Copper 13 fps_1256
+  - first:
+      213: -11885089793110159
+    second: Stic Copper 13 fps_1257
+  - first:
+      213: 6793393010608789672
+    second: Stic Copper 13 fps_1258
+  - first:
+      213: -8312611268538467317
+    second: Stic Copper 13 fps_1259
+  - first:
+      213: 929827589713973069
+    second: Stic Copper 13 fps_1260
+  - first:
+      213: 8742033945719446238
+    second: Stic Copper 13 fps_1261
+  - first:
+      213: 4185940002219122582
+    second: Stic Copper 13 fps_1262
+  - first:
+      213: 7885250617397959196
+    second: Stic Copper 13 fps_1263
+  - first:
+      213: 1190178583807010841
+    second: Stic Copper 13 fps_1264
+  - first:
+      213: -5377615761049652296
+    second: Stic Copper 13 fps_1265
+  - first:
+      213: -4797567474905392971
+    second: Stic Copper 13 fps_1266
+  - first:
+      213: 3986618721918358460
+    second: Stic Copper 13 fps_1267
+  - first:
+      213: 5544712752682407192
+    second: Stic Copper 13 fps_1268
+  - first:
+      213: -2481269692082705742
+    second: Stic Copper 13 fps_1269
+  - first:
+      213: 3023644308306259276
+    second: Stic Copper 13 fps_1270
+  - first:
+      213: -2988162204226245013
+    second: Stic Copper 13 fps_1271
+  - first:
+      213: 4258484986245114378
+    second: Stic Copper 13 fps_1272
+  - first:
+      213: -3394068401143354034
+    second: Stic Copper 13 fps_1273
+  - first:
+      213: -6144891993380764039
+    second: Stic Copper 13 fps_1274
+  - first:
+      213: 5130580171297254489
+    second: Stic Copper 13 fps_1275
+  - first:
+      213: -338779913972039462
+    second: Stic Copper 13 fps_1276
+  - first:
+      213: -989571076688028934
+    second: Stic Copper 13 fps_1277
+  - first:
+      213: -5817049740392733176
+    second: Stic Copper 13 fps_1278
+  - first:
+      213: -6096627866840231942
+    second: Stic Copper 13 fps_1279
+  - first:
+      213: -8457831002572905779
+    second: Stic Copper 13 fps_1280
+  - first:
+      213: -3721763433691279100
+    second: Stic Copper 13 fps_1281
+  - first:
+      213: -2190576792412864268
+    second: Stic Copper 13 fps_1282
+  - first:
+      213: 4291952362985669680
+    second: Stic Copper 13 fps_1283
+  - first:
+      213: 1414688599343909540
+    second: Stic Copper 13 fps_1284
+  - first:
+      213: -5055083607677741822
+    second: Stic Copper 13 fps_1285
+  - first:
+      213: 8943176562302722889
+    second: Stic Copper 13 fps_1286
+  - first:
+      213: -4161287918717382989
+    second: Stic Copper 13 fps_1287
+  - first:
+      213: -9160367698133361920
+    second: Stic Copper 13 fps_1288
+  - first:
+      213: 450203476436332671
+    second: Stic Copper 13 fps_1289
+  - first:
+      213: -6339424066727201226
+    second: Stic Copper 13 fps_1290
+  - first:
+      213: 8427254590998070277
+    second: Stic Copper 13 fps_1291
+  - first:
+      213: 2925575656757295316
+    second: Stic Copper 13 fps_1292
+  - first:
+      213: 6741615312993249419
+    second: Stic Copper 13 fps_1293
+  - first:
+      213: 255323173556469691
+    second: Stic Copper 13 fps_1294
+  - first:
+      213: -8099733833929014333
+    second: Stic Copper 13 fps_1295
+  - first:
+      213: -2188284973043808495
+    second: Stic Copper 13 fps_1296
+  - first:
+      213: 8403862745478866688
+    second: Stic Copper 13 fps_1297
+  - first:
+      213: -2958024737618123230
+    second: Stic Copper 13 fps_1298
+  - first:
+      213: -2678082300215925421
+    second: Stic Copper 13 fps_1299
+  - first:
+      213: -1956240952575138989
+    second: Stic Copper 13 fps_1300
+  - first:
+      213: -3420647440405243281
+    second: Stic Copper 13 fps_1301
+  - first:
+      213: 3968667121321561880
+    second: Stic Copper 13 fps_1302
+  - first:
+      213: 1544550945871392858
+    second: Stic Copper 13 fps_1303
+  - first:
+      213: 1417614562998169315
+    second: Stic Copper 13 fps_1304
+  - first:
+      213: -1836269416376457027
+    second: Stic Copper 13 fps_1305
+  - first:
+      213: -3720744020527598866
+    second: Stic Copper 13 fps_1306
+  - first:
+      213: 2287722604152598413
+    second: Stic Copper 13 fps_1307
+  - first:
+      213: 1123499481303549968
+    second: Stic Copper 13 fps_1308
+  - first:
+      213: -924725976241052046
+    second: Stic Copper 13 fps_1309
+  - first:
+      213: 6783210300078782099
+    second: Stic Copper 13 fps_1310
+  - first:
+      213: -5446231183983954769
+    second: Stic Copper 13 fps_1311
+  - first:
+      213: 2516464398068199344
+    second: Stic Copper 13 fps_1312
+  - first:
+      213: 2049093324385312413
+    second: Stic Copper 13 fps_1313
+  - first:
+      213: 3873961556545743167
+    second: Stic Copper 13 fps_1314
+  - first:
+      213: -7486032175266135500
+    second: Stic Copper 13 fps_1315
+  - first:
+      213: 2242232062714397849
+    second: Stic Copper 13 fps_1316
+  - first:
+      213: 795745691539951269
+    second: Stic Copper 13 fps_1317
+  - first:
+      213: -5166021504679668632
+    second: Stic Copper 13 fps_1318
+  - first:
+      213: 3653630326795901483
+    second: Stic Copper 13 fps_1319
+  - first:
+      213: 5429385988141520274
+    second: Stic Copper 13 fps_1320
+  - first:
+      213: -14337670347357212
+    second: Stic Copper 13 fps_1321
+  - first:
+      213: -7043734719928542499
+    second: Stic Copper 13 fps_1322
+  - first:
+      213: -7849084797305884445
+    second: Stic Copper 13 fps_1323
+  - first:
+      213: -8042203378538788156
+    second: Stic Copper 13 fps_1324
+  - first:
+      213: -3939248267348584973
+    second: Stic Copper 13 fps_1325
+  - first:
+      213: 7357393277560031749
+    second: Stic Copper 13 fps_1326
+  - first:
+      213: 4561633028008063907
+    second: Stic Copper 13 fps_1327
+  - first:
+      213: -3981062446798856058
+    second: Stic Copper 13 fps_1328
+  - first:
+      213: -4299050447178618887
+    second: Stic Copper 13 fps_1329
+  - first:
+      213: -432950126274891828
+    second: Stic Copper 13 fps_1330
+  - first:
+      213: 1200200839644280410
+    second: Stic Copper 13 fps_1331
+  - first:
+      213: -7952002296007772374
+    second: Stic Copper 13 fps_1332
+  - first:
+      213: 4010302162340857981
+    second: Stic Copper 13 fps_1333
+  - first:
+      213: 5688702230008671243
+    second: Stic Copper 13 fps_1334
+  - first:
+      213: -1313826018240836819
+    second: Stic Copper 13 fps_1335
+  - first:
+      213: -7825415795005845103
+    second: Stic Copper 13 fps_1336
+  - first:
+      213: 293788337945195799
+    second: Stic Copper 13 fps_1337
+  - first:
+      213: 3073354299032335847
+    second: Stic Copper 13 fps_1338
+  - first:
+      213: 7506124219288856877
+    second: Stic Copper 13 fps_1339
+  - first:
+      213: -5008849144249843144
+    second: Stic Copper 13 fps_1340
+  - first:
+      213: -1917081182117191814
+    second: Stic Copper 13 fps_1341
+  - first:
+      213: 9019686659256923945
+    second: Stic Copper 13 fps_1342
+  - first:
+      213: -7763560224224886944
+    second: Stic Copper 13 fps_1343
+  - first:
+      213: 6095303528518449358
+    second: Stic Copper 13 fps_1344
+  - first:
+      213: 5454279048446016715
+    second: Stic Copper 13 fps_1345
+  - first:
+      213: -8435137948965725700
+    second: Stic Copper 13 fps_1346
+  - first:
+      213: 7248027236346172662
+    second: Stic Copper 13 fps_1347
+  - first:
+      213: -9172880317084943525
+    second: Stic Copper 13 fps_1348
+  - first:
+      213: -7829823114317530315
+    second: Stic Copper 13 fps_1349
+  - first:
+      213: 55385740076398464
+    second: Stic Copper 13 fps_1350
+  - first:
+      213: 8486920282281786818
+    second: Stic Copper 13 fps_1351
+  - first:
+      213: -8003312317701119144
+    second: Stic Copper 13 fps_1352
+  - first:
+      213: 671699801389163241
+    second: Stic Copper 13 fps_1353
+  - first:
+      213: 3052231269377074700
+    second: Stic Copper 13 fps_1354
+  - first:
+      213: 1455035862847664262
+    second: Stic Copper 13 fps_1355
+  - first:
+      213: -2870238771757512376
+    second: Stic Copper 13 fps_1356
+  - first:
+      213: 4957107187051039182
+    second: Stic Copper 13 fps_1357
+  - first:
+      213: 4713775246685487019
+    second: Stic Copper 13 fps_1358
+  - first:
+      213: -4232107242183258464
+    second: Stic Copper 13 fps_1359
+  - first:
+      213: 7964095355446106223
+    second: Stic Copper 13 fps_1360
+  - first:
+      213: 7786623240956211175
+    second: Stic Copper 13 fps_1361
+  - first:
+      213: -569492343428923257
+    second: Stic Copper 13 fps_1362
+  - first:
+      213: -7418762942108366195
+    second: Stic Copper 13 fps_1363
+  - first:
+      213: 3948741392443315414
+    second: Stic Copper 13 fps_1364
+  - first:
+      213: -1241210615625247229
+    second: Stic Copper 13 fps_1365
+  - first:
+      213: 3856136429506992181
+    second: Stic Copper 13 fps_1366
+  - first:
+      213: -3672303903560429221
+    second: Stic Copper 13 fps_1367
+  - first:
+      213: -660374885742975015
+    second: Stic Copper 13 fps_1368
+  - first:
+      213: 6471127021541884532
+    second: Stic Copper 13 fps_1369
+  - first:
+      213: -2689246840069181180
+    second: Stic Copper 13 fps_1370
+  - first:
+      213: 6873478107556858353
+    second: Stic Copper 13 fps_1371
+  - first:
+      213: -3799088118012563082
+    second: Stic Copper 13 fps_1372
+  - first:
+      213: -8700817865788389391
+    second: Stic Copper 13 fps_1373
+  - first:
+      213: -1269999957968941236
+    second: Stic Copper 13 fps_1374
+  - first:
+      213: -8620792215760332551
+    second: Stic Copper 13 fps_1375
+  - first:
+      213: 4473236888680009847
+    second: Stic Copper 13 fps_1376
+  - first:
+      213: 2614335943912973231
+    second: Stic Copper 13 fps_1377
+  - first:
+      213: -1621267708495798818
+    second: Stic Copper 13 fps_1378
+  - first:
+      213: 7747095582360727752
+    second: Stic Copper 13 fps_1379
+  - first:
+      213: 2979992495532311274
+    second: Stic Copper 13 fps_1380
+  - first:
+      213: -3337862820280334685
+    second: Stic Copper 13 fps_1381
+  - first:
+      213: 1421370745402985793
+    second: Stic Copper 13 fps_1382
+  - first:
+      213: -8622931901274220841
+    second: Stic Copper 13 fps_1383
+  - first:
+      213: 7869537804910673810
+    second: Stic Copper 13 fps_1384
+  - first:
+      213: 1476164887294799497
+    second: Stic Copper 13 fps_1385
+  - first:
+      213: 715700181805770927
+    second: Stic Copper 13 fps_1386
+  - first:
+      213: 8415944616761302118
+    second: Stic Copper 13 fps_1387
+  - first:
+      213: 6907771641403801095
+    second: Stic Copper 13 fps_1388
+  - first:
+      213: 3707097247742300098
+    second: Stic Copper 13 fps_1389
+  - first:
+      213: -7008246510836147422
+    second: Stic Copper 13 fps_1390
+  - first:
+      213: -8062571993270507672
+    second: Stic Copper 13 fps_1391
+  - first:
+      213: -6320675352341986872
+    second: Stic Copper 13 fps_1392
+  - first:
+      213: -5044151658994393673
+    second: Stic Copper 13 fps_1393
+  - first:
+      213: 9089857369122373643
+    second: Stic Copper 13 fps_1394
+  - first:
+      213: -1420769907933149654
+    second: Stic Copper 13 fps_1395
+  - first:
+      213: -6817046734618132415
+    second: Stic Copper 13 fps_1396
+  - first:
+      213: 2493497190198563365
+    second: Stic Copper 13 fps_1397
+  - first:
+      213: 287128928276382406
+    second: Stic Copper 13 fps_1398
+  - first:
+      213: 4399837662363391729
+    second: Stic Copper 13 fps_1399
+  - first:
+      213: -1541253491013330791
+    second: Stic Copper 13 fps_1400
+  - first:
+      213: 3756321559712130762
+    second: Stic Copper 13 fps_1401
+  - first:
+      213: 7362423585760873242
+    second: Stic Copper 13 fps_1402
+  - first:
+      213: 6904270234049273295
+    second: Stic Copper 13 fps_1403
+  - first:
+      213: -3664399094145925176
+    second: Stic Copper 13 fps_1404
+  - first:
+      213: 4747153471402012658
+    second: Stic Copper 13 fps_1405
+  - first:
+      213: -7466830938845848197
+    second: Stic Copper 13 fps_1406
+  - first:
+      213: -988368092064067642
+    second: Stic Copper 13 fps_1407
+  - first:
+      213: -2963753069405222514
+    second: Stic Copper 13 fps_1408
+  - first:
+      213: 1484677477802423851
+    second: Stic Copper 13 fps_1409
+  - first:
+      213: -234773299102614643
+    second: Stic Copper 13 fps_1410
+  - first:
+      213: -3516126164702409159
+    second: Stic Copper 13 fps_1411
+  - first:
+      213: 1680919961400666189
+    second: Stic Copper 13 fps_1412
+  - first:
+      213: 1987576165353835717
+    second: Stic Copper 13 fps_1413
+  - first:
+      213: -4841339279328691620
+    second: Stic Copper 13 fps_1414
+  - first:
+      213: 8519929586069072908
+    second: Stic Copper 13 fps_1415
+  - first:
+      213: -3914780230582452788
+    second: Stic Copper 13 fps_1416
+  - first:
+      213: -8839096240992888907
+    second: Stic Copper 13 fps_1417
+  - first:
+      213: -6180323151582734039
+    second: Stic Copper 13 fps_1418
+  - first:
+      213: -7643294188029346457
+    second: Stic Copper 13 fps_1419
+  - first:
+      213: 2417063858657975395
+    second: Stic Copper 13 fps_1420
+  - first:
+      213: 2992825421503684199
+    second: Stic Copper 13 fps_1421
+  - first:
+      213: 1857812991095797310
+    second: Stic Copper 13 fps_1422
+  - first:
+      213: -3795578643271800162
+    second: Stic Copper 13 fps_1423
+  - first:
+      213: 7343210020181420965
+    second: Stic Copper 13 fps_1424
+  - first:
+      213: -1572179215612180864
+    second: Stic Copper 13 fps_1425
+  - first:
+      213: -277966965082976417
+    second: Stic Copper 13 fps_1426
+  - first:
+      213: -6574767799300362868
+    second: Stic Copper 13 fps_1427
+  - first:
+      213: -6927539332786285452
+    second: Stic Copper 13 fps_1428
+  - first:
+      213: -351352482196189085
+    second: Stic Copper 13 fps_1429
+  - first:
+      213: 8184239438167989127
+    second: Stic Copper 13 fps_1430
+  - first:
+      213: 4429082185875530035
+    second: Stic Copper 13 fps_1431
+  - first:
+      213: -6709278689596201531
+    second: Stic Copper 13 fps_1432
+  - first:
+      213: -3345758777569816185
+    second: Stic Copper 13 fps_1433
+  - first:
+      213: -1633538019654203683
+    second: Stic Copper 13 fps_1434
+  - first:
+      213: -8984267494207797147
+    second: Stic Copper 13 fps_1435
+  - first:
+      213: 6835037814718203058
+    second: Stic Copper 13 fps_1436
+  - first:
+      213: -5021128963509858773
+    second: Stic Copper 13 fps_1437
+  - first:
+      213: 5621682347771414278
+    second: Stic Copper 13 fps_1438
+  - first:
+      213: -3597653089253754623
+    second: Stic Copper 13 fps_1439
+  - first:
+      213: 7693866192166051854
+    second: Stic Copper 13 fps_1440
+  - first:
+      213: 5188412121826773841
+    second: Stic Copper 13 fps_1441
+  - first:
+      213: 2126639211466293245
+    second: Stic Copper 13 fps_1442
+  - first:
+      213: 437367413801267806
+    second: Stic Copper 13 fps_1443
+  - first:
+      213: 4129348292883592213
+    second: Stic Copper 13 fps_1444
+  - first:
+      213: 3750225093793902528
+    second: Stic Copper 13 fps_1445
+  - first:
+      213: 1725490995847812445
+    second: Stic Copper 13 fps_1446
+  - first:
+      213: 281011504047778908
+    second: Stic Copper 13 fps_1447
+  - first:
+      213: 2326077265942514205
+    second: Stic Copper 13 fps_1448
+  - first:
+      213: -8759675812416503886
+    second: Stic Copper 13 fps_1449
+  - first:
+      213: 5243296173636448297
+    second: Stic Copper 13 fps_1450
+  - first:
+      213: 7311160969565957632
+    second: Stic Copper 13 fps_1451
+  - first:
+      213: 4692593329746106691
+    second: Stic Copper 13 fps_1452
+  - first:
+      213: 8122400569744480012
+    second: Stic Copper 13 fps_1453
+  - first:
+      213: 3711446104187047709
+    second: Stic Copper 13 fps_1454
+  - first:
+      213: 8521123897788124588
+    second: Stic Copper 13 fps_1455
+  - first:
+      213: 3881398545885524042
+    second: Stic Copper 13 fps_1456
+  - first:
+      213: -2713245476680688337
+    second: Stic Copper 13 fps_1457
+  - first:
+      213: -5785197913265416169
+    second: Stic Copper 13 fps_1458
+  - first:
+      213: -2367889980035690618
+    second: Stic Copper 13 fps_1459
+  - first:
+      213: -5171418406066518862
+    second: Stic Copper 13 fps_1460
+  - first:
+      213: -5238362805628404287
+    second: Stic Copper 13 fps_1461
+  - first:
+      213: 7097422152517888141
+    second: Stic Copper 13 fps_1462
+  - first:
+      213: -3083721600423473022
+    second: Stic Copper 13 fps_1463
+  - first:
+      213: 3257254650487256314
+    second: Stic Copper 13 fps_1464
+  - first:
+      213: 3926810117730040763
+    second: Stic Copper 13 fps_1465
+  - first:
+      213: -5670165086018204337
+    second: Stic Copper 13 fps_1466
+  - first:
+      213: 2624194249375305358
+    second: Stic Copper 13 fps_1467
+  - first:
+      213: 2055048344270821482
+    second: Stic Copper 13 fps_1468
+  - first:
+      213: -6451674999654543399
+    second: Stic Copper 13 fps_1469
+  - first:
+      213: -861869101776351411
+    second: Stic Copper 13 fps_1470
+  - first:
+      213: 657700138025083023
+    second: Stic Copper 13 fps_1471
+  - first:
+      213: -8315953868320372601
+    second: Stic Copper 13 fps_1472
+  - first:
+      213: -6243111055242997236
+    second: Stic Copper 13 fps_1473
+  - first:
+      213: 7243888200607948875
+    second: Stic Copper 13 fps_1474
+  - first:
+      213: 3757631717318704279
+    second: Stic Copper 13 fps_1475
+  - first:
+      213: 8172263625826019733
+    second: Stic Copper 13 fps_1476
+  - first:
+      213: -5253517411662426490
+    second: Stic Copper 13 fps_1477
+  - first:
+      213: 7864666560806282936
+    second: Stic Copper 13 fps_1478
+  - first:
+      213: 2620115988066394473
+    second: Stic Copper 13 fps_1479
+  - first:
+      213: -4908536855218026365
+    second: Stic Copper 13 fps_1480
+  - first:
+      213: -6920735793476992096
+    second: Stic Copper 13 fps_1481
+  - first:
+      213: -7264368564479976624
+    second: Stic Copper 13 fps_1482
+  - first:
+      213: 3642232158456017102
+    second: Stic Copper 13 fps_1483
+  - first:
+      213: 6739161490701533192
+    second: Stic Copper 13 fps_1484
+  - first:
+      213: -8292323611626580937
+    second: Stic Copper 13 fps_1485
+  - first:
+      213: 2918560604160100976
+    second: Stic Copper 13 fps_1486
+  - first:
+      213: 4561535320464094173
+    second: Stic Copper 13 fps_1487
+  - first:
+      213: -7779535221917034246
+    second: Stic Copper 13 fps_1488
+  - first:
+      213: -1718005782769538329
+    second: Stic Copper 13 fps_1489
+  - first:
+      213: -2145944126465276113
+    second: Stic Copper 13 fps_1490
+  - first:
+      213: 7226377844973303634
+    second: Stic Copper 13 fps_1491
+  - first:
+      213: 4360240098356590936
+    second: Stic Copper 13 fps_1492
+  - first:
+      213: -7119867455636938626
+    second: Stic Copper 13 fps_1493
+  - first:
+      213: -1896139402825173550
+    second: Stic Copper 13 fps_1494
+  - first:
+      213: 1593423812736451833
+    second: Stic Copper 13 fps_1495
+  - first:
+      213: -4079853991647814603
+    second: Stic Copper 13 fps_1496
+  - first:
+      213: -4535140115728168458
+    second: Stic Copper 13 fps_1497
+  - first:
+      213: -4716597834660156242
+    second: Stic Copper 13 fps_1498
+  - first:
+      213: 5290034447990653395
+    second: Stic Copper 13 fps_1499
+  - first:
+      213: 783215572197789764
+    second: Stic Copper 13 fps_1500
+  - first:
+      213: -4971179829270251579
+    second: Stic Copper 13 fps_1501
+  - first:
+      213: -1645037467679057845
+    second: Stic Copper 13 fps_1502
+  - first:
+      213: 1117761839354895356
+    second: Stic Copper 13 fps_1503
+  - first:
+      213: 8504896873888876003
+    second: Stic Copper 13 fps_1504
+  - first:
+      213: 2646286482187302102
+    second: Stic Copper 13 fps_1505
+  - first:
+      213: -2205361220618528940
+    second: Stic Copper 13 fps_1506
+  - first:
+      213: 2908067461425384400
+    second: Stic Copper 13 fps_1507
+  - first:
+      213: 6540502748116373773
+    second: Stic Copper 13 fps_1508
+  - first:
+      213: 2983730441162772949
+    second: Stic Copper 13 fps_1509
+  - first:
+      213: -2771084723529029628
+    second: Stic Copper 13 fps_1510
+  - first:
+      213: -7845553975101542107
+    second: Stic Copper 13 fps_1511
+  - first:
+      213: 4048680547752099203
+    second: Stic Copper 13 fps_1512
+  - first:
+      213: 1701612190391692542
+    second: Stic Copper 13 fps_1513
+  - first:
+      213: 4786687210397179448
+    second: Stic Copper 13 fps_1514
+  - first:
+      213: -6690803313186347256
+    second: Stic Copper 13 fps_1515
+  - first:
+      213: 7065784596140235239
+    second: Stic Copper 13 fps_1516
+  - first:
+      213: 6299062295690158720
+    second: Stic Copper 13 fps_1517
+  - first:
+      213: 7726789524576268089
+    second: Stic Copper 13 fps_1518
+  - first:
+      213: -992599680904134311
+    second: Stic Copper 13 fps_1519
+  - first:
+      213: -2460534009826306311
+    second: Stic Copper 13 fps_1520
+  - first:
+      213: -4959377611380679076
+    second: Stic Copper 13 fps_1521
+  - first:
+      213: -5695638406884320173
+    second: Stic Copper 13 fps_1522
+  - first:
+      213: 3836592541283852876
+    second: Stic Copper 13 fps_1523
+  - first:
+      213: -2641459177196714238
+    second: Stic Copper 13 fps_1524
+  - first:
+      213: 3274626863800222233
+    second: Stic Copper 13 fps_1525
+  - first:
+      213: -6343543453214683202
+    second: Stic Copper 13 fps_1526
+  - first:
+      213: 6378517816624098844
+    second: Stic Copper 13 fps_1527
+  - first:
+      213: 3085258684680210110
+    second: Stic Copper 13 fps_1528
+  - first:
+      213: 1794903116295674098
+    second: Stic Copper 13 fps_1529
+  - first:
+      213: -2911129209055446547
+    second: Stic Copper 13 fps_1530
+  - first:
+      213: -6680519183648741809
+    second: Stic Copper 13 fps_1531
+  - first:
+      213: 5854614786839234166
+    second: Stic Copper 13 fps_1532
+  - first:
+      213: -3771203708645910790
+    second: Stic Copper 13 fps_1533
+  - first:
+      213: -3130557110800466004
+    second: Stic Copper 13 fps_1534
+  - first:
+      213: 5981695031835851422
+    second: Stic Copper 13 fps_1535
+  - first:
+      213: 2420591642668540777
+    second: Stic Copper 13 fps_1536
+  - first:
+      213: -6189397097931191822
+    second: Stic Copper 13 fps_1537
+  - first:
+      213: 3419117120273015193
+    second: Stic Copper 13 fps_1538
+  - first:
+      213: 5832474269616631248
+    second: Stic Copper 13 fps_1539
+  - first:
+      213: -662178235276318840
+    second: Stic Copper 13 fps_1540
+  - first:
+      213: -7767872602741842957
+    second: Stic Copper 13 fps_1541
+  - first:
+      213: 4423578780697875486
+    second: Stic Copper 13 fps_1542
+  - first:
+      213: 6333897410511146723
+    second: Stic Copper 13 fps_1543
+  - first:
+      213: -8907011828496265553
+    second: Stic Copper 13 fps_1544
+  - first:
+      213: -5804760659258103189
+    second: Stic Copper 13 fps_1545
+  - first:
+      213: -3641483594717154507
+    second: Stic Copper 13 fps_1546
+  - first:
+      213: -3357631867426653224
+    second: Stic Copper 13 fps_1547
+  - first:
+      213: 7648577319785331247
+    second: Stic Copper 13 fps_1548
+  - first:
+      213: 1616587448984253736
+    second: Stic Copper 13 fps_1549
+  - first:
+      213: -7852905188604129847
+    second: Stic Copper 13 fps_1550
+  - first:
+      213: -8890174106380846657
+    second: Stic Copper 13 fps_1551
+  - first:
+      213: -8725574997345905140
+    second: Stic Copper 13 fps_1552
+  - first:
+      213: -4766700179749434087
+    second: Stic Copper 13 fps_1553
+  - first:
+      213: -1723615332647550536
+    second: Stic Copper 13 fps_1554
+  - first:
+      213: -5109249496011807766
+    second: Stic Copper 13 fps_1555
+  - first:
+      213: 5124697306074849641
+    second: Stic Copper 13 fps_1556
+  - first:
+      213: 5808931998727480213
+    second: Stic Copper 13 fps_1557
+  - first:
+      213: -3545033660979049404
+    second: Stic Copper 13 fps_1558
+  - first:
+      213: 2668947339165504190
+    second: Stic Copper 13 fps_1559
+  - first:
+      213: -4648055131337285717
+    second: Stic Copper 13 fps_1560
+  - first:
+      213: 6012020108947824836
+    second: Stic Copper 13 fps_1561
+  - first:
+      213: -8816161309701977186
+    second: Stic Copper 13 fps_1562
+  - first:
+      213: -1382804232944352430
+    second: Stic Copper 13 fps_1563
+  - first:
+      213: -7314664337346223025
+    second: Stic Copper 13 fps_1564
+  - first:
+      213: -2207345477798709841
+    second: Stic Copper 13 fps_1565
+  - first:
+      213: 6448226506737913598
+    second: Stic Copper 13 fps_1566
+  - first:
+      213: -1705387787188131123
+    second: Stic Copper 13 fps_1567
+  - first:
+      213: -2212838029071782963
+    second: Stic Copper 13 fps_1568
+  - first:
+      213: 6181155905914994467
+    second: Stic Copper 13 fps_1569
+  - first:
+      213: -8641777848071378950
+    second: Stic Copper 13 fps_1570
+  - first:
+      213: -1055654912397343168
+    second: Stic Copper 13 fps_1571
+  - first:
+      213: 7210307972230953255
+    second: Stic Copper 13 fps_1572
+  - first:
+      213: -3528333151455381005
+    second: Stic Copper 13 fps_1573
+  - first:
+      213: -398866307965539639
+    second: Stic Copper 13 fps_1574
+  - first:
+      213: 174401673876822286
+    second: Stic Copper 13 fps_1575
+  - first:
+      213: -7901624084566801121
+    second: Stic Copper 13 fps_1576
+  - first:
+      213: 4697400632316259822
+    second: Stic Copper 13 fps_1577
+  - first:
+      213: 23510905855515157
+    second: Stic Copper 13 fps_1578
+  - first:
+      213: 380612047183258906
+    second: Stic Copper 13 fps_1579
+  - first:
+      213: -5271776421058934300
+    second: Stic Copper 13 fps_1580
+  - first:
+      213: 6756636346411452578
+    second: Stic Copper 13 fps_1581
+  - first:
+      213: 8860612228986430513
+    second: Stic Copper 13 fps_1582
+  - first:
+      213: 5641188919743884791
+    second: Stic Copper 13 fps_1583
+  - first:
+      213: 409334316028664420
+    second: Stic Copper 13 fps_1584
+  - first:
+      213: -2650303349432534729
+    second: Stic Copper 13 fps_1585
+  - first:
+      213: 2969171568701048615
+    second: Stic Copper 13 fps_1586
+  - first:
+      213: 1976008018073003279
+    second: Stic Copper 13 fps_1587
+  - first:
+      213: 203286777407911631
+    second: Stic Copper 13 fps_1588
+  - first:
+      213: 3274769632912322598
+    second: Stic Copper 13 fps_1589
+  - first:
+      213: -6949370233693922389
+    second: Stic Copper 13 fps_1590
+  - first:
+      213: 7394987296921288073
+    second: Stic Copper 13 fps_1591
+  - first:
+      213: 4517211477125240502
+    second: Stic Copper 13 fps_1592
+  - first:
+      213: -1654598710561565292
+    second: Stic Copper 13 fps_1593
+  - first:
+      213: -7025334171207518992
+    second: Stic Copper 13 fps_1594
+  - first:
+      213: 1907993266413317308
+    second: Stic Copper 13 fps_1595
+  - first:
+      213: 5152684711820925985
+    second: Stic Copper 13 fps_1596
+  - first:
+      213: -7404539231020039094
+    second: Stic Copper 13 fps_1597
+  - first:
+      213: 3331718392207408560
+    second: Stic Copper 13 fps_1598
+  - first:
+      213: -3965111066766395233
+    second: Stic Copper 13 fps_1599
+  - first:
+      213: 1483314055186726497
+    second: Stic Copper 13 fps_1600
+  - first:
+      213: -1296542535056560282
+    second: Stic Copper 13 fps_1601
+  - first:
+      213: -1433577991624736076
+    second: Stic Copper 13 fps_1602
+  - first:
+      213: -5458570747811592047
+    second: Stic Copper 13 fps_1603
+  - first:
+      213: -4792492572994633577
+    second: Stic Copper 13 fps_1604
+  - first:
+      213: -4757532342031634422
+    second: Stic Copper 13 fps_1605
+  - first:
+      213: -1027182112694903308
+    second: Stic Copper 13 fps_1606
+  - first:
+      213: 1349757438221373191
+    second: Stic Copper 13 fps_1607
+  - first:
+      213: 6920513105150140698
+    second: Stic Copper 13 fps_1608
+  - first:
+      213: 5665637730234273650
+    second: Stic Copper 13 fps_1609
+  - first:
+      213: -4459929847374547514
+    second: Stic Copper 13 fps_1610
+  - first:
+      213: 6030978477473199244
+    second: Stic Copper 13 fps_1611
+  - first:
+      213: -3150426740347559050
+    second: Stic Copper 13 fps_1612
+  - first:
+      213: -5987425661475030925
+    second: Stic Copper 13 fps_1613
+  - first:
+      213: -4577023913880721108
+    second: Stic Copper 13 fps_1614
+  - first:
+      213: -4414366243824171966
+    second: Stic Copper 13 fps_1615
+  - first:
+      213: 8421715712133291241
+    second: Stic Copper 13 fps_1616
+  - first:
+      213: -5898121941555705125
+    second: Stic Copper 13 fps_1617
+  - first:
+      213: -3165611142378782384
+    second: Stic Copper 13 fps_1618
+  - first:
+      213: 917700305753933942
+    second: Stic Copper 13 fps_1619
+  - first:
+      213: -1999199896628648184
+    second: Stic Copper 13 fps_1620
+  - first:
+      213: 1705653919343656461
+    second: Stic Copper 13 fps_1621
+  - first:
+      213: 2276368693302544914
+    second: Stic Copper 13 fps_1622
+  - first:
+      213: -6881800910240886808
+    second: Stic Copper 13 fps_1623
+  - first:
+      213: -7532239889310906995
+    second: Stic Copper 13 fps_1624
+  - first:
+      213: 3595742780727158061
+    second: Stic Copper 13 fps_1625
+  - first:
+      213: -7791868529911260333
+    second: Stic Copper 13 fps_1626
+  - first:
+      213: -2475287626370272206
+    second: Stic Copper 13 fps_1627
+  - first:
+      213: 2169736412413275764
+    second: Stic Copper 13 fps_1628
+  - first:
+      213: -5994327677259282284
+    second: Stic Copper 13 fps_1629
+  - first:
+      213: 304898654716470580
+    second: Stic Copper 13 fps_1630
+  - first:
+      213: 4342032087780681264
+    second: Stic Copper 13 fps_1631
+  - first:
+      213: 336320540829400024
+    second: Stic Copper 13 fps_1632
+  - first:
+      213: -2949606358358346286
+    second: Stic Copper 13 fps_1633
+  - first:
+      213: 7206906749417719808
+    second: Stic Copper 13 fps_1634
+  - first:
+      213: -854095084988530365
+    second: Stic Copper 13 fps_1635
+  - first:
+      213: -8652331340629872860
+    second: Stic Copper 13 fps_1636
+  - first:
+      213: 798984538191267287
+    second: Stic Copper 13 fps_1637
+  - first:
+      213: -4643749088685350744
+    second: Stic Copper 13 fps_1638
+  - first:
+      213: 1454623700216242566
+    second: Stic Copper 13 fps_1639
+  - first:
+      213: -7023580369193637316
+    second: Stic Copper 13 fps_1640
+  - first:
+      213: 7836950357834296907
+    second: Stic Copper 13 fps_1641
+  - first:
+      213: -701593256783399403
+    second: Stic Copper 13 fps_1642
+  - first:
+      213: 6480178026317267761
+    second: Stic Copper 13 fps_1643
+  - first:
+      213: -8317011068275914941
+    second: Stic Copper 13 fps_1644
+  - first:
+      213: 7844122685207132982
+    second: Stic Copper 13 fps_1645
+  - first:
+      213: 564062701250271357
+    second: Stic Copper 13 fps_1646
+  - first:
+      213: 7626713300901108187
+    second: Stic Copper 13 fps_1647
+  - first:
+      213: -3630956366462990833
+    second: Stic Copper 13 fps_1648
+  - first:
+      213: 7277801510955452939
+    second: Stic Copper 13 fps_1649
+  - first:
+      213: -4666806454580745675
+    second: Stic Copper 13 fps_1650
+  - first:
+      213: 3076882983496093540
+    second: Stic Copper 13 fps_1651
+  - first:
+      213: 2252789723802644616
+    second: Stic Copper 13 fps_1652
+  - first:
+      213: 699284728137396127
+    second: Stic Copper 13 fps_1653
+  - first:
+      213: 3939797077416125691
+    second: Stic Copper 13 fps_1654
+  - first:
+      213: 6174552186932213542
+    second: Stic Copper 13 fps_1655
+  - first:
+      213: -3160009102854100340
+    second: Stic Copper 13 fps_1656
+  - first:
+      213: 175704161835961398
+    second: Stic Copper 13 fps_1657
+  - first:
+      213: 1106594457444986905
+    second: Stic Copper 13 fps_1658
+  - first:
+      213: 1133236379592558695
+    second: Stic Copper 13 fps_1659
+  - first:
+      213: 3774366683498784110
+    second: Stic Copper 13 fps_1660
+  - first:
+      213: -7263391442696841213
+    second: Stic Copper 13 fps_1661
+  - first:
+      213: -2433522467640427034
+    second: Stic Copper 13 fps_1662
+  - first:
+      213: 5763023339223037208
+    second: Stic Copper 13 fps_1663
+  - first:
+      213: -6478869291008799649
+    second: Stic Copper 13 fps_1664
+  - first:
+      213: -5285333107122764226
+    second: Stic Copper 13 fps_1665
+  - first:
+      213: -8305489592960820942
+    second: Stic Copper 13 fps_1666
+  - first:
+      213: 2211631391333170589
+    second: Stic Copper 13 fps_1667
+  - first:
+      213: -3741150211016063690
+    second: Stic Copper 13 fps_1668
+  - first:
+      213: 4133357686906247965
+    second: Stic Copper 13 fps_1669
+  - first:
+      213: 3425946921078447640
+    second: Stic Copper 13 fps_1670
+  - first:
+      213: -8099328814521727086
+    second: Stic Copper 13 fps_1671
+  - first:
+      213: -5836839977160364472
+    second: Stic Copper 13 fps_1672
+  - first:
+      213: 2745200285267293412
+    second: Stic Copper 13 fps_1673
+  - first:
+      213: 403641036935598598
+    second: Stic Copper 13 fps_1674
+  - first:
+      213: 6177097123024982397
+    second: Stic Copper 13 fps_1675
+  - first:
+      213: -3698632235987012160
+    second: Stic Copper 13 fps_1676
+  - first:
+      213: -2921778321351643684
+    second: Stic Copper 13 fps_1677
+  - first:
+      213: 4506668217916917487
+    second: Stic Copper 13 fps_1678
+  - first:
+      213: 329887958043606739
+    second: Stic Copper 13 fps_1679
+  - first:
+      213: -4552546572223330480
+    second: Stic Copper 13 fps_1680
+  - first:
+      213: 740495176084935775
+    second: Stic Copper 13 fps_1681
+  - first:
+      213: -2440960930783870927
+    second: Stic Copper 13 fps_1682
+  - first:
+      213: 4360730935723988077
+    second: Stic Copper 13 fps_1683
+  - first:
+      213: -4783485751503553942
+    second: Stic Copper 13 fps_1684
+  - first:
+      213: -7809067998267324727
+    second: Stic Copper 13 fps_1685
+  - first:
+      213: -8306275367453222787
+    second: Stic Copper 13 fps_1686
+  - first:
+      213: -1069844600760894785
+    second: Stic Copper 13 fps_1687
+  - first:
+      213: -28605954140025905
+    second: Stic Copper 13 fps_1688
+  - first:
+      213: 4953119113672859091
+    second: Stic Copper 13 fps_1689
+  - first:
+      213: -4510506361030841756
+    second: Stic Copper 13 fps_1690
+  - first:
+      213: 1661887103228835270
+    second: Stic Copper 13 fps_1691
+  - first:
+      213: -5489652611973043746
+    second: Stic Copper 13 fps_1692
+  - first:
+      213: 8736561334895868950
+    second: Stic Copper 13 fps_1693
+  - first:
+      213: 3534258249644941830
+    second: Stic Copper 13 fps_1694
+  - first:
+      213: -7917521543887505506
+    second: Stic Copper 13 fps_1695
+  - first:
+      213: 5528043749237492257
+    second: Stic Copper 13 fps_1696
+  - first:
+      213: 4293192759483583308
+    second: Stic Copper 13 fps_1697
+  - first:
+      213: 8960765585947543554
+    second: Stic Copper 13 fps_1698
+  - first:
+      213: -6888907603431653217
+    second: Stic Copper 13 fps_1699
+  - first:
+      213: 4278990461299599844
+    second: Stic Copper 13 fps_1700
+  - first:
+      213: 3501556745007926848
+    second: Stic Copper 13 fps_1701
+  - first:
+      213: 1346723147609222684
+    second: Stic Copper 13 fps_1702
+  - first:
+      213: 7874169360751290336
+    second: Stic Copper 13 fps_1703
+  - first:
+      213: 3972673684017911033
+    second: Stic Copper 13 fps_1704
+  - first:
+      213: -624350773045195345
+    second: Stic Copper 13 fps_1705
+  - first:
+      213: -3918488898676862819
+    second: Stic Copper 13 fps_1706
+  - first:
+      213: -1508689269739495023
+    second: Stic Copper 13 fps_1707
+  - first:
+      213: 7378934957500060335
+    second: Stic Copper 13 fps_1708
+  - first:
+      213: 506350580465501765
+    second: Stic Copper 13 fps_1709
+  - first:
+      213: 5862517602279990961
+    second: Stic Copper 13 fps_1710
+  - first:
+      213: -139879564469622960
+    second: Stic Copper 13 fps_1711
+  - first:
+      213: -8832041350388046133
+    second: Stic Copper 13 fps_1712
+  - first:
+      213: -5521385457985276917
+    second: Stic Copper 13 fps_1713
+  - first:
+      213: -52698206681451216
+    second: Stic Copper 13 fps_1714
+  - first:
+      213: 8979624834745300000
+    second: Stic Copper 13 fps_1715
+  - first:
+      213: -5385138571618342260
+    second: Stic Copper 13 fps_1716
+  - first:
+      213: 3235674444481880645
+    second: Stic Copper 13 fps_1717
+  - first:
+      213: -4983058022748439711
+    second: Stic Copper 13 fps_1718
+  - first:
+      213: -2501686512912810982
+    second: Stic Copper 13 fps_1719
+  - first:
+      213: 4418888223325656485
+    second: Stic Copper 13 fps_1720
+  - first:
+      213: -134261347570391269
+    second: Stic Copper 13 fps_1721
+  - first:
+      213: -6344688540054868657
+    second: Stic Copper 13 fps_1722
+  - first:
+      213: 8344387325237848073
+    second: Stic Copper 13 fps_1723
+  - first:
+      213: -1508757528737156307
+    second: Stic Copper 13 fps_1724
+  - first:
+      213: -7836427468067968864
+    second: Stic Copper 13 fps_1725
+  - first:
+      213: -2102029189076077940
+    second: Stic Copper 13 fps_1726
+  - first:
+      213: -6123082233725490613
+    second: Stic Copper 13 fps_1727
+  - first:
+      213: -5972972241516259757
+    second: Stic Copper 13 fps_1728
+  - first:
+      213: -4775654965983365063
+    second: Stic Copper 13 fps_1729
+  - first:
+      213: -3545325792022426654
+    second: Stic Copper 13 fps_1730
+  - first:
+      213: -1740375729835033994
+    second: Stic Copper 13 fps_1731
+  - first:
+      213: 7540997760450214427
+    second: Stic Copper 13 fps_1732
+  - first:
+      213: -4404766490835763204
+    second: Stic Copper 13 fps_1733
+  - first:
+      213: 2132226502356119745
+    second: Stic Copper 13 fps_1734
+  - first:
+      213: -7942076605278011003
+    second: Stic Copper 13 fps_1735
+  - first:
+      213: 3885499639688157889
+    second: Stic Copper 13 fps_1736
+  - first:
+      213: -2868991230292665694
+    second: Stic Copper 13 fps_1737
+  - first:
+      213: 8177689289373147211
+    second: Stic Copper 13 fps_1738
+  - first:
+      213: -4036949144765800806
+    second: Stic Copper 13 fps_1739
+  - first:
+      213: -7463644135386246174
+    second: Stic Copper 13 fps_1740
+  - first:
+      213: -742371311715177980
+    second: Stic Copper 13 fps_1741
+  - first:
+      213: -4584564905646513098
+    second: Stic Copper 13 fps_1742
+  - first:
+      213: 3025783989555928124
+    second: Stic Copper 13 fps_1743
+  - first:
+      213: 8507739141118253162
+    second: Stic Copper 13 fps_1744
+  - first:
+      213: 4734256352211797295
+    second: Stic Copper 13 fps_1745
+  - first:
+      213: 8950019591128539110
+    second: Stic Copper 13 fps_1746
+  - first:
+      213: -4489604211503748432
+    second: Stic Copper 13 fps_1747
+  - first:
+      213: -448598655320481022
+    second: Stic Copper 13 fps_1748
+  - first:
+      213: -838770711090075079
+    second: Stic Copper 13 fps_1749
+  - first:
+      213: -1391961155338427500
+    second: Stic Copper 13 fps_1750
+  - first:
+      213: 5340494741141549319
+    second: Stic Copper 13 fps_1751
+  - first:
+      213: -48602120243085310
+    second: Stic Copper 13 fps_1752
+  - first:
+      213: 2643925443448097637
+    second: Stic Copper 13 fps_1753
+  - first:
+      213: -4395347803616594380
+    second: Stic Copper 13 fps_1754
+  - first:
+      213: -2314584393968610791
+    second: Stic Copper 13 fps_1755
+  - first:
+      213: 7464176430904163580
+    second: Stic Copper 13 fps_1756
+  - first:
+      213: -1158859167395510438
+    second: Stic Copper 13 fps_1757
+  - first:
+      213: -4167325190905142711
+    second: Stic Copper 13 fps_1758
+  - first:
+      213: 9157433819679966401
+    second: Stic Copper 13 fps_1759
+  - first:
+      213: 2073051009401862821
+    second: Stic Copper 13 fps_1760
+  - first:
+      213: 2881095625664190637
+    second: Stic Copper 13 fps_1761
+  - first:
+      213: -3557798791300793953
+    second: Stic Copper 13 fps_1762
+  - first:
+      213: 2039993304031465682
+    second: Stic Copper 13 fps_1763
+  - first:
+      213: 7987974082417374086
+    second: Stic Copper 13 fps_1764
+  - first:
+      213: 7278876195228972675
+    second: Stic Copper 13 fps_1765
+  - first:
+      213: 6639038083993082583
+    second: Stic Copper 13 fps_1766
+  - first:
+      213: 5711401393705765939
+    second: Stic Copper 13 fps_1767
+  - first:
+      213: -6011701383705617064
+    second: Stic Copper 13 fps_1768
+  - first:
+      213: 864879256366151952
+    second: Stic Copper 13 fps_1769
+  - first:
+      213: 3532029954497002297
+    second: Stic Copper 13 fps_1770
+  - first:
+      213: 7376607954730079878
+    second: Stic Copper 13 fps_1771
+  - first:
+      213: 7851861804840363639
+    second: Stic Copper 13 fps_1772
+  - first:
+      213: 8958923012313108987
+    second: Stic Copper 13 fps_1773
+  - first:
+      213: 1219055315627556445
+    second: Stic Copper 13 fps_1774
+  - first:
+      213: -6612337290967543508
+    second: Stic Copper 13 fps_1775
+  - first:
+      213: 8724684797708299993
+    second: Stic Copper 13 fps_1776
+  - first:
+      213: 3492962965966114847
+    second: Stic Copper 13 fps_1777
+  - first:
+      213: -1682419830960975057
+    second: Stic Copper 13 fps_1778
+  - first:
+      213: -3989872620315515760
+    second: Stic Copper 13 fps_1779
+  - first:
+      213: -450086291525051067
+    second: Stic Copper 13 fps_1780
+  - first:
+      213: -8308417090830111063
+    second: Stic Copper 13 fps_1781
+  - first:
+      213: 2747466133135478945
+    second: Stic Copper 13 fps_1782
+  - first:
+      213: 4830045703507940449
+    second: Stic Copper 13 fps_1783
+  - first:
+      213: -3066858220476614249
+    second: Stic Copper 13 fps_1784
+  - first:
+      213: -651672943769535533
+    second: Stic Copper 13 fps_1785
+  - first:
+      213: -3914262372975461319
+    second: Stic Copper 13 fps_1786
+  - first:
+      213: -7635582870985742466
+    second: Stic Copper 13 fps_1787
+  - first:
+      213: 5115461417107152713
+    second: Stic Copper 13 fps_1788
+  - first:
+      213: 3762299584702071193
+    second: Stic Copper 13 fps_1789
+  - first:
+      213: -4999236119720075611
+    second: Stic Copper 13 fps_1790
+  - first:
+      213: -834790392769723610
+    second: Stic Copper 13 fps_1791
+  - first:
+      213: -7870270582938397340
+    second: Stic Copper 13 fps_1792
+  - first:
+      213: 2764875260110143458
+    second: Stic Copper 13 fps_1793
+  - first:
+      213: 5006986438145803442
+    second: Stic Copper 13 fps_1794
+  - first:
+      213: 5970860205740380031
+    second: Stic Copper 13 fps_1795
+  - first:
+      213: -5013808512026255139
+    second: Stic Copper 13 fps_1796
+  - first:
+      213: 6144225919969541578
+    second: Stic Copper 13 fps_1797
+  - first:
+      213: -6238038570535765130
+    second: Stic Copper 13 fps_1798
+  - first:
+      213: 874447650134086254
+    second: Stic Copper 13 fps_1799
+  - first:
+      213: -76786541428503314
+    second: Stic Copper 13 fps_1800
+  - first:
+      213: 239114470247943290
+    second: Stic Copper 13 fps_1801
+  - first:
+      213: -2860601820642566638
+    second: Stic Copper 13 fps_1802
+  - first:
+      213: -5448826102951092835
+    second: Stic Copper 13 fps_1803
+  - first:
+      213: 6488820706783429547
+    second: Stic Copper 13 fps_1804
+  - first:
+      213: 4238287765869731693
+    second: Stic Copper 13 fps_1805
+  - first:
+      213: 7174161611334199362
+    second: Stic Copper 13 fps_1806
+  - first:
+      213: 4208045853933196079
+    second: Stic Copper 13 fps_1807
+  - first:
+      213: 8055506663320323574
+    second: Stic Copper 13 fps_1808
+  - first:
+      213: 7887987409854096853
+    second: Stic Copper 13 fps_1809
+  - first:
+      213: 8160149484145936884
+    second: Stic Copper 13 fps_1810
+  - first:
+      213: -1890884885410414236
+    second: Stic Copper 13 fps_1811
+  - first:
+      213: 5262764128552384912
+    second: Stic Copper 13 fps_1812
+  - first:
+      213: -1336448365912389896
+    second: Stic Copper 13 fps_1813
+  - first:
+      213: 8816413302468431396
+    second: Stic Copper 13 fps_1814
+  - first:
+      213: 970474638093556612
+    second: Stic Copper 13 fps_1815
+  - first:
+      213: -5088155237617783981
+    second: Stic Copper 13 fps_1816
+  - first:
+      213: 5526675148534865782
+    second: Stic Copper 13 fps_1817
+  - first:
+      213: 1469720166152386119
+    second: Stic Copper 13 fps_1818
+  - first:
+      213: -4952904559809240517
+    second: Stic Copper 13 fps_1819
+  - first:
+      213: 5188729756537668083
+    second: Stic Copper 13 fps_1820
+  - first:
+      213: -5155068622513175728
+    second: Stic Copper 13 fps_1821
+  - first:
+      213: -770178712788717883
+    second: Stic Copper 13 fps_1822
+  - first:
+      213: 4925614233517573552
+    second: Stic Copper 13 fps_1823
+  - first:
+      213: 6540971607351031387
+    second: Stic Copper 13 fps_1824
+  - first:
+      213: -8612544751823510312
+    second: Stic Copper 13 fps_1825
+  - first:
+      213: -116430324752663081
+    second: Stic Copper 13 fps_1826
+  - first:
+      213: -5799417322666026844
+    second: Stic Copper 13 fps_1827
+  - first:
+      213: 1472280645378445694
+    second: Stic Copper 13 fps_1828
+  - first:
+      213: -5207803718156713723
+    second: Stic Copper 13 fps_1829
+  - first:
+      213: 2292091658429967513
+    second: Stic Copper 13 fps_1830
+  - first:
+      213: 7326274585152170727
+    second: Stic Copper 13 fps_1831
+  - first:
+      213: 8999502738805652494
+    second: Stic Copper 13 fps_1832
+  - first:
+      213: -7986113129277810550
+    second: Stic Copper 13 fps_1833
+  - first:
+      213: -3360481348129636505
+    second: Stic Copper 13 fps_1834
+  - first:
+      213: -3806823821335556324
+    second: Stic Copper 13 fps_1835
+  - first:
+      213: -2852281326338916927
+    second: Stic Copper 13 fps_1836
+  - first:
+      213: 3871867601944645081
+    second: Stic Copper 13 fps_1837
+  - first:
+      213: 1865019811822570881
+    second: Stic Copper 13 fps_1838
+  - first:
+      213: 3554601083017519087
+    second: Stic Copper 13 fps_1839
+  - first:
+      213: -277247909670989798
+    second: Stic Copper 13 fps_1840
+  - first:
+      213: 1579976315846790090
+    second: Stic Copper 13 fps_1841
+  - first:
+      213: -1569962316478261002
+    second: Stic Copper 13 fps_1842
+  - first:
+      213: 1074038119905385389
+    second: Stic Copper 13 fps_1843
+  - first:
+      213: -9094327600940183605
+    second: Stic Copper 13 fps_1844
+  - first:
+      213: 1446605642702573784
+    second: Stic Copper 13 fps_1845
+  - first:
+      213: 3499556904635773755
+    second: Stic Copper 13 fps_1846
+  - first:
+      213: 1053661541574161662
+    second: Stic Copper 13 fps_1847
+  - first:
+      213: -2794142850684794952
+    second: Stic Copper 13 fps_1848
+  - first:
+      213: -738003424126910865
+    second: Stic Copper 13 fps_1849
+  - first:
+      213: -4369991837382302266
+    second: Stic Copper 13 fps_1850
+  - first:
+      213: -1575558758409038511
+    second: Stic Copper 13 fps_1851
+  - first:
+      213: 4530336959287989620
+    second: Stic Copper 13 fps_1852
+  - first:
+      213: 6875904543618731397
+    second: Stic Copper 13 fps_1853
+  - first:
+      213: -8448073487910762173
+    second: Stic Copper 13 fps_1854
+  - first:
+      213: -499324363320353308
+    second: Stic Copper 13 fps_1855
+  - first:
+      213: 1714052089617788102
+    second: Stic Copper 13 fps_1856
+  - first:
+      213: 8747610492283903969
+    second: Stic Copper 13 fps_1857
+  - first:
+      213: 4246856343781792648
+    second: Stic Copper 13 fps_1858
+  - first:
+      213: 5055522403474425078
+    second: Stic Copper 13 fps_1859
+  - first:
+      213: -301964188916950235
+    second: Stic Copper 13 fps_1860
+  - first:
+      213: 8353997943162518478
+    second: Stic Copper 13 fps_1861
+  - first:
+      213: -2256515953648645849
+    second: Stic Copper 13 fps_1862
+  - first:
+      213: 3574628870332224964
+    second: Stic Copper 13 fps_1863
+  - first:
+      213: -6901820007605471643
+    second: Stic Copper 13 fps_1864
+  - first:
+      213: -4090206298987254067
+    second: Stic Copper 13 fps_1865
+  - first:
+      213: 935940289177970221
+    second: Stic Copper 13 fps_1866
+  - first:
+      213: -9214289924705110755
+    second: Stic Copper 13 fps_1867
+  - first:
+      213: 4821295679577361263
+    second: Stic Copper 13 fps_1868
+  - first:
+      213: 7962185422517479515
+    second: Stic Copper 13 fps_1869
+  - first:
+      213: 5093177462219750369
+    second: Stic Copper 13 fps_1870
+  - first:
+      213: -2274441187711632827
+    second: Stic Copper 13 fps_1871
+  - first:
+      213: -4783096427485377790
+    second: Stic Copper 13 fps_1872
+  - first:
+      213: 1238246315134965670
+    second: Stic Copper 13 fps_1873
+  - first:
+      213: 312551194902348391
+    second: Stic Copper 13 fps_1874
+  - first:
+      213: 5517771287783123329
+    second: Stic Copper 13 fps_1875
+  - first:
+      213: 1779556171179444726
+    second: Stic Copper 13 fps_1876
+  - first:
+      213: -6276035018222070282
+    second: Stic Copper 13 fps_1877
+  - first:
+      213: -8349388396620971070
+    second: Stic Copper 13 fps_1878
+  - first:
+      213: 4316681173039571596
+    second: Stic Copper 13 fps_1879
+  - first:
+      213: -8645220156884079405
+    second: Stic Copper 13 fps_1880
+  - first:
+      213: -1352254346930105016
+    second: Stic Copper 13 fps_1881
+  - first:
+      213: 5880939492889711687
+    second: Stic Copper 13 fps_1882
+  - first:
+      213: -2759835509935289168
+    second: Stic Copper 13 fps_1883
+  - first:
+      213: -90498973616190080
+    second: Stic Copper 13 fps_1884
+  - first:
+      213: 5302338760904034851
+    second: Stic Copper 13 fps_1885
+  - first:
+      213: -5534168647289288015
+    second: Stic Copper 13 fps_1886
+  - first:
+      213: 4056976365838017573
+    second: Stic Copper 13 fps_1887
+  - first:
+      213: 3180862553489403860
+    second: Stic Copper 13 fps_1888
+  - first:
+      213: -730019086957785516
+    second: Stic Copper 13 fps_1889
+  - first:
+      213: 8796307966022271474
+    second: Stic Copper 13 fps_1890
+  - first:
+      213: 2364751340115389730
+    second: Stic Copper 13 fps_1891
+  - first:
+      213: -2363459611635987239
+    second: Stic Copper 13 fps_1892
+  - first:
+      213: -8352032693933046767
+    second: Stic Copper 13 fps_1893
+  - first:
+      213: 935402553774286995
+    second: Stic Copper 13 fps_1894
+  - first:
+      213: -361087464557957302
+    second: Stic Copper 13 fps_1895
+  - first:
+      213: 6407773745665995465
+    second: Stic Copper 13 fps_1896
+  - first:
+      213: -8312660326214624105
+    second: Stic Copper 13 fps_1897
+  - first:
+      213: 7798049471962988042
+    second: Stic Copper 13 fps_1898
+  - first:
+      213: -7842189155010035668
+    second: Stic Copper 13 fps_1899
+  - first:
+      213: -2505998612846960520
+    second: Stic Copper 13 fps_1900
+  - first:
+      213: 1172675608330155526
+    second: Stic Copper 13 fps_1901
+  - first:
+      213: -7453061758562792949
+    second: Stic Copper 13 fps_1902
+  - first:
+      213: -3455748153369797634
+    second: Stic Copper 13 fps_1903
+  - first:
+      213: 2774050202219314541
+    second: Stic Copper 13 fps_1904
+  - first:
+      213: 423216484804924620
+    second: Stic Copper 13 fps_1905
+  - first:
+      213: 2317796528760000770
+    second: Stic Copper 13 fps_1906
+  - first:
+      213: -4594227702077143964
+    second: Stic Copper 13 fps_1907
+  - first:
+      213: -529236771155503659
+    second: Stic Copper 13 fps_1908
+  - first:
+      213: -5677842938751863077
+    second: Stic Copper 13 fps_1909
+  - first:
+      213: 7221861025692762002
+    second: Stic Copper 13 fps_1910
+  - first:
+      213: 2763685034995526101
+    second: Stic Copper 13 fps_1911
+  - first:
+      213: 5084371922508600898
+    second: Stic Copper 13 fps_1912
+  - first:
+      213: 1625680232042472946
+    second: Stic Copper 13 fps_1913
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_0
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 3293
+        width: 262
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7792dcc84d01cb0800000000000000
+      internalID: -4895179093749172282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_1
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3325
+        width: 326
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05141c563555e1c0800000000000000
+      internalID: -4475076962761304819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_2
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 3381
+        width: 454
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e85b0b06acf2490800000000000000
+      internalID: -7768768315560456554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 2375
+        width: 454
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c746cacfe66841990800000000000000
+      internalID: -7416154875128683396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_4
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2301
+        width: 326
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158a8efb54c52b040800000000000000
+      internalID: 4661890018924079185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_5
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 2269
+        width: 262
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252e66748f48471a0800000000000000
+      internalID: -6812674134420037038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1305
+        width: 262
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20f252b075fdb720800000000000000
+      internalID: 2863714802454425643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_7
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1353
+        width: 326
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aade9260e9fa970800000000000000
+      internalID: 8768400748824078893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_8
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 1352
+        width: 326
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e909656eace2c6890800000000000000
+      internalID: -7463539033477050210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stic Copper 13 fps_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 273
+        width: 294
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43db52886ec83cde0800000000000000
+      internalID: -1314051744507511500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

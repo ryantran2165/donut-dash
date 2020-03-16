@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: 9b49874c8652dbe4cb539c0c84be9fe8
+guid: 5108f092b2e63c448be5a810335ace67
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5652767694072650404
-    second: Fat Copper 11 fps_0
+      213: -7452326639471160276
+    second: Thicccccccc Copper 8 fps_0
   - first:
-      213: -4068258826093422524
-    second: Fat Copper 11 fps_1
+      213: -6693987907290364369
+    second: Thicccccccc Copper 8 fps_1
   - first:
-      213: -1190954247250195310
-    second: Fat Copper 11 fps_2
+      213: -7682226919487694527
+    second: Thicccccccc Copper 8 fps_2
   - first:
-      213: 3992332928932675589
-    second: Fat Copper 11 fps_3
+      213: 635189441868887918
+    second: Thicccccccc Copper 8 fps_3
   - first:
-      213: 61091699260818148
-    second: Fat Copper 11 fps_4
+      213: 3091606745344942554
+    second: Thicccccccc Copper 8 fps_4
   - first:
-      213: -6845954016146135442
-    second: Fat Copper 11 fps_5
+      213: -4403494258507145035
+    second: Thicccccccc Copper 8 fps_5
   - first:
-      213: 3567007428140201607
-    second: Fat Copper 11 fps_6
+      213: -3251928322575140823
+    second: Thicccccccc Copper 8 fps_6
   - first:
-      213: -4938801289786507456
-    second: Fat Copper 11 fps_7
+      213: -5782455274119396126
+    second: Thicccccccc Copper 8 fps_7
   - first:
-      213: 2971814703971908768
-    second: Fat Copper 11 fps_8
+      213: 1046842335177642789
+    second: Thicccccccc Copper 8 fps_8
   - first:
-      213: -2583999033886006502
-    second: Fat Copper 11 fps_9
+      213: 1839038627904022672
+    second: Thicccccccc Copper 8 fps_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,160 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fat Copper 11 fps_0
+      name: Thicccccccc Copper 8 fps_0
       rect:
         serializedVersion: 2
-        x: 349
-        y: 3261
-        width: 294
-        height: 742
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4aa1103a44aa27e40800000000000000
-      internalID: 5652767694072650404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fat Copper 11 fps_1
-      rect:
-        serializedVersion: 2
-        x: 1341
-        y: 3293
-        width: 326
-        height: 742
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4489a58f624aa87c0800000000000000
-      internalID: -4068258826093422524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fat Copper 11 fps_2
-      rect:
-        serializedVersion: 2
-        x: 2301
-        y: 3325
-        width: 422
-        height: 742
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29cc8ec0c61e87fe0800000000000000
-      internalID: -1190954247250195310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fat Copper 11 fps_3
-      rect:
-        serializedVersion: 2
-        x: 253
-        y: 2301
-        width: 422
-        height: 742
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 500802685ad976730800000000000000
-      internalID: 3992332928932675589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fat Copper 11 fps_4
-      rect:
-        serializedVersion: 2
-        x: 1341
-        y: 2237
-        width: 326
-        height: 742
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e28a29a39a09d000800000000000000
-      internalID: 61091699260818148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fat Copper 11 fps_5
-      rect:
-        serializedVersion: 2
-        x: 2397
-        y: 2237
-        width: 294
-        height: 742
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6663fef7194ef0a0800000000000000
-      internalID: -6845954016146135442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fat Copper 11 fps_6
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 1261
-        width: 326
-        height: 742
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 786f9796b5e808130800000000000000
-      internalID: 3567007428140201607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fat Copper 11 fps_7
-      rect:
-        serializedVersion: 2
-        x: 1341
-        y: 1307
+        x: 317
+        y: 3250
         width: 390
-        height: 742
+        height: 774
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +130,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04fb802d46ad57bb0800000000000000
-      internalID: -4938801289786507456
+      spriteID: c241420d764049890800000000000000
+      internalID: -7452326639471160276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_8
+      name: Thicccccccc Copper 8 fps_1
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3275
+        width: 390
+        height: 774
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26823fe67d2a13a0800000000000000
+      internalID: -6693987907290364369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thicccccccc Copper 8 fps_2
       rect:
         serializedVersion: 2
         x: 2365
-        y: 1301
+        y: 3325
         width: 390
-        height: 742
+        height: 771
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ac37885ab10e3920800000000000000
-      internalID: 2971814703971908768
+      spriteID: 1491ef3a15f336590800000000000000
+      internalID: -7682226919487694527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_9
+      name: Thicccccccc Copper 8 fps_3
       rect:
         serializedVersion: 2
-        x: 305
-        y: 202
-        width: 338
-        height: 742
+        x: 317
+        y: 2269
+        width: 390
+        height: 774
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,8 +193,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a13a54db19ac32cd0800000000000000
-      internalID: -2583999033886006502
+      spriteID: e677ca79e65a0d800800000000000000
+      internalID: 635189441868887918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thicccccccc Copper 8 fps_4
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2217
+        width: 390
+        height: 774
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1ac7174f797ea20800000000000000
+      internalID: 3091606745344942554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thicccccccc Copper 8 fps_5
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 2223
+        width: 390
+        height: 774
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0a5377d45a3e2c0800000000000000
+      internalID: -4403494258507145035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thicccccccc Copper 8 fps_6
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1246
+        width: 390
+        height: 774
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92870e98b64ded2d0800000000000000
+      internalID: -3251928322575140823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thicccccccc Copper 8 fps_7
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1300
+        width: 390
+        height: 774
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e48780a09790cfa0800000000000000
+      internalID: -5782455274119396126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thicccccccc Copper 8 fps_8
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 1283
+        width: 390
+        height: 774
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5239a14be81278e00800000000000000
+      internalID: 1046842335177642789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thicccccccc Copper 8 fps_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 202
+        width: 390
+        height: 774
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098e07073e3958910800000000000000
+      internalID: 1839038627904022672
       vertices: []
       indices: 
       edges: []
