@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7406497105139192426}
   - component: {fileID: 7406497105139191189}
   m_Layer: 0
-  m_Name: FallingSpikeParticleSystem
+  m_Name: FallingObstacleParticleSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,7 +222,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.2901961, g: 0.20392159, b: 0, a: 1}
+      maxColor: {r: 0.37647063, g: 0.33333334, b: 0.33333334, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

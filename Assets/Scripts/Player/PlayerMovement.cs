@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed = 1000f;
     [SerializeField] private float maxSpeed = 10f;
     [SerializeField] private float jumpForce = 400f;
+    [SerializeField] private Camera camera;
     [SerializeField] private Transform groundTransform;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private AudioClip sticWalkSound;
@@ -21,9 +22,11 @@ public class PlayerMovement : MonoBehaviour
     private bool jump;
     private float horizontalMove;
     private Vector2 movement;
+    private float horzExtentHalf;
+    private const float LEFT_BOUNDARY_OFFSET = 0.5f;
 
-    private const float STIC_VOLUME = .5f;
-    private const float THIC_VOLUME = .5f;
+    private const float STIC_VOLUME = 0.5f;
+    private const float THIC_VOLUME = 0.5f;
     private const float THICC_VOLUME = 1f;
 
     // Start is called before the first frame update
@@ -33,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
         player = GetComponent<Player>();
         rigidBody = GetComponent<Rigidbody2D>();
         movement = new Vector2();
+        float vertExtentHalf = camera.orthographicSize;
+        horzExtentHalf = vertExtentHalf * Screen.width / Screen.height;
     }
 
     // Update is called once per frame
@@ -70,6 +75,12 @@ public class PlayerMovement : MonoBehaviour
             {
                 audioSource.PlayOneShot(thiccWalkSound, THICC_VOLUME);
             }
+        }
+
+        float leftEdge = camera.transform.position.x - horzExtentHalf;
+        if (player.transform.position.x < leftEdge + LEFT_BOUNDARY_OFFSET)
+        {
+            player.transform.position = new Vector3(leftEdge + LEFT_BOUNDARY_OFFSET, player.transform.position.y);
         }
     }
 

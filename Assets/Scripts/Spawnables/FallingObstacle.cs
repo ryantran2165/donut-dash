@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FallingSpike : MonoBehaviour
+public class FallingObstacle : MonoBehaviour
 {
     [SerializeField] private ParticleSystem destroyParticleSystem;
 

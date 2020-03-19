@@ -13,12 +13,13 @@ public class FoodManager : MonoBehaviour
     private GameObject[] foods;
 
     private float[] probabilities;
-    private const float DONUT_PROBABILITY = .8f;
-    private const float COFFEE_PROBABILITY = .2f;
+    private const float DONUT_PROBABILITY = 0.8f;
+    private const float COFFEE_PROBABILITY = 0.2f;
 
     private float horzExtentHalf;
     private float lastSpawnX;
     private float nextSpawnInterval;
+    private const float SPAWN_X_OFFSET = 1f;
     private const float MIN_SPAWN_INTERVAL = 5f;
     private const float MAX_SPAWN_INTERVAL = 10f;
     private const float MIN_FOOD_Y_GROUND = 2.5f;
@@ -50,10 +51,10 @@ public class FoodManager : MonoBehaviour
         if (rightEdge - lastSpawnX > nextSpawnInterval)
         {
             // +1 just so player can't see the spawning
-            float spawnX = rightEdge + 1f;
+            float spawnX = rightEdge + SPAWN_X_OFFSET;
             bool isOverPit = tilemap.GetTile(new Vector3Int((int) spawnX, 0, 0)) == null;
             float spawnY = Random.Range(isOverPit ? MIN_FOOD_Y_PIT : MIN_FOOD_Y_GROUND, MAX_FOOD_Y);
-            Instantiate(getRandomFood(), new Vector3(spawnX, spawnY, 0f), Quaternion.identity);
+            Instantiate(getRandomFood(), new Vector3(spawnX, spawnY), Quaternion.identity);
             lastSpawnX = spawnX;
             nextSpawnInterval = Random.Range(MIN_SPAWN_INTERVAL, MAX_SPAWN_INTERVAL);
         }

@@ -19,13 +19,14 @@ public class TilemapGenerator : MonoBehaviour
     private int nextX = 40;
     private int previousType = TYPE_NORMAL;
     private Vector2[] probabilities;
-    private const float NORMAL_PROBABILITY = .7f;
-    private const float PIT_PROBABILITY = .3f;
+    private const float NORMAL_PROBABILITY = 0.7f;
+    private const float PIT_PROBABILITY = 0.3f;
 
     private const int GENERATE_BUFFER = 10;
     private const int TYPE_NORMAL = 0;
     private const int TYPE_PIT = 1;
-    private const float ROAD_Y = .9f;
+    private const float ROAD_Y = 0.9f;
+    private const float SPIKE_Y = -1.7f;
 
     private const int MIN_NORMAL_LENGTH = 2;
     private const int MAX_NORMAL_LENGTH = 5;
@@ -119,14 +120,14 @@ public class TilemapGenerator : MonoBehaviour
 
         // Add 4 new points before the last point
         edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX, ROAD_Y));
-        edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX, -1.7f));
-        edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX + length, -1.7f));
+        edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX, SPIKE_Y));
+        edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX + length, SPIKE_Y));
         edgeColliderPoints.Insert(edgeColliderPoints.Count - 1, new Vector2(nextX + length, ROAD_Y));
 
         // Add collision
         BoxCollider2D boxCollider = spikeCollider.GetComponent<BoxCollider2D>();
         boxCollider.size = new Vector2(length, 1f);
-        Instantiate(spikeCollider, new Vector3(nextX + length / 2f, -1f, 0), Quaternion.identity);
+        Instantiate(spikeCollider, new Vector3(nextX + length / 2f, -1f), Quaternion.identity);
 
         // Advance next spawn x by pit length
         nextX += length;

@@ -26,7 +26,7 @@ public class FallingSpikeManager : MonoBehaviour
         if (timer < 0 && player != null)
         {
             float randX = player.transform.position.x + Random.Range(-SPAWN_RANGE, SPAWN_RANGE);
-            Instantiate(fallingSpike, new Vector3(randX, SPAWN_HEIGHT, 0), Quaternion.identity);
+            Instantiate(fallingSpike, new Vector3(randX, SPAWN_HEIGHT), Quaternion.identity);
             setRandomTimer();
         }
     }

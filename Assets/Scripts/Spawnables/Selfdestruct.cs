@@ -5,25 +5,27 @@ using UnityEngine;
 public class Selfdestruct : MonoBehaviour
 {
     private Camera camera;
-    private float colliderRightEdge;
     private float horzExtentHalf;
+    private SpriteRenderer renderer;
+    private BoxCollider2D collider;
 
     // Start is called before the first frame update
     void Start()
     {
         camera = Camera.main;
-        BoxCollider2D collider = GetComponent<BoxCollider2D>();
-        colliderRightEdge = collider.bounds.max.x;
+        renderer = GetComponent<SpriteRenderer>();
+        collider = GetComponent<BoxCollider2D>();
         horzExtentHalf = camera.orthographicSize * Screen.width / Screen.height;
     }
 
     // Update is called once per frame
     void Update()
     {
+        float rightEdge = renderer != null ? renderer.bounds.max.x : collider.bounds.max.x;
         float cameraLeftEdge = camera.transform.position.x - horzExtentHalf;
 
-        // Destroy spike collider when out of screen
-        if (colliderRightEdge < cameraLeftEdge)
+        // Destroy when out of screen
+        if (rightEdge < cameraLeftEdge)
         {
             Destroy(gameObject);
         }
