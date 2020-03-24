@@ -171,3 +171,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyParticleSystem: {fileID: 7406497105139192426, guid: 75adccc0909f7854983d498d520289aa,
     type: 3}
+  crashSound: {fileID: 3444220539518907414, guid: 91cd5ecc61d84c14f9b69c625e84b884,
+    type: 3}

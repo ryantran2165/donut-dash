@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     private const float STIC_VOLUME = 0.5f;
     private const float THIC_VOLUME = 0.5f;
-    private const float THICC_VOLUME = 1f;
+    private const float THICC_VOLUME = 0.5f;
 
     // Start is called before the first frame update
     void Start()

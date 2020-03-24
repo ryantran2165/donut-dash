@@ -5,6 +5,9 @@ using UnityEngine.Tilemaps;
 
 public class TilemapGenerator : MonoBehaviour
 {
+    [SerializeField] private Tile sidewalkTile;
+    [SerializeField] private Tile brokenLeftTile;
+    [SerializeField] private Tile brokenRightTile;
     [SerializeField] private Tile roadTile;
     [SerializeField] private Tile dirtTile;
     [SerializeField] private Tile spikeTile;
@@ -94,9 +97,17 @@ public class TilemapGenerator : MonoBehaviour
         // 3-high normal, road on top followed by 2 dirts
         for (int i = 0; i < length; i++)
         {
+            tilemap.SetTile(new Vector3Int(nextX + i, 1, 0), sidewalkTile);
             tilemap.SetTile(new Vector3Int(nextX + i, 0, 0), roadTile);
             tilemap.SetTile(new Vector3Int(nextX + i, -1, 0), dirtTile);
             tilemap.SetTile(new Vector3Int(nextX + i, -2, 0), dirtTile);
+        }
+
+        // Break sidewalk if previous was pit
+        if (previousType == TYPE_PIT)
+        {
+            tilemap.SetTile(new Vector3Int(nextX, 0, 0), brokenRightTile);
+            tilemap.SetTile(new Vector3Int(nextX, 1, 0), null);
         }
 
         // Modify end point
@@ -113,6 +124,8 @@ public class TilemapGenerator : MonoBehaviour
         int length = Random.Range(MIN_PIT_LENGTH, MAX_PIT_LENGTH + 1);
 
         // Set spike pit tiles
+        tilemap.SetTile(new Vector3Int(nextX - 1, 1, 0), null);
+        tilemap.SetTile(new Vector3Int(nextX - 1, 0, 0), brokenLeftTile);
         for (int i = 0; i < length; i++)
         {
             tilemap.SetTile(new Vector3Int(nextX + i, -2, 0), spikeTile);

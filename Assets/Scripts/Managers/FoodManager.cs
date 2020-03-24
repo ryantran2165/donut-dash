@@ -19,7 +19,7 @@ public class FoodManager : MonoBehaviour
     private float horzExtentHalf;
     private float lastSpawnX;
     private float nextSpawnInterval;
-    private const float SPAWN_X_OFFSET = 1f;
+    private float foodWidth;
     private const float MIN_SPAWN_INTERVAL = 5f;
     private const float MAX_SPAWN_INTERVAL = 10f;
     private const float MIN_FOOD_Y_GROUND = 2.5f;
@@ -41,6 +41,8 @@ public class FoodManager : MonoBehaviour
         probabilities = new float[2];
         probabilities[0] = DONUT_PROBABILITY;
         probabilities[1] = COFFEE_PROBABILITY;
+
+        foodWidth = Mathf.Max(donut.GetComponent<SpriteRenderer>().bounds.size.x, coffee.GetComponent<SpriteRenderer>().bounds.size.x);
     }
 
     // Update is called once per frame
@@ -51,7 +53,7 @@ public class FoodManager : MonoBehaviour
         if (rightEdge - lastSpawnX > nextSpawnInterval)
         {
             // +1 just so player can't see the spawning
-            float spawnX = rightEdge + SPAWN_X_OFFSET;
+            float spawnX = rightEdge + foodWidth;
             bool isOverPit = tilemap.GetTile(new Vector3Int((int) spawnX, 0, 0)) == null;
             float spawnY = Random.Range(isOverPit ? MIN_FOOD_Y_PIT : MIN_FOOD_Y_GROUND, MAX_FOOD_Y);
             Instantiate(getRandomFood(), new Vector3(spawnX, spawnY), Quaternion.identity);

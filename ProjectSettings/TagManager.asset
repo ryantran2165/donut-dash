@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Spike
   - Ground
+  - Layer 1
+  - Layer 2
+  - Layer 3
+  - Layer 4
+  - Layer 5
   layers:
   - Default
   - TransparentFX
