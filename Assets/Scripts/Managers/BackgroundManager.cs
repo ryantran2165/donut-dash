@@ -5,7 +5,7 @@ using UnityEngine;
 public class BackgroundManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> repeatingObjects;
-    [SerializeField] private List<GameObject> spawnableObjects;
+    [SerializeField] private List<ProbabilityObject> spawnableObjects;
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject player;
 
@@ -19,12 +19,12 @@ public class BackgroundManager : MonoBehaviour
     private List<Rigidbody2D> rigidBodies;
     private float lastSpawnX;
     private float nextSpawnInterval;
-    private const float MIN_SPAWN_INTERVAL = 6f;
-    private const float MAX_SPAWN_INTERVAL = 10f;
+    private float lastLightX;
+    private const float MIN_LIGHT_INTERVAL = 5f;
 
-    private const float LAYER_1_SPEED = 0.9f;
-    private const float LAYER_2_SPEED = 0.7f;
-    private const float LAYER_3_SPEED = 0.5f;
+    private const float LAYER_1_SPEED = 0.7f;
+    private const float LAYER_2_SPEED = 0.5f;
+    private const float LAYER_3_SPEED = 0.25f;
     private const float LAYER_4_SPEED = 0.0f;
     private const float LAYER_5_SPEED = 0.0f;
 
@@ -68,13 +68,26 @@ public class BackgroundManager : MonoBehaviour
         // Spawnable objects
         if (cameraRightEdge - lastSpawnX > nextSpawnInterval)
         {
-            GameObject spawnedObject = Instantiate(spawnableObjects[Random.Range(0, spawnableObjects.Count)]);
-            float width = spawnedObject.GetComponent<SpriteRenderer>().bounds.size.x;
-            float spawnX = cameraRightEdge + width / 2;
-            spawnedObject.transform.position = new Vector3(spawnX, spawnedObject.transform.position.y);
-            rigidBodies.Add(spawnedObject.GetComponent<Rigidbody2D>());
-            lastSpawnX = spawnX;
-            nextSpawnInterval = width + Random.Range(MIN_SPAWN_INTERVAL, MAX_SPAWN_INTERVAL);
+            GameObject toSpawnObject = ProbabilityObject.getRandom(spawnableObjects);
+
+            // Make sure lights don't spawn too close to each other
+            bool isLight = toSpawnObject.transform.childCount > 0 ? toSpawnObject.transform.GetChild(0).CompareTag("Light") : false;
+
+            if (!isLight || cameraRightEdge - lastLightX > MIN_LIGHT_INTERVAL)
+            {
+                GameObject spawnedObject = Instantiate(toSpawnObject);
+                float width = spawnedObject.GetComponent<SpriteRenderer>().bounds.size.x;
+                float spawnX = cameraRightEdge + width / 2;
+                spawnedObject.transform.position = new Vector3(spawnX, spawnedObject.transform.position.y);
+                rigidBodies.Add(spawnedObject.GetComponent<Rigidbody2D>());
+                lastSpawnX = spawnX;
+                nextSpawnInterval = width / 2;
+
+                if (isLight)
+                {
+                    lastLightX = spawnX;
+                }
+            }
         }
 
         // Repat repeating objects

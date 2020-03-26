@@ -107,7 +107,6 @@ public class TilemapGenerator : MonoBehaviour
         if (previousType == TYPE_PIT)
         {
             tilemap.SetTile(new Vector3Int(nextX, 0, 0), brokenRightTile);
-            tilemap.SetTile(new Vector3Int(nextX, 1, 0), null);
         }
 
         // Modify end point
@@ -124,7 +123,6 @@ public class TilemapGenerator : MonoBehaviour
         int length = Random.Range(MIN_PIT_LENGTH, MAX_PIT_LENGTH + 1);
 
         // Set spike pit tiles
-        tilemap.SetTile(new Vector3Int(nextX - 1, 1, 0), null);
         tilemap.SetTile(new Vector3Int(nextX - 1, 0, 0), brokenLeftTile);
         for (int i = 0; i < length; i++)
         {

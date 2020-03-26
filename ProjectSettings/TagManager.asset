@@ -11,6 +11,7 @@ TagManager:
   - Layer 3
   - Layer 4
   - Layer 5
+  - Light
   layers:
   - Default
   - TransparentFX

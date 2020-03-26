@@ -3734,8 +3734,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sidewalkTile: {fileID: 11400000, guid: bad6e4baf77d5de4a84e1f1132db7109, type: 2}
-  brokenLeftTile: {fileID: 11400000, guid: 76ebec13c74c71f499e09a32b4543503, type: 2}
-  brokenRightTile: {fileID: 11400000, guid: c39f5d54944d3c6468d7ae44d56922ac, type: 2}
+  brokenLeftTile: {fileID: 11400000, guid: 1771296518c384c44a99eea8a180d0c8, type: 2}
+  brokenRightTile: {fileID: 11400000, guid: 4d34ffc907a12c243b2ee8a093d56628, type: 2}
   roadTile: {fileID: 11400000, guid: 63015c3774e43d74fa08d6da381cea2e, type: 2}
   dirtTile: {fileID: 11400000, guid: 8d5234ab33e4a2046a3f8e60f6f29a19, type: 2}
   spikeTile: {fileID: 11400000, guid: e9dae3cc1eb466149ae88edcaefe58da, type: 2}
@@ -4121,8 +4121,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6dfa169a084b8c44aca8172808e15e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  donut: {fileID: 732530592916638017, guid: 6c078cbaec6c1c4468654475eee26b1a, type: 3}
-  coffee: {fileID: 732530592916638017, guid: f04c53aa03da82e4fb7e6b6d8a247804, type: 3}
+  foodObjects:
+  - gameObject: {fileID: 732530592916638017, guid: 6c078cbaec6c1c4468654475eee26b1a,
+      type: 3}
+    probability: 0.8
+  - gameObject: {fileID: 732530592916638017, guid: f04c53aa03da82e4fb7e6b6d8a247804,
+      type: 3}
+    probability: 0.2
   tilemap: {fileID: 1512278116}
   camera: {fileID: 519420031}
 --- !u!4 &2062535550
@@ -4196,22 +4201,56 @@ MonoBehaviour:
   - {fileID: 1130853162}
   - {fileID: 527650601}
   spawnableObjects:
-  - {fileID: 1598146836575359802, guid: 3cbccd2cf37d2ce43b21b478cd89e2a8, type: 3}
-  - {fileID: 547099600989636857, guid: 6763f4296371cc4489dc7841d2df919b, type: 3}
-  - {fileID: 547099600989636857, guid: c503adf7e29de264393646248a120ada, type: 3}
-  - {fileID: 547099600989636857, guid: 3ce40a9ffd73c524990b1c7f6a890435, type: 3}
-  - {fileID: 547099600989636857, guid: a7ffd16a28d59864dab8013ba940917a, type: 3}
-  - {fileID: 547099600989636857, guid: 8d037d4e1f7315a4cbe5918df612027f, type: 3}
-  - {fileID: 547099600989636857, guid: 0b2ffb5d23aa4cd4fa52aa5001b6b1bd, type: 3}
-  - {fileID: 547099600989636857, guid: 4c65c37e6a29f8e49a9c30c4a695437e, type: 3}
-  - {fileID: 547099600989636857, guid: e07aa628f0d4d5f4da33d1d0f18b716e, type: 3}
-  - {fileID: 547099600989636857, guid: aa0d4b0d7d990b24fba0b160d81388d0, type: 3}
-  - {fileID: 547099600989636857, guid: 7a77780b5b396a640b4d4a60c627af95, type: 3}
-  - {fileID: 547099600989636857, guid: 5115a553b442e6341a0c3398f5a7ef6c, type: 3}
-  - {fileID: 547099600989636857, guid: 04028c31cca84fd4dbb0396547e98b76, type: 3}
-  - {fileID: 547099600989636857, guid: b508e4ce9b119134b89a729a1e3a72cb, type: 3}
-  - {fileID: 547099600989636857, guid: 63001c3635303104f9c9abb50706e9d1, type: 3}
-  - {fileID: 547099600989636857, guid: 86ee6c3a7e96daf4cad269cfb2531b37, type: 3}
-  - {fileID: 547099600989636857, guid: 5b50b333505e34144b75b02e56f34e92, type: 3}
+  - gameObject: {fileID: 130432166928774849, guid: 98074f4f805978444af1e5efd9a31794,
+      type: 3}
+    probability: 0.4
+  - gameObject: {fileID: 547099600989636857, guid: 4c65c37e6a29f8e49a9c30c4a695437e,
+      type: 3}
+    probability: 0.1
+  - gameObject: {fileID: 547099600989636857, guid: e07aa628f0d4d5f4da33d1d0f18b716e,
+      type: 3}
+    probability: 0.1
+  - gameObject: {fileID: 547099600989636857, guid: 5115a553b442e6341a0c3398f5a7ef6c,
+      type: 3}
+    probability: 0.1
+  - gameObject: {fileID: 547099600989636857, guid: 04028c31cca84fd4dbb0396547e98b76,
+      type: 3}
+    probability: 0.1
+  - gameObject: {fileID: 1598146836575359802, guid: 3cbccd2cf37d2ce43b21b478cd89e2a8,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: 6763f4296371cc4489dc7841d2df919b,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: c503adf7e29de264393646248a120ada,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: 3ce40a9ffd73c524990b1c7f6a890435,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: a7ffd16a28d59864dab8013ba940917a,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: 8d037d4e1f7315a4cbe5918df612027f,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: 0b2ffb5d23aa4cd4fa52aa5001b6b1bd,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: aa0d4b0d7d990b24fba0b160d81388d0,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: 7a77780b5b396a640b4d4a60c627af95,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: b508e4ce9b119134b89a729a1e3a72cb,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: 63001c3635303104f9c9abb50706e9d1,
+      type: 3}
+    probability: 0.02
+  - gameObject: {fileID: 547099600989636857, guid: 5b50b333505e34144b75b02e56f34e92,
+      type: 3}
+    probability: 0.02
   camera: {fileID: 519420031}
   player: {fileID: 1027881007}
