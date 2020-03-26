@@ -20,7 +20,7 @@ public class BackgroundManager : MonoBehaviour
     private float lastSpawnX;
     private float nextSpawnInterval;
     private float lastLightX;
-    private const float MIN_LIGHT_INTERVAL = 5f;
+    private const float MIN_LIGHT_INTERVAL = 15f;
 
     private const float LAYER_1_SPEED = 0.7f;
     private const float LAYER_2_SPEED = 0.5f;
