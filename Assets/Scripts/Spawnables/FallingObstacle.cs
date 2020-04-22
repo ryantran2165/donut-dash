@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FallingObstacle : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem destroyParticleSystem;
-    [SerializeField] private GameObject crashSound;
+    [SerializeField] private ParticleSystem particleSystem;
+    [SerializeField] private GameObject collisionSound;
 
     private const float MIN_GRAVITY = 0.75f;
     private const float MAX_GRAVITY = 1.75f;
@@ -27,8 +27,8 @@ public class FallingObstacle : MonoBehaviour
     {
         if (collision.CompareTag("Player") || collision.CompareTag("Ground"))
         {
-            Instantiate(destroyParticleSystem, transform.position, Quaternion.identity);
-            Instantiate(crashSound, transform.position, Quaternion.identity);
+            Instantiate(particleSystem, transform.position, Quaternion.identity);
+            Instantiate(collisionSound, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

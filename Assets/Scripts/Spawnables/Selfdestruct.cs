@@ -4,30 +4,52 @@ using UnityEngine;
 
 public class Selfdestruct : MonoBehaviour
 {
-    private Camera camera;
-    private float horzExtentHalf;
+    [SerializeField] private int mode;
+
     private SpriteRenderer renderer;
     private BoxCollider2D collider;
+    private const float OFFSET = 5f;
+
+    private const int LEFT_ONLY_MODE = 0;
+    private const int RIGHT_ONLY_MODE = 1;
+    private const int BOTH_MODE = 2;
 
     // Start is called before the first frame update
     void Start()
     {
-        camera = Camera.main;
         renderer = GetComponent<SpriteRenderer>();
         collider = GetComponent<BoxCollider2D>();
-        horzExtentHalf = camera.orthographicSize * Screen.width / Screen.height;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float rightEdge = renderer != null ? renderer.bounds.max.x : collider.bounds.max.x;
-        float cameraLeftEdge = camera.transform.position.x - horzExtentHalf;
+        float rendererLeftEdge = renderer != null ? renderer.bounds.min.x : collider.bounds.min.x;
+        float rendererRightEdge = renderer != null ? renderer.bounds.max.x : collider.bounds.max.x;
 
         // Destroy when out of screen
-        if (rightEdge < cameraLeftEdge)
+        switch (mode)
         {
-            Destroy(gameObject);
+            case LEFT_ONLY_MODE:
+                if (rendererRightEdge < ScreenUtility.getLeftEdge() - OFFSET)
+                {
+                    Destroy(gameObject);
+                }
+                break;
+            case RIGHT_ONLY_MODE:
+                if (rendererLeftEdge > ScreenUtility.getRightEdge() + OFFSET)
+                {
+                    Destroy(gameObject);
+                }
+                break;
+            case BOTH_MODE:
+                if ((rendererLeftEdge > ScreenUtility.getRightEdge() + OFFSET) ||
+                    (rendererRightEdge < ScreenUtility.getLeftEdge() - OFFSET))
+                {
+                    Destroy(gameObject);
+                }
+                break;
         }
+        
     }
 }

@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class BackgroundManager : MonoBehaviour
 {
+    [SerializeField] private List<GameObject> oneTimeObjects;
     [SerializeField] private List<GameObject> repeatingObjects;
     [SerializeField] private List<ProbabilityObject> spawnableObjects;
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject player;
 
-    private float horzExtentHalf;
     private GameObject[] curRepeatingObjects;
     private SpriteRenderer[] curRepeatingRenderers;
     private SpriteRenderer[] repeatingRenderers;
@@ -31,14 +31,19 @@ public class BackgroundManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        horzExtentHalf = camera.orthographicSize * Screen.width / Screen.height;
-
         int repeating = repeatingObjects.Count;
         curRepeatingObjects = new GameObject[repeating / 2];
         curRepeatingRenderers = new SpriteRenderer[repeating / 2];
         repeatingRenderers = new SpriteRenderer[repeating];
         rigidBodies = new List<Rigidbody2D>();
 
+        // Add one time object rigid bodies
+        foreach (GameObject oneTimeObject in oneTimeObjects)
+        {
+            rigidBodies.Add(oneTimeObject.GetComponent<Rigidbody2D>());
+        }
+
+        // Setup for repeating objects
         for (int i = 0; i < repeating; i++)
         {
             GameObject repeatingObject = repeatingObjects[i];
@@ -55,15 +60,14 @@ public class BackgroundManager : MonoBehaviour
 
         playerRigidBody = player.GetComponent<Rigidbody2D>();
         
-        lastSpawnX = Random.Range(0f, horzExtentHalf);
-        nextSpawnInterval = horzExtentHalf * 2f;
+        lastSpawnX = Random.Range(0f, ScreenUtility.HORZ_EXT_HALF);
+        nextSpawnInterval = ScreenUtility.HORZ_EXT_HALF * 2f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float cameraLeftEdge = camera.transform.position.x - horzExtentHalf;
-        float cameraRightEdge = camera.transform.position.x + horzExtentHalf;
+        float cameraRightEdge = ScreenUtility.getRightEdge();
 
         // Spawnable objects
         if (cameraRightEdge - lastSpawnX > nextSpawnInterval)
@@ -90,7 +94,8 @@ public class BackgroundManager : MonoBehaviour
             }
         }
 
-        // Repat repeating objects
+        // Repeat repeating objects
+        float cameraLeftEdge = ScreenUtility.getLeftEdge();
         for (int i = 0; i < curRepeatingObjects.Length; i++)
         {
             GameObject curRepeatingObject = curRepeatingObjects[i];
@@ -120,6 +125,7 @@ public class BackgroundManager : MonoBehaviour
             }
         }
 
+        // Move the rigid bodies according to their speed
         for (int i = 0; i < rigidBodies.Count; i++)
         {
             // Don't move backgrounds if game over, player moving backwards, or player is behind camera

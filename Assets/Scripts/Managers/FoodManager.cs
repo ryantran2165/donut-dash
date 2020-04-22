@@ -7,9 +7,7 @@ public class FoodManager : MonoBehaviour
 {
     [SerializeField] private List<ProbabilityObject> foodObjects;
     [SerializeField] private Tilemap tilemap;
-    [SerializeField] private Camera camera;
 
-    private float horzExtentHalf;
     private float lastSpawnX;
     private float nextSpawnInterval;
     private float foodWidth;
@@ -22,10 +20,8 @@ public class FoodManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float vertExtentHalf = camera.orthographicSize;
-        horzExtentHalf = vertExtentHalf * Screen.width / Screen.height;
-        lastSpawnX = Random.Range(0f, horzExtentHalf);
-        nextSpawnInterval = horzExtentHalf * 2f;
+        lastSpawnX = Random.Range(0f, ScreenUtility.HORZ_EXT_HALF);
+        nextSpawnInterval = ScreenUtility.HORZ_EXT_HALF * 2f;
 
         for (int i = 0; i < foodObjects.Count; i++)
         {
@@ -38,7 +34,8 @@ public class FoodManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float rightEdge = camera.transform.position.x + horzExtentHalf;
+        //float rightEdge = camera.transform.position.x + horzExtentHalf;
+        float rightEdge = ScreenUtility.getRightEdge();
 
         if (rightEdge - lastSpawnX > nextSpawnInterval)
         {

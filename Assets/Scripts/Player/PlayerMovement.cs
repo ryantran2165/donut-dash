@@ -109,8 +109,8 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = flippedScale;
         }
 
-        // Jump
-        if (isGrounded && jump)
+        // Jump, velocity < 1f to make sure no double jump
+        if (isGrounded && jump && rigidBody.velocity.y < 1f)
         {
             isGrounded = false;
             rigidBody.AddForce(Vector2.up * jumpForce);

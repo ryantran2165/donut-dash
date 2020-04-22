@@ -16,7 +16,7 @@ public class FallingSpikeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        setRandomTimer();
+        timer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
     }
 
     // Update is called once per frame
@@ -27,12 +27,7 @@ public class FallingSpikeManager : MonoBehaviour
         {
             float randX = player.transform.position.x + Random.Range(-SPAWN_RANGE, SPAWN_RANGE);
             Instantiate(fallingSpike, new Vector3(randX, SPAWN_HEIGHT), Quaternion.identity);
-            setRandomTimer();
+            timer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
         }
-    }
-
-    private void setRandomTimer()
-    {
-        timer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
     }
 }
