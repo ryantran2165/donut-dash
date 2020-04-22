@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 7406497105139192426, guid: 61fca62108c492d4d9587d91f82cf12c,
     type: 3}
-  collisionSound: {fileID: 3444220539518907414, guid: 91cd5ecc61d84c14f9b69c625e84b884,
+  collisionSound: {fileID: 3444220539518907414, guid: 9d60daf6d030d7647bfa2f70fa5d4ba2,
     type: 3}
 --- !u!61 &4049613062039955922
 BoxCollider2D:

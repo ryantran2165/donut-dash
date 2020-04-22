@@ -80,12 +80,12 @@ public class BackgroundManager : MonoBehaviour
             if (!isLight || cameraRightEdge - lastLightX > MIN_LIGHT_INTERVAL)
             {
                 GameObject spawnedObject = Instantiate(toSpawnObject);
-                float width = spawnedObject.GetComponent<SpriteRenderer>().bounds.size.x;
-                float spawnX = cameraRightEdge + width / 2;
+                SpriteRenderer renderer = spawnedObject.GetComponent<SpriteRenderer>();
+                float spawnX = ScreenUtility.getXRightOffscreen(renderer);
                 spawnedObject.transform.position = new Vector3(spawnX, spawnedObject.transform.position.y);
                 rigidBodies.Add(spawnedObject.GetComponent<Rigidbody2D>());
                 lastSpawnX = spawnX;
-                nextSpawnInterval = width / 2;
+                nextSpawnInterval = renderer.bounds.size.x / 2;
 
                 if (isLight)
                 {

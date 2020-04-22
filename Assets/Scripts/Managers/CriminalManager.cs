@@ -8,9 +8,9 @@ public class CriminalManager : MonoBehaviour
     [SerializeField] private GameObject criminal;
     [SerializeField] private Tilemap tilemap;
 
+    private SpriteRenderer renderer;
     private float lastSpawnX;
     private float nextSpawnInterval;
-    private float criminalWidth;
     private const float MIN_SPAWN_INTERVAL = 10f;
     private const float MAX_SPAWN_INTERVAL = 30f;
     private const float SPAWN_Y = 3f;
@@ -20,7 +20,7 @@ public class CriminalManager : MonoBehaviour
     {
         lastSpawnX = Random.Range(0f, ScreenUtility.HORZ_EXT_HALF);
         nextSpawnInterval = ScreenUtility.HORZ_EXT_HALF * 2f;
-        criminalWidth = criminal.GetComponent<SpriteRenderer>().bounds.size.x;
+        renderer = criminal.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -30,7 +30,7 @@ public class CriminalManager : MonoBehaviour
 
         if (rightEdge - lastSpawnX > nextSpawnInterval)
         {
-            float spawnX = rightEdge + criminalWidth;
+            float spawnX = ScreenUtility.getXRightOffscreen(renderer);
 
             // Make sure not spawning criminal in pit
             if (tilemap.GetTile(new Vector3Int((int) spawnX, 0, 0)) != null)

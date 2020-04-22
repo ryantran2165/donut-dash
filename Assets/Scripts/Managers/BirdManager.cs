@@ -6,8 +6,8 @@ public class BirdManager : MonoBehaviour
 {
     [SerializeField] private GameObject bird;
 
+    private SpriteRenderer renderer;
     private float timer;
-    private float birdWidth;
     private const float MIN_SPAWN_TIME = 10f;
     private const float MAX_SPAWN_TIME = 15f;
     private const float MIN_SPAWN_Y = 12f;
@@ -18,7 +18,7 @@ public class BirdManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        birdWidth = bird.GetComponent<SpriteRenderer>().bounds.size.x;
+        renderer = bird.GetComponent<SpriteRenderer>();
         timer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
     }
 
@@ -33,7 +33,7 @@ public class BirdManager : MonoBehaviour
         {
             // Get bird properties
             int birdDirection = Random.Range(0, 2);
-            float spawnX = birdDirection == 0 ? ScreenUtility.getRightEdge() + birdWidth / 2f : ScreenUtility.getLeftEdge() - birdWidth / 2f;
+            float spawnX = birdDirection == 0 ? ScreenUtility.getXRightOffscreen(renderer) : ScreenUtility.getXLeftOffscreen(renderer);
             float spawnY = Random.Range(MIN_SPAWN_Y, MAX_SPAWN_Y);
 
             // Create bird

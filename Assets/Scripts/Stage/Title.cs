@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Title : MonoBehaviour
 {
-    [SerializeField] List<GameObject> toActivate;
+    [SerializeField] private List<GameObject> toActivate;
     [SerializeField] private RuntimeAnimatorController transitionAnimation;
 
     private Animator animator;
