@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DonutDash.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: b7925f18f32008a4d9fac0375eacbe59
   m_configObjects: {}

@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MyGameManager : MonoBehaviour
 {
+    private bool ingame;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +18,19 @@ public class MyGameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.Quit();
+            if (ingame) // Pressed escape from ingame, back to main menu
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+            else // Pressed escape from main menu, exit game
+            {
+                Application.Quit();
+            }
         }
+    }
+
+    public void setIngame(bool ingame)
+    {
+        this.ingame = ingame;
     }
 }

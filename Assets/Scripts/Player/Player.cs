@@ -13,6 +13,9 @@ public class Player : MonoBehaviour
     [SerializeField] private RuntimeAnimatorController sticController;
     [SerializeField] private RuntimeAnimatorController thicController;
     [SerializeField] private RuntimeAnimatorController thiccController;
+    [SerializeField] private Sprite sticSprite;
+    [SerializeField] private Sprite thicSprite;
+    [SerializeField] private Sprite thiccSprite;
     [SerializeField] private AudioSource bgm;
     [SerializeField] private GameObject deathSound;
 
@@ -21,11 +24,13 @@ public class Player : MonoBehaviour
     private PlayerMovement playerMovement;
 
     // Animation
+    private SpriteRenderer renderer;
     private Animator animator;
     public const int THIC_THRESHOLD = 1000;
     public const int THICC_THRESHOLD = 3000;
 
     // Score
+    private int totalScore;
     private int scoreByFood;
     private int scoreByDistance;
     private float maxX;
@@ -37,14 +42,15 @@ public class Player : MonoBehaviour
     private const float JUMP_FORCE_PER_THICC = 0.03f;
     private const float DISTANCE_PER_SCORE = 1f;
     private const int THICC_PER_LETTER = 1000;
-
     private const float PITCH_PER_THICC = 0.0001f;
+    private const float IDLE_VEL_THRESHOLD = 0.1f;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
         playerMovement = GetComponent<PlayerMovement>();
+        renderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
     }
 
@@ -52,6 +58,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         updateScore();
+        checkIdle();
     }
 
     public int getThiccLevel()
@@ -131,18 +138,55 @@ public class Player : MonoBehaviour
         {
             maxX = transform.position.x;
             scoreByDistance = (int) (maxX * DISTANCE_PER_SCORE);
-            int totalScore = scoreByDistance + scoreByFood;
+            totalScore = scoreByDistance + scoreByFood;
             scoreText.text = totalScore.ToString();
+        }
+    }
+
+    private void checkIdle()
+    {
+        bool isIdle = Mathf.Abs(rigidBody.velocity.x) < IDLE_VEL_THRESHOLD;
+
+        if (isIdle && animator.enabled) // Set to idle
+        {
+            animator.enabled = false;
+
+            if (thiccLevel < THIC_THRESHOLD) // Stic
+            {
+                renderer.sprite = sticSprite;
+            }
+            else if (thiccLevel < THICC_THRESHOLD) // Thic
+            {
+                renderer.sprite = thicSprite;
+            }
+            else // Thicc+
+            {
+                renderer.sprite = thiccSprite;
+            }
+        }
+        else if (!isIdle && !animator.enabled) // Set to moving
+        {
+            animator.enabled = true;
+            // Animator is already updated by updateAnimation()
         }
     }
 
     public void setGameOver()
     {
+        int highscore = updateHighScore();
         gameOver.SetActive(true);
-        gameOverText.text = "Game Over!\nScore: " + scoreText.text + "\nYou were " + thiccText.text + "!\nPress 'R' to replay!";
+        gameOverText.text = "Game Over!\nHighscore: " + highscore + "\nScore: " + scoreText.text + "\nYou were " + thiccText.text + "!\nPress 'R' to replay!";
         Instantiate(deathParticleSystem, transform.position, Quaternion.identity);
         Instantiate(deathSound, transform.position, Quaternion.identity);
         Destroy(gameObject);
+    }
+
+    private int updateHighScore()
+    {
+        int highscore = PlayerPrefs.HasKey("highscore") ? Mathf.Max(PlayerPrefs.GetInt("highscore"), totalScore) : totalScore;
+        PlayerPrefs.SetInt("highscore", highscore);
+        PlayerPrefs.Save();
+        return highscore;
     }
 
 }

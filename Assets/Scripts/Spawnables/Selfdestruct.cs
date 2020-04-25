@@ -13,6 +13,7 @@ public class Selfdestruct : MonoBehaviour
     private const int LEFT_ONLY_MODE = 0;
     private const int RIGHT_ONLY_MODE = 1;
     private const int BOTH_MODE = 2;
+    private const int CREDITS_MODE = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +46,18 @@ public class Selfdestruct : MonoBehaviour
             case BOTH_MODE:
                 if ((rendererLeftEdge > ScreenUtility.getRightEdge() + OFFSET) ||
                     (rendererRightEdge < ScreenUtility.getLeftEdge() - OFFSET))
+                {
+                    Destroy(gameObject);
+                }
+                break;
+            case CREDITS_MODE:
+                float rendererDownEdge = renderer.bounds.min.y;
+                float rendererUpEdge = renderer.bounds.max.y;
+
+                if ((rendererLeftEdge > ScreenUtility.getRightEdge() + OFFSET) ||
+                    (rendererRightEdge < ScreenUtility.getLeftEdge() - OFFSET) ||
+                    (rendererDownEdge > ScreenUtility.getUpEdge() + OFFSET) ||
+                    (rendererUpEdge < ScreenUtility.getDownEdge() - OFFSET))
                 {
                     Destroy(gameObject);
                 }

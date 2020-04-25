@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Title : MonoBehaviour
 {
     [SerializeField] private List<GameObject> toActivate;
+    [SerializeField] private List<GameObject> toDeActivate;
     [SerializeField] private RuntimeAnimatorController transitionAnimation;
+    [SerializeField] private MyGameManager gameManager;
 
     private Animator animator;
     private bool inTransition;
@@ -34,11 +37,28 @@ public class Title : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Change title animation to the transition
-        if (Input.GetKeyDown(KeyCode.Space) && !inTransition)
+        if (!inTransition)
         {
-            animator.runtimeAnimatorController = transitionAnimation;
-            inTransition = true;
+            // Change title animation to the transition
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                // Set flag for ingame
+                gameManager.setIngame(true);
+
+                // Deactivate
+                foreach (GameObject toDeActivateObject in toDeActivate)
+                {
+                    toDeActivateObject.SetActive(false);
+                }
+
+                // Change to transition animation
+                animator.runtimeAnimatorController = transitionAnimation;
+                inTransition = true;
+            }
+            else if (Input.GetKeyDown(KeyCode.C)) // Change to credits scene
+            {
+                SceneManager.LoadScene("CreditScene");
+            }
         }
     }
 
