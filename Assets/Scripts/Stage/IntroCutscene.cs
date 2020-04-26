@@ -8,16 +8,13 @@ public class IntroCutscene : MonoBehaviour
     [SerializeField] private GameObject donutShop;
     [SerializeField] private PlayerMovement playerMovement;
 
-    private const float Y_POS = 6.7f;
-
     // Start is called before the first frame update
     void Start()
     {
         SpriteRenderer renderer = GetComponent<SpriteRenderer>();
-        float x = ScreenUtility.getRightEdge() - renderer.bounds.size.x / 2f;
-        transform.position = new Vector3(x, Y_POS);
+        transform.position = new Vector3(ScreenUtility.getXRightOnscreen(renderer), transform.position.y);
 
-        // Set static background donut shop's position to animation's
+        // Set static background donut shop's position to the same as animation's
         donutShop.transform.position = transform.position;
     }
 

@@ -1982,8 +1982,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260606896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0, y: 8.5, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -2001,10 +2001,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toActivate:
-  - {fileID: 1027881007}
+  - {fileID: 1771339839}
   - {fileID: 601933421}
   - {fileID: 1363959924}
-  - {fileID: 1771339839}
   - {fileID: 643164853}
   - {fileID: 1377322868}
   donutShop: {fileID: 1377322868}
@@ -2255,8 +2254,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377322868}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0, y: 8.5, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 2117314028}
   m_RootOrder: 7
@@ -4604,6 +4603,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7cefe081996f041b049a410897d7a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toActivate:
+  - {fileID: 1771339839}
+  - {fileID: 601933421}
+  - {fileID: 1363959924}
+  - {fileID: 643164853}
+  - {fileID: 1377322868}
+  toDeActivate:
+  - {fileID: 216757014}
+  - {fileID: 981367631}
+  donutShop: {fileID: 1377322868}
+  playerMovement: {fileID: 1027881013}
 --- !u!4 &1521398076
 Transform:
   m_ObjectHideFlags: 0

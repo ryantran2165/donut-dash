@@ -16,6 +16,7 @@ public class GameOver : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
+            MyGameManager.skipCutscene = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
