@@ -59,6 +59,11 @@ public class MyGameManager : MonoBehaviour
                 Application.Quit();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            MySceneManager.LoadScene("BossFight");
+        }
     }
 
     public void setIngame(bool ingame)
