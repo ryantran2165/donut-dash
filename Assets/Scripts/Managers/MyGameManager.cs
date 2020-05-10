@@ -62,7 +62,8 @@ public class MyGameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.B))
         {
-            MySceneManager.LoadScene("BossFight");
+            DonutDashSingleton.setActive(false);
+            SceneManager.LoadScene("BossFight", LoadSceneMode.Additive);
         }
     }
 
@@ -70,4 +71,5 @@ public class MyGameManager : MonoBehaviour
     {
         this.ingame = ingame;
     }
+
 }

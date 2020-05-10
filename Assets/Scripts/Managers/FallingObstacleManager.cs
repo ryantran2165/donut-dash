@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FallingSpikeManager : MonoBehaviour
+public class FallingObstacleManager : MonoBehaviour
 {
-    [SerializeField] private GameObject fallingSpike;
+    [SerializeField] private GameObject fallingObstacle;
     [SerializeField] private GameObject player;
+    [SerializeField] private Transform parent;
 
     private float timer;
     private const float MIN_SPAWN_TIME = 1f;
@@ -26,7 +27,7 @@ public class FallingSpikeManager : MonoBehaviour
         if (timer < 0 && player != null)
         {
             float randX = player.transform.position.x + Random.Range(-SPAWN_RANGE, SPAWN_RANGE);
-            Instantiate(fallingSpike, new Vector3(randX, SPAWN_HEIGHT), Quaternion.identity);
+            Instantiate(fallingObstacle, new Vector3(randX, SPAWN_HEIGHT), Quaternion.identity, parent);
             timer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
         }
     }

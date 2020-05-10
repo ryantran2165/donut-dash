@@ -12,6 +12,8 @@ TagManager:
   - Layer 4
   - Layer 5
   - Light
+  - FlamingDonut
+  - RegularDonut
   layers:
   - Default
   - TransparentFX

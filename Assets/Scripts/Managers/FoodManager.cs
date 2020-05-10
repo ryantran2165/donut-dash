@@ -7,6 +7,7 @@ public class FoodManager : MonoBehaviour
 {
     [SerializeField] private List<ProbabilityObject> foodObjects;
     [SerializeField] private Tilemap tilemap;
+    [SerializeField] private Transform parent;
 
     private float lastSpawnX;
     private float nextSpawnInterval;
@@ -36,7 +37,7 @@ public class FoodManager : MonoBehaviour
             float spawnX = ScreenUtility.getXRightOffscreen(renderer);
             bool isOverPit = tilemap.GetTile(new Vector3Int((int) spawnX, 0, 0)) == null;
             float spawnY = Random.Range(isOverPit ? MIN_FOOD_Y_PIT : MIN_FOOD_Y_GROUND, MAX_FOOD_Y);
-            Instantiate(randomFood, new Vector3(spawnX, spawnY), Quaternion.identity);
+            Instantiate(randomFood, new Vector3(spawnX, spawnY), Quaternion.identity, parent);
             lastSpawnX = spawnX;
             nextSpawnInterval = Random.Range(MIN_SPAWN_INTERVAL, MAX_SPAWN_INTERVAL);
         }

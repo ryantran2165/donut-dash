@@ -12,12 +12,19 @@ public class Bird : MonoBehaviour
     private const float MIN_SPAWN_TIME = .5f;
     private const float MAX_SPAWN_TIME = 1.5f;
 
-    // Start is called before the first frame update
-    void Start()
+    private Vector2 savedVelocity = new Vector2();
+
+    void Awake()
     {
         birdRigidBody = GetComponent<Rigidbody2D>();
         birdWidth = GetComponent<SpriteRenderer>().bounds.size.x;
         timer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
+    }
+
+    void OnEnable()
+    {
+        // Coming back from boss fight, bird loses its velocity, so have to set again
+        birdRigidBody.velocity = savedVelocity;
     }
 
     // Update is called once per frame
@@ -45,5 +52,11 @@ public class Bird : MonoBehaviour
             // Reset timer
             timer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
         }
+    }
+
+    public void saveVelocity()
+    {
+        // Save velocity for when leaving main DonutDas scene
+        savedVelocity = birdRigidBody.velocity;
     }
 }

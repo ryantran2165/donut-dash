@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 2083051260938698064}
   - component: {fileID: -7688416782515420572}
   m_Layer: 0
-  m_Name: BossFightFlamingDonut
-  m_TagString: FlamingDonut
+  m_Name: BossFightRegularDonut
+  m_TagString: RegularDonut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8891333241819262814, guid: 69426d65fbfd4d545bad8ef79b4b5e2b,
+  m_Sprite: {fileID: -7794089555839914965, guid: 779c24dd571b9de45aa011e1fb5d398a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -96,7 +96,7 @@ Animator:
   m_GameObject: {fileID: 732530592916638017}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fd4d8a337d61042409f57ca760e3f42a, type: 2}
+  m_Controller: {fileID: 9100000, guid: b03ef005013e2ae4891586802eb0a05e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -152,16 +152,16 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.96438223}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.44, y: 6.72}
+    oldSize: {x: 4.8299994, y: 4.8299994}
     newSize: {x: 4.8299994, y: 4.8299994}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.44, y: 4.791236}
+  m_Size: {x: 4.8299994, y: 4.8299994}
   m_EdgeRadius: 0

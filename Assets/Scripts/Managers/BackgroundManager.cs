@@ -9,6 +9,7 @@ public class BackgroundManager : MonoBehaviour
     [SerializeField] private List<ProbabilityObject> spawnableObjects;
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject player;
+    [SerializeField] private Transform parent;
 
     private GameObject[] curRepeatingObjects;
     private SpriteRenderer[] curRepeatingRenderers;
@@ -79,7 +80,7 @@ public class BackgroundManager : MonoBehaviour
 
             if (!isLight || cameraRightEdge - lastLightX > MIN_LIGHT_INTERVAL)
             {
-                GameObject spawnedObject = Instantiate(toSpawnObject);
+                GameObject spawnedObject = Instantiate(toSpawnObject, parent);
                 SpriteRenderer renderer = spawnedObject.GetComponent<SpriteRenderer>();
                 float spawnX = ScreenUtility.getXRightOffscreen(renderer);
                 spawnedObject.transform.position = new Vector3(spawnX, spawnedObject.transform.position.y);

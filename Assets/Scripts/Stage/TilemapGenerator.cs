@@ -13,6 +13,7 @@ public class TilemapGenerator : MonoBehaviour
     [SerializeField] private Tile spikeTile;
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject spikeCollider;
+    [SerializeField] private Transform parent;
 
     private Tilemap tilemap;
     private EdgeCollider2D edgeCollider;
@@ -138,7 +139,7 @@ public class TilemapGenerator : MonoBehaviour
         // Add collision
         BoxCollider2D boxCollider = spikeCollider.GetComponent<BoxCollider2D>();
         boxCollider.size = new Vector2(length, 1f);
-        Instantiate(spikeCollider, new Vector3(nextX + length / 2f, -1f), Quaternion.identity);
+        Instantiate(spikeCollider, new Vector3(nextX + length / 2f, -1f), Quaternion.identity, parent);
 
         // Advance next spawn x by pit length
         nextX += length;

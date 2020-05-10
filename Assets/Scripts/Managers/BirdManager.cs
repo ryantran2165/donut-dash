@@ -5,6 +5,7 @@ using UnityEngine;
 public class BirdManager : MonoBehaviour
 {
     [SerializeField] private GameObject bird;
+    [SerializeField] private Transform parent;
 
     private SpriteRenderer renderer;
     private float timer;
@@ -37,7 +38,7 @@ public class BirdManager : MonoBehaviour
             float spawnY = Random.Range(MIN_SPAWN_Y, MAX_SPAWN_Y);
 
             // Create bird
-            GameObject birdObject = Instantiate(bird, new Vector3(spawnX, spawnY), Quaternion.identity);
+            GameObject birdObject = Instantiate(bird, new Vector3(spawnX, spawnY), Quaternion.identity, parent);
 
             // Flip x scale if flying right
             if (birdDirection == 1)
@@ -49,6 +50,9 @@ public class BirdManager : MonoBehaviour
             float randVel = Random.Range(MIN_VEL, MAX_VEL);
             Rigidbody2D rigidbody = birdObject.GetComponent<Rigidbody2D>();
             rigidbody.velocity = new Vector2(-randVel * birdObject.transform.localScale.x, 0);
+
+            // Save the velocity for when leaving main DonutDash scene
+            birdObject.GetComponent<Bird>().saveVelocity();
 
             // Reset timer
             timer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);

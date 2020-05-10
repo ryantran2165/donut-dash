@@ -6,6 +6,11 @@ public class BossFightVillian : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject flamingDonut;
+    [SerializeField] private GameObject regularDonut;
+    [SerializeField] private Transform parent;
+    [SerializeField] private GameObject flamingDonutSound;
+    [SerializeField] private GameObject regularDonutSound;
+    [SerializeField] private Camera camera;
 
     private Rigidbody2D rigidbody;
     private SpriteRenderer renderer;
@@ -25,19 +30,21 @@ public class BossFightVillian : MonoBehaviour
     private const float MIN_TIME_BETWEEN_SHOTS = 0.25f;
     private const float MAX_TIME_BETWEEN_SHOTS = 1f;
 
+    private const float REGULAR_DONUT_PROBABILITY = 0.1f;
+
     // Start is called before the first frame update
     void Start()
     {
         // Set villian position
         renderer = GetComponent<SpriteRenderer>();
-        float villianX = ScreenUtility.getXRightOnscreen(renderer) - DIST_FROM_SCREEN;
+        float villianX = ScreenUtility.getXRightOnscreen(renderer, camera) - DIST_FROM_SCREEN;
         transform.position = new Vector3(villianX, 0);
 
         rigidbody = GetComponent<Rigidbody2D>();
         movement = new Vector2();
 
-        minPos = new Vector3(villianX, ScreenUtility.getYDownOnscreen(renderer));
-        maxPos = new Vector3(villianX, ScreenUtility.getYUpOnscreen(renderer));
+        minPos = new Vector3(villianX, ScreenUtility.getYDownOnscreen(renderer, camera));
+        maxPos = new Vector3(villianX, ScreenUtility.getYUpOnscreen(renderer, camera));
     }
 
     void Update()
@@ -62,11 +69,24 @@ public class BossFightVillian : MonoBehaviour
             // Reset timer
             timer = Random.Range(MIN_TIME_BETWEEN_SHOTS, MAX_TIME_BETWEEN_SHOTS);
 
-            // Spawn donut
-            GameObject flamingDonutObject = Instantiate(flamingDonut, new Vector3(renderer.bounds.min.x, transform.position.y), Quaternion.identity);
+            // Spawn donut and create sound
+            GameObject donut;
+            if (Random.Range(0f, 1f) < REGULAR_DONUT_PROBABILITY)
+            {
+                // Regular
+                donut = Instantiate(regularDonut, new Vector3(renderer.bounds.min.x, transform.position.y), Quaternion.identity, parent);
+                Instantiate(regularDonutSound, transform.position, Quaternion.identity);
+            }
+            else
+            {
+                // Flaming
+                donut = Instantiate(flamingDonut, new Vector3(renderer.bounds.min.x, transform.position.y), Quaternion.identity, parent);
+                Instantiate(flamingDonutSound, transform.position, Quaternion.identity);
+            }
+            
 
             // Set donut velocity
-            Rigidbody2D donutRigidBody = flamingDonutObject.GetComponent<Rigidbody2D>();
+            Rigidbody2D donutRigidBody = donut.GetComponent<Rigidbody2D>();
             donutRigidBody.velocity = donutVelocity;
         }
     }
