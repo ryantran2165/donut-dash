@@ -9,6 +9,7 @@ public class BossFightBackgroundManager : MonoBehaviour
     [SerializeField] private List<int> speeds;
     [SerializeField] private GameObject tilemapObject1;
     [SerializeField] private GameObject tilemapObject2;
+    [SerializeField] private Camera camera;
 
     private GameObject[] curRepeatingObjects;
     private SpriteRenderer[] curRepeatingRenderers;
@@ -25,7 +26,7 @@ public class BossFightBackgroundManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cameraLeftEdge = ScreenUtility.getLeftEdge();
+        cameraLeftEdge = ScreenUtility.getLeftEdge(camera);
 
         int repeating = repeatingObjects.Count;
         curRepeatingObjects = new GameObject[repeating / 2];

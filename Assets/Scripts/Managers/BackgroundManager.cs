@@ -61,14 +61,14 @@ public class BackgroundManager : MonoBehaviour
 
         playerRigidBody = player.GetComponent<Rigidbody2D>();
         
-        lastSpawnX = Random.Range(0f, ScreenUtility.HORZ_EXT_HALF);
-        nextSpawnInterval = ScreenUtility.HORZ_EXT_HALF * 2f;
+        lastSpawnX = Random.Range(0f, ScreenUtility.getHorzExtHalf(camera));
+        nextSpawnInterval = ScreenUtility.getHorzExtHalf(camera) * 2f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float cameraRightEdge = ScreenUtility.getRightEdge();
+        float cameraRightEdge = ScreenUtility.getRightEdge(camera);
 
         // Spawnable objects
         if (cameraRightEdge - lastSpawnX > nextSpawnInterval)
@@ -82,7 +82,7 @@ public class BackgroundManager : MonoBehaviour
             {
                 GameObject spawnedObject = Instantiate(toSpawnObject, parent);
                 SpriteRenderer renderer = spawnedObject.GetComponent<SpriteRenderer>();
-                float spawnX = ScreenUtility.getXRightOffscreen(renderer);
+                float spawnX = ScreenUtility.getXRightOffscreen(renderer, camera);
                 spawnedObject.transform.position = new Vector3(spawnX, spawnedObject.transform.position.y);
                 rigidBodies.Add(spawnedObject.GetComponent<Rigidbody2D>());
                 lastSpawnX = spawnX;
@@ -96,7 +96,7 @@ public class BackgroundManager : MonoBehaviour
         }
 
         // Repeat repeating objects
-        float cameraLeftEdge = ScreenUtility.getLeftEdge();
+        float cameraLeftEdge = ScreenUtility.getLeftEdge(camera);
         for (int i = 0; i < curRepeatingObjects.Length; i++)
         {
             GameObject curRepeatingObject = curRepeatingObjects[i];

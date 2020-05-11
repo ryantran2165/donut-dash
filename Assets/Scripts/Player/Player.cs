@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private Text thiccText;
-    [SerializeField] private Text scoreText;
+    [SerializeField] private GameObject thiccTextObject;
+    [SerializeField] private GameObject scoreTextObject;
     [SerializeField] private GameObject gameOver;
     [SerializeField] private Text gameOverText;
     [SerializeField] private ParticleSystem deathParticleSystem;
@@ -19,6 +19,10 @@ public class Player : MonoBehaviour
     [SerializeField] private AudioSource bgm;
     [SerializeField] private GameObject deathSound;
     [SerializeField] private GameObject villian;
+    [SerializeField] private Camera camera;
+
+    private Text thiccText;
+    private Text scoreText;
 
     private int thiccLevel;
     private Rigidbody2D rigidBody;
@@ -51,6 +55,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        thiccText = thiccTextObject.GetComponent<Text>();
+        scoreText = scoreTextObject.GetComponent<Text>();
         rigidBody = GetComponent<Rigidbody2D>();
         playerMovement = GetComponent<PlayerMovement>();
         renderer = GetComponent<SpriteRenderer>();
@@ -127,8 +133,9 @@ public class Player : MonoBehaviour
                 isVillianSpawned = true;
 
                 // Spawn the villian
-                float spawnX = ScreenUtility.getXLeftOffscreen(villian.GetComponent<SpriteRenderer>());
-                Instantiate(villian, new Vector3(spawnX, villian.transform.position.y), Quaternion.identity);
+                float spawnX = ScreenUtility.getXRightOffscreen(villian.GetComponent<SpriteRenderer>(), camera);
+                villian.transform.position = new Vector3(spawnX, villian.transform.position.y);
+                villian.SetActive(true);
             }
         }
     }
@@ -186,11 +193,24 @@ public class Player : MonoBehaviour
 
     public void setGameOver()
     {
+        // Deactivate score and thicc text
+        scoreTextObject.SetActive(false);
+        thiccTextObject.SetActive(false);
+
+        // Update high score
         int highscore = updateHighScore();
+
+        // Set GameOver object active
         gameOver.SetActive(true);
+
+        // Update GameOver text
         gameOverText.text = "Game Over!\nHighscore: " + highscore + "\nScore: " + scoreText.text + "\nYou were " + thiccText.text + "!\nPress 'R' to replay!";
+
+        // Create death particle system and sound
         Instantiate(deathParticleSystem, transform.position, Quaternion.identity);
         Instantiate(deathSound, transform.position, Quaternion.identity);
+
+        // Destroy the player
         Destroy(gameObject);
     }
 

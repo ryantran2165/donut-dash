@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CreditsManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> randomObjects;
+    [SerializeField] private Camera camera;
 
     private float timer;
 
@@ -45,13 +46,13 @@ public class CreditsManager : MonoBehaviour
             float x, y;
             if (Random.Range(0 ,2) == 0) // Spawn left/right
             {
-                x = Random.Range(0, 2) == 0 ? ScreenUtility.getXLeftOffscreen(renderer) : ScreenUtility.getXRightOffscreen(renderer);
-                y = Random.Range(ScreenUtility.getYDownOffscreen(renderer), ScreenUtility.getYUpOffscreen(renderer));
+                x = Random.Range(0, 2) == 0 ? ScreenUtility.getXLeftOffscreen(renderer, camera) : ScreenUtility.getXRightOffscreen(renderer, camera);
+                y = Random.Range(ScreenUtility.getYDownOffscreen(renderer, camera), ScreenUtility.getYUpOffscreen(renderer, camera));
             }
             else // Spawn up/down
             {
-                x = Random.Range(ScreenUtility.getXLeftOffscreen(renderer), ScreenUtility.getXRightOffscreen(renderer));
-                y = Random.Range(0, 2) == 0 ? ScreenUtility.getYDownOffscreen(renderer) : ScreenUtility.getYUpOffscreen(renderer);
+                x = Random.Range(ScreenUtility.getXLeftOffscreen(renderer, camera), ScreenUtility.getXRightOffscreen(renderer, camera));
+                y = Random.Range(0, 2) == 0 ? ScreenUtility.getYDownOffscreen(renderer, camera) : ScreenUtility.getYUpOffscreen(renderer, camera);
             }            
 
             // Spawn random object
@@ -61,8 +62,8 @@ public class CreditsManager : MonoBehaviour
             Rigidbody2D rigidbody = spawnedObject.GetComponent<Rigidbody2D>();
             float speedX = Random.Range(MIN_VEL, MAX_VEL);
             float speedY = Random.Range(MIN_VEL, MAX_VEL);
-            float targetX = ScreenUtility.getCenterX() + Random.Range(-CENTER_RADIUS, CENTER_RADIUS);
-            float targetY = ScreenUtility.getCenterX() + Random.Range(-CENTER_RADIUS, CENTER_RADIUS);
+            float targetX = camera.transform.position.x + Random.Range(-CENTER_RADIUS, CENTER_RADIUS);
+            float targetY = camera.transform.position.y + Random.Range(-CENTER_RADIUS, CENTER_RADIUS);
             float dirX = targetX - x;
             float dirY = targetY - y;
             float dirMag = Mathf.Sqrt(dirX * dirX + dirY * dirY);

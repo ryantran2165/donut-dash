@@ -128,4 +128,9 @@ public class PlayerMovement : MonoBehaviour
         jumpForce += dJumpForce;
     }
 
+    public bool playerIsGrounded()
+    {
+        return isGrounded;
+    }
+
 }

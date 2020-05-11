@@ -6,6 +6,7 @@ public class BirdManager : MonoBehaviour
 {
     [SerializeField] private GameObject bird;
     [SerializeField] private Transform parent;
+    [SerializeField] private Camera camera;
 
     private SpriteRenderer renderer;
     private float timer;
@@ -34,7 +35,7 @@ public class BirdManager : MonoBehaviour
         {
             // Get bird properties
             int birdDirection = Random.Range(0, 2);
-            float spawnX = birdDirection == 0 ? ScreenUtility.getXRightOffscreen(renderer) : ScreenUtility.getXLeftOffscreen(renderer);
+            float spawnX = birdDirection == 0 ? ScreenUtility.getXRightOffscreen(renderer, camera) : ScreenUtility.getXLeftOffscreen(renderer, camera);
             float spawnY = Random.Range(MIN_SPAWN_Y, MAX_SPAWN_Y);
 
             // Create bird

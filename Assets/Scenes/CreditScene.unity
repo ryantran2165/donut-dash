@@ -554,6 +554,7 @@ MonoBehaviour:
   randomObjects:
   - {fileID: 732530592916638017, guid: 7119995d9683bf34894d4694313e6618, type: 3}
   - {fileID: 732530592916638017, guid: 0e95aadc8079a4b448e77b0537a21426, type: 3}
+  camera: {fileID: 1626064883}
 --- !u!4 &1223239546
 Transform:
   m_ObjectHideFlags: 0

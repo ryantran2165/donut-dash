@@ -2,11 +2,9 @@
 
 public class ScreenUtility
 {
-    public static float HORZ_EXT_HALF = Camera.main.orthographicSize * Screen.width / Screen.height;
-
-    public static float getLeftEdge()
+    public static float getHorzExtHalf(Camera camera)
     {
-        return Camera.main.transform.position.x - HORZ_EXT_HALF;
+        return camera.orthographicSize * Screen.width / Screen.height;
     }
 
     public static float getLeftEdge(Camera camera)
@@ -14,19 +12,9 @@ public class ScreenUtility
         return camera.transform.position.x - (camera.orthographicSize * Screen.width / Screen.height);
     }
 
-    public static float getRightEdge()
-    {
-        return Camera.main.transform.position.x + HORZ_EXT_HALF;
-    }
-
     public static float getRightEdge(Camera camera)
     {
         return camera.transform.position.x + (camera.orthographicSize * Screen.width / Screen.height);
-    }
-
-    public static float getDownEdge()
-    {
-        return Camera.main.transform.position.y - Camera.main.orthographicSize;
     }
 
     public static float getDownEdge(Camera camera)
@@ -34,29 +22,19 @@ public class ScreenUtility
         return camera.transform.position.y - camera.orthographicSize;
     }
 
-    public static float getUpEdge()
-    {
-        return Camera.main.transform.position.y + Camera.main.orthographicSize;
-    }
-
     public static float getUpEdge(Camera camera)
     {
         return camera.transform.position.y + camera.orthographicSize;
     }
 
-    public static float getXLeftOffscreen(SpriteRenderer renderer)
+    public static float getXLeftOffscreen(SpriteRenderer renderer, Camera camera)
     {
-        return getLeftEdge() - renderer.bounds.size.x / 2f;
+        return getLeftEdge(camera) - renderer.bounds.size.x / 2f;
     }
 
-    public static float getXRightOffscreen(SpriteRenderer renderer)
+    public static float getXRightOffscreen(SpriteRenderer renderer, Camera camera)
     {
-        return getRightEdge() + renderer.bounds.size.x / 2f;
-    }
-
-    public static float getXLeftOnscreen(SpriteRenderer renderer)
-    {
-        return getLeftEdge() + renderer.bounds.size.x / 2f;
+        return getRightEdge(camera) + renderer.bounds.size.x / 2f;
     }
 
     public static float getXLeftOnscreen(SpriteRenderer renderer, Camera camera)
@@ -64,29 +42,19 @@ public class ScreenUtility
         return getLeftEdge(camera) + renderer.bounds.size.x / 2f;
     }
 
-    public static float getXRightOnscreen(SpriteRenderer renderer)
-    {
-        return getRightEdge() - renderer.bounds.size.x / 2f;
-    }
-
     public static float getXRightOnscreen(SpriteRenderer renderer, Camera camera)
     {
         return getRightEdge(camera) - renderer.bounds.size.x / 2f;
     }
 
-    public static float getYDownOffscreen(SpriteRenderer renderer)
+    public static float getYDownOffscreen(SpriteRenderer renderer, Camera camera)
     {
-        return getDownEdge() - renderer.bounds.size.y / 2f;
+        return getDownEdge(camera) - renderer.bounds.size.y / 2f;
     }
 
-    public static float getYUpOffscreen(SpriteRenderer renderer)
+    public static float getYUpOffscreen(SpriteRenderer renderer, Camera camera)
     {
-        return getUpEdge() + renderer.bounds.size.y / 2f;
-    }
-
-    public static float getYDownOnscreen(SpriteRenderer renderer)
-    {
-        return getDownEdge() + renderer.bounds.size.y / 2f;
+        return getUpEdge(camera) + renderer.bounds.size.y / 2f;
     }
 
     public static float getYDownOnscreen(SpriteRenderer renderer, Camera camera)
@@ -94,23 +62,8 @@ public class ScreenUtility
         return getDownEdge(camera) + renderer.bounds.size.y / 2f;
     }
 
-    public static float getYUpOnscreen(SpriteRenderer renderer)
-    {
-        return getUpEdge() - renderer.bounds.size.y / 2f;
-    }
-
     public static float getYUpOnscreen(SpriteRenderer renderer, Camera camera)
     {
         return getUpEdge(camera) - renderer.bounds.size.y / 2f;
-    }
-
-    public static float getCenterX()
-    {
-        return Camera.main.transform.position.x;
-    }
-
-    public static float getCenterY()
-    {
-        return Camera.main.transform.position.y;
     }
 }

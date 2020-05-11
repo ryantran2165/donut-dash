@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 public class Villian : MonoBehaviour
 {
     [SerializeField] private GameObject flamingDonut;
-
-    private GameObject player;
+    [SerializeField] private Transform parent;
+    [SerializeField] private Camera camera;
+    [SerializeField] private GameObject player;
+    [SerializeField] private PlayerMovement playerMovement;
 
     private Rigidbody2D villianRigidbody;
     private Vector2 movement;
@@ -27,12 +29,9 @@ public class Villian : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
         villianRigidbody = GetComponent<Rigidbody2D>();
         flamingDonutTimer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
         targetVariation = Random.Range(-MAX_TARGET_VARIATION, MAX_TARGET_VARIATION);
-        
-        
     }
 
     // Update is called once per frame
@@ -48,7 +47,7 @@ public class Villian : MonoBehaviour
 
                 // Target off screen
                 SpriteRenderer renderer = GetComponent<SpriteRenderer>();
-                offScreenTarget = new Vector2(ScreenUtility.getXRightOffscreen(renderer), ScreenUtility.getYUpOffscreen(renderer));
+                offScreenTarget = new Vector2(ScreenUtility.getXRightOffscreen(renderer, camera), ScreenUtility.getYUpOffscreen(renderer, camera));
 
                 // Set velocity
                 float dx = offScreenTarget.x - transform.position.x;
@@ -76,7 +75,7 @@ public class Villian : MonoBehaviour
             if (flamingDonutTimer < 0)
             {
                 // Create flaming donut
-                GameObject flamingDonutObject = Instantiate(flamingDonut, new Vector3(transform.position.x, transform.position.y), Quaternion.identity);
+                GameObject flamingDonutObject = Instantiate(flamingDonut, new Vector3(transform.position.x, transform.position.y), Quaternion.identity, parent);
 
                 // Set flaming donut's velocity to half of villian's
                 Rigidbody2D donutRigidbody = flamingDonutObject.GetComponent<Rigidbody2D>();
@@ -92,8 +91,8 @@ public class Villian : MonoBehaviour
             // Decrease boss fight timer
             bossFightTimer -= Time.deltaTime;
 
-            // Start boss fight
-            if (bossFightTimer < 0)
+            // Start boss fight if timer is out and player is grounded (to prevent falling on spikes on return to main level)
+            if (bossFightTimer < 0 && playerMovement.playerIsGrounded())
             {
                 // Set to boss fight
                 DonutDashSingleton.setActive(false);

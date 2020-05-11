@@ -334,6 +334,7 @@ MonoBehaviour:
   speeds: fbfffffff6ffffff
   tilemapObject1: {fileID: 2102073373}
   tilemapObject2: {fileID: 1874545807}
+  camera: {fileID: 673965140}
 --- !u!4 &456787258
 Transform:
   m_ObjectHideFlags: 0

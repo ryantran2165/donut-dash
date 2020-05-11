@@ -8,6 +8,7 @@ public class FoodManager : MonoBehaviour
     [SerializeField] private List<ProbabilityObject> foodObjects;
     [SerializeField] private Tilemap tilemap;
     [SerializeField] private Transform parent;
+    [SerializeField] private Camera camera;
 
     private float lastSpawnX;
     private float nextSpawnInterval;
@@ -20,21 +21,20 @@ public class FoodManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lastSpawnX = Random.Range(0f, ScreenUtility.HORZ_EXT_HALF);
-        nextSpawnInterval = ScreenUtility.HORZ_EXT_HALF * 2f;
+        lastSpawnX = Random.Range(0f, ScreenUtility.getHorzExtHalf(camera));
+        nextSpawnInterval = ScreenUtility.getHorzExtHalf(camera) * 2f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //float rightEdge = camera.transform.position.x + horzExtentHalf;
-        float rightEdge = ScreenUtility.getRightEdge();
+        float rightEdge = ScreenUtility.getRightEdge(camera);
 
         if (rightEdge - lastSpawnX > nextSpawnInterval)
         {
             GameObject randomFood = ProbabilityObject.getRandom(foodObjects);
             SpriteRenderer renderer = randomFood.GetComponent<SpriteRenderer>();
-            float spawnX = ScreenUtility.getXRightOffscreen(renderer);
+            float spawnX = ScreenUtility.getXRightOffscreen(renderer, camera);
             bool isOverPit = tilemap.GetTile(new Vector3Int((int) spawnX, 0, 0)) == null;
             float spawnY = Random.Range(isOverPit ? MIN_FOOD_Y_PIT : MIN_FOOD_Y_GROUND, MAX_FOOD_Y);
             Instantiate(randomFood, new Vector3(spawnX, spawnY), Quaternion.identity, parent);

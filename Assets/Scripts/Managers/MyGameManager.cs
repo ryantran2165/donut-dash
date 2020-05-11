@@ -10,6 +10,7 @@ public class MyGameManager : MonoBehaviour
     [SerializeField] private GameObject donutShop;
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private GameObject birdManager;
+    [SerializeField] private Camera camera;
 
     private bool ingame;
     public static bool skipCutscene;
@@ -28,7 +29,7 @@ public class MyGameManager : MonoBehaviour
 
             // Set donut shop position
             SpriteRenderer renderer = donutShop.GetComponent<SpriteRenderer>();
-            donutShop.transform.position = new Vector3(ScreenUtility.getXRightOnscreen(renderer), donutShop.transform.position.y);
+            donutShop.transform.position = new Vector3(ScreenUtility.getXRightOnscreen(renderer, camera), donutShop.transform.position.y);
 
             // Activate
             foreach (GameObject toActivate in toActivate)

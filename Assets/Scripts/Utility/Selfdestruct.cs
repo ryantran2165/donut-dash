@@ -6,6 +6,7 @@ public class Selfdestruct : MonoBehaviour
 {
     [SerializeField] private int mode;
 
+    private Camera camera;
     private SpriteRenderer renderer;
     private BoxCollider2D collider;
     private const float OFFSET = 5f;
@@ -18,6 +19,7 @@ public class Selfdestruct : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        camera = Camera.main;
         renderer = GetComponent<SpriteRenderer>();
         collider = GetComponent<BoxCollider2D>();
     }
@@ -32,20 +34,20 @@ public class Selfdestruct : MonoBehaviour
         switch (mode)
         {
             case LEFT_ONLY_MODE:
-                if (rendererRightEdge < ScreenUtility.getLeftEdge() - OFFSET)
+                if (rendererRightEdge < ScreenUtility.getLeftEdge(camera) - OFFSET)
                 {
                     Destroy(gameObject);
                 }
                 break;
             case RIGHT_ONLY_MODE:
-                if (rendererLeftEdge > ScreenUtility.getRightEdge() + OFFSET)
+                if (rendererLeftEdge > ScreenUtility.getRightEdge(camera) + OFFSET)
                 {
                     Destroy(gameObject);
                 }
                 break;
             case BOTH_MODE:
-                if ((rendererLeftEdge > ScreenUtility.getRightEdge() + OFFSET) ||
-                    (rendererRightEdge < ScreenUtility.getLeftEdge() - OFFSET))
+                if ((rendererLeftEdge > ScreenUtility.getRightEdge(camera) + OFFSET) ||
+                    (rendererRightEdge < ScreenUtility.getLeftEdge(camera) - OFFSET))
                 {
                     Destroy(gameObject);
                 }
@@ -54,10 +56,10 @@ public class Selfdestruct : MonoBehaviour
                 float rendererDownEdge = renderer.bounds.min.y;
                 float rendererUpEdge = renderer.bounds.max.y;
 
-                if ((rendererLeftEdge > ScreenUtility.getRightEdge() + OFFSET) ||
-                    (rendererRightEdge < ScreenUtility.getLeftEdge() - OFFSET) ||
-                    (rendererDownEdge > ScreenUtility.getUpEdge() + OFFSET) ||
-                    (rendererUpEdge < ScreenUtility.getDownEdge() - OFFSET))
+                if ((rendererLeftEdge > ScreenUtility.getRightEdge(camera) + OFFSET) ||
+                    (rendererRightEdge < ScreenUtility.getLeftEdge(camera) - OFFSET) ||
+                    (rendererDownEdge > ScreenUtility.getUpEdge(camera) + OFFSET) ||
+                    (rendererUpEdge < ScreenUtility.getDownEdge(camera) - OFFSET))
                 {
                     Destroy(gameObject);
                 }
