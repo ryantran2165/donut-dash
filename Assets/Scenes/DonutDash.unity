@@ -1643,6 +1643,7 @@ MonoBehaviour:
   bgm: {fileID: 1771339840}
   deathSound: {fileID: 3444220539518907414, guid: f3dce06fc131c0146a2b47aea7cb1a49,
     type: 3}
+  villian: {fileID: 6455995759993222041, guid: e55446236d812e94aa30a1d6ec4c1eff, type: 3}
 --- !u!82 &1027881015
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1654,7 +1655,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2064,7 +2065,6 @@ MonoBehaviour:
   - {fileID: 1771339839}
   - {fileID: 601933421}
   - {fileID: 1363959924}
-  - {fileID: 643164853}
   - {fileID: 1377322868}
   donutShop: {fileID: 1377322868}
   playerMovement: {fileID: 1027881013}
@@ -4669,13 +4669,13 @@ MonoBehaviour:
   - {fileID: 1771339839}
   - {fileID: 601933421}
   - {fileID: 1363959924}
-  - {fileID: 643164853}
   - {fileID: 1377322868}
   toDeActivate:
   - {fileID: 216757014}
   - {fileID: 981367631}
   donutShop: {fileID: 1377322868}
   playerMovement: {fileID: 1027881013}
+  birdManager: {fileID: 643164853}
 --- !u!4 &1521398076
 Transform:
   m_ObjectHideFlags: 0

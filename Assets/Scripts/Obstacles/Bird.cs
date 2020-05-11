@@ -33,7 +33,7 @@ public class Bird : MonoBehaviour
         // Decrease timer
         timer -= Time.deltaTime;
 
-        // Timer is out, spawn new bird
+        // Timer is out, spawn new bird poop
         if (timer < 0)
         {
             float spawnX = transform.position.x + .25f * birdWidth * transform.localScale.x;

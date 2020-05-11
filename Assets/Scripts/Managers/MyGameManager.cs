@@ -9,9 +9,11 @@ public class MyGameManager : MonoBehaviour
     [SerializeField] private List<GameObject> toDeActivate;
     [SerializeField] private GameObject donutShop;
     [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private GameObject birdManager;
 
     private bool ingame;
     public static bool skipCutscene;
+    public static bool activateBirdManager;
 
     // Start is called before the first frame update
     void Start()
@@ -60,10 +62,11 @@ public class MyGameManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.B))
+        // Activate bird manager after boss fight win
+        if (activateBirdManager)
         {
-            DonutDashSingleton.setActive(false);
-            SceneManager.LoadScene("BossFight", LoadSceneMode.Additive);
+            activateBirdManager = false;
+            birdManager.SetActive(true);
         }
     }
 

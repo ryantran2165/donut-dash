@@ -30,7 +30,7 @@ public class BossFightVillian : MonoBehaviour
     private const float MIN_TIME_BETWEEN_SHOTS = 0.25f;
     private const float MAX_TIME_BETWEEN_SHOTS = 1f;
 
-    private const float REGULAR_DONUT_PROBABILITY = 0.1f;
+    private const float REGULAR_DONUT_PROBABILITY = 0.15f;
 
     // Start is called before the first frame update
     void Start()

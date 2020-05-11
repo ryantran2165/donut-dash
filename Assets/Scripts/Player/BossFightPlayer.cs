@@ -91,7 +91,10 @@ public class BossFightPlayer : MonoBehaviour
             if (score == SCORE_TO_WIN)
             {
                 // Play burp sound = death sound
-                GameObject burpSound = Instantiate(deathSound, transform.position, Quaternion.identity);
+                Instantiate(deathSound, transform.position, Quaternion.identity);
+
+                // Activate bird manager
+                MyGameManager.activateBirdManager = true;
 
                 // Go back to DonutDash scene
                 SceneManager.UnloadSceneAsync("BossFight");

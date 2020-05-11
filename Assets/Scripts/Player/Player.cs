@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Sprite thiccSprite;
     [SerializeField] private AudioSource bgm;
     [SerializeField] private GameObject deathSound;
+    [SerializeField] private GameObject villian;
 
     private int thiccLevel;
     private Rigidbody2D rigidBody;
@@ -34,6 +35,8 @@ public class Player : MonoBehaviour
     private int scoreByFood;
     private int scoreByDistance;
     private float maxX;
+
+    private bool isVillianSpawned;
 
     private const float MIN_MASS = 0.4f;
     private const float MAX_MASS = 1.5f;
@@ -117,6 +120,16 @@ public class Player : MonoBehaviour
         else // Thicc+
         {
             animator.runtimeAnimatorController = thiccController;
+
+            // Spawn villian if not already
+            if (!isVillianSpawned)
+            {
+                isVillianSpawned = true;
+
+                // Spawn the villian
+                float spawnX = ScreenUtility.getXLeftOffscreen(villian.GetComponent<SpriteRenderer>());
+                Instantiate(villian, new Vector3(spawnX, villian.transform.position.y), Quaternion.identity);
+            }
         }
     }
 
