@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Villian : MonoBehaviour
 {
@@ -10,6 +9,8 @@ public class Villian : MonoBehaviour
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject player;
     [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private GameObject villianLaughSound;
+    [SerializeField] private GameObject bossIntro;
 
     private Rigidbody2D villianRigidbody;
     private Vector2 movement;
@@ -32,6 +33,8 @@ public class Villian : MonoBehaviour
         villianRigidbody = GetComponent<Rigidbody2D>();
         flamingDonutTimer = Random.Range(MIN_SPAWN_TIME, MAX_SPAWN_TIME);
         targetVariation = Random.Range(-MAX_TARGET_VARIATION, MAX_TARGET_VARIATION);
+
+        Instantiate(villianLaughSound, new Vector3(transform.position.x, transform.position.y), Quaternion.identity);
     }
 
     // Update is called once per frame
@@ -94,9 +97,8 @@ public class Villian : MonoBehaviour
             // Start boss fight if timer is out and player is grounded (to prevent falling on spikes on return to main level)
             if (bossFightTimer < 0 && playerMovement.playerIsGrounded())
             {
-                // Set to boss fight
-                DonutDashSingleton.setActive(false);
-                SceneManager.LoadScene("BossFight", LoadSceneMode.Additive);
+                // Activate boss intro
+                bossIntro.SetActive(true);
 
                 // Destroy villian
                 Destroy(gameObject);

@@ -9,12 +9,12 @@ public class MyGameManager : MonoBehaviour
     [SerializeField] private List<GameObject> toDeActivate;
     [SerializeField] private GameObject donutShop;
     [SerializeField] private PlayerMovement playerMovement;
-    [SerializeField] private GameObject birdManager;
     [SerializeField] private Camera camera;
+    [SerializeField] private List<GameObject> toActivateAfterBossFight;
 
     private bool ingame;
     public static bool skipCutscene;
-    public static bool activateBirdManager;
+    public static bool activateAfterBossFight;
 
     // Start is called before the first frame update
     void Start()
@@ -64,10 +64,14 @@ public class MyGameManager : MonoBehaviour
         }
 
         // Activate bird manager after boss fight win
-        if (activateBirdManager)
+        if (activateAfterBossFight)
         {
-            activateBirdManager = false;
-            birdManager.SetActive(true);
+            activateAfterBossFight = false;
+
+            foreach (GameObject obj in toActivateAfterBossFight)
+            {
+                obj.SetActive(true);
+            }
         }
     }
 

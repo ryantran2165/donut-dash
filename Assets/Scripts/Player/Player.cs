@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject deathSound;
     [SerializeField] private GameObject villian;
     [SerializeField] private Camera camera;
+    [SerializeField] private bool debugMode;
 
     private Text thiccText;
     private Text scoreText;
@@ -68,12 +69,12 @@ public class Player : MonoBehaviour
         updateScore();
         checkIdle();
 
-        //if (Input.GetKeyDown(KeyCode.V))
-        //{
-        //    float spawnX = ScreenUtility.getXRightOffscreen(villian.GetComponent<SpriteRenderer>(), camera);
-        //    villian.transform.position = new Vector3(spawnX, villian.transform.position.y);
-        //    villian.SetActive(true);
-        //}
+        if (debugMode && Input.GetKeyDown(KeyCode.V))
+        {
+            float spawnX = ScreenUtility.getXRightOffscreen(villian.GetComponent<SpriteRenderer>(), camera);
+            villian.transform.position = new Vector3(spawnX, villian.transform.position.y);
+            villian.SetActive(true);
+        }
     }
 
     public int getThiccLevel()

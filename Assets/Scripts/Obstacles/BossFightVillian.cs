@@ -11,6 +11,7 @@ public class BossFightVillian : MonoBehaviour
     [SerializeField] private GameObject flamingDonutSound;
     [SerializeField] private GameObject regularDonutSound;
     [SerializeField] private Camera camera;
+    [SerializeField] private GameObject villianLaughSound;
 
     private Rigidbody2D rigidbody;
     private SpriteRenderer renderer;
@@ -53,6 +54,8 @@ public class BossFightVillian : MonoBehaviour
 
         minPos = new Vector3(villianX, ScreenUtility.getYDownOnscreen(renderer, camera));
         maxPos = new Vector3(villianX, ScreenUtility.getYUpOnscreen(renderer, camera));
+
+        Instantiate(villianLaughSound, new Vector3(transform.position.x, transform.position.y), Quaternion.identity);
     }
 
     void Update()

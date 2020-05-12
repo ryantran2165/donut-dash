@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -464226556742871173}
   m_Layer: 0
   m_Name: FallingFlamingDonut
-  m_TagString: Untagged
+  m_TagString: FallingObstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,7 +186,7 @@ Animator:
   m_GameObject: {fileID: 1268101798013047142}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fd4d8a337d61042409f57ca760e3f42a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4ded76fa7befb3440b232f9c5b02e516, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

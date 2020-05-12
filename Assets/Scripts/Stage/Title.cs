@@ -17,21 +17,6 @@ public class Title : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-
-        // Get default sprite sizes
-        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
-        float width = renderer.bounds.size.x;
-        float height = renderer.bounds.size.y;
-
-        // Get camera sizes
-        float camHeight = Camera.main.orthographicSize * 2f;
-        float camWidth = camHeight / Screen.height * Screen.width;
-
-        // Set title position to center of screen (same as camera)
-        transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y);
-
-        // Stretch title sprite to screen
-        transform.localScale = new Vector3(camWidth / width, camHeight / height, 1f);
     }
 
     // Update is called once per frame

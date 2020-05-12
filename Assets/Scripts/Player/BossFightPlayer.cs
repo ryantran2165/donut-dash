@@ -29,7 +29,7 @@ public class BossFightPlayer : MonoBehaviour
     private const float SPEED = 2000f;
     private const float MAX_SPEED = 10f;
 
-    private const int SCORE_TO_WIN = 3;
+    private const int SCORE_TO_WIN = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -114,8 +114,8 @@ public class BossFightPlayer : MonoBehaviour
                     // Play burp sound = death sound
                     Instantiate(deathSound, transform.position, Quaternion.identity);
 
-                    // Activate bird manager
-                    MyGameManager.activateBirdManager = true;
+                    // Activate object after boss fight
+                    MyGameManager.activateAfterBossFight = true;
 
                     // Go back to DonutDash scene
                     SceneManager.UnloadSceneAsync("BossFight");
