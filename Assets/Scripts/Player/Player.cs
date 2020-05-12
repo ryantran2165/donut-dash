@@ -35,9 +35,8 @@ public class Player : MonoBehaviour
     public const int THICC_THRESHOLD = 3000;
 
     // Score
-    private int totalScore;
+    public static int totalScore;
     private int scoreByFood;
-    private int scoreByDistance;
     private float maxX;
 
     private bool isVillianSpawned;
@@ -68,6 +67,13 @@ public class Player : MonoBehaviour
     {
         updateScore();
         checkIdle();
+
+        //if (Input.GetKeyDown(KeyCode.V))
+        //{
+        //    float spawnX = ScreenUtility.getXRightOffscreen(villian.GetComponent<SpriteRenderer>(), camera);
+        //    villian.transform.position = new Vector3(spawnX, villian.transform.position.y);
+        //    villian.SetActive(true);
+        //}
     }
 
     public int getThiccLevel()
@@ -157,7 +163,7 @@ public class Player : MonoBehaviour
         if (transform.position.x > maxX)
         {
             maxX = transform.position.x;
-            scoreByDistance = (int) (maxX * DISTANCE_PER_SCORE);
+            int scoreByDistance = (int) (maxX * DISTANCE_PER_SCORE);
             totalScore = scoreByDistance + scoreByFood;
             scoreText.text = totalScore.ToString();
         }
@@ -198,13 +204,13 @@ public class Player : MonoBehaviour
         thiccTextObject.SetActive(false);
 
         // Update high score
-        int highscore = updateHighScore();
+        int highscore = MyGameManager.updateHighScore(totalScore);
 
         // Set GameOver object active
         gameOver.SetActive(true);
 
         // Update GameOver text
-        gameOverText.text = "Game Over!\nHighscore: " + highscore + "\nScore: " + scoreText.text + "\nYou were " + thiccText.text + "!\nPress 'R' to replay!";
+        gameOverText.text = "Game Over!\nHighscore: " + highscore + "\nScore: " + totalScore + "\nYou were " + thiccText.text + "!\nPress 'R' to replay!";
 
         // Create death particle system and sound
         Instantiate(deathParticleSystem, transform.position, Quaternion.identity);
@@ -213,13 +219,4 @@ public class Player : MonoBehaviour
         // Destroy the player
         Destroy(gameObject);
     }
-
-    private int updateHighScore()
-    {
-        int highscore = PlayerPrefs.HasKey("highscore") ? Mathf.Max(PlayerPrefs.GetInt("highscore"), totalScore) : totalScore;
-        PlayerPrefs.SetInt("highscore", highscore);
-        PlayerPrefs.Save();
-        return highscore;
-    }
-
 }

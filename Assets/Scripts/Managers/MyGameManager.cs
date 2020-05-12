@@ -55,7 +55,7 @@ public class MyGameManager : MonoBehaviour
         {
             if (ingame) // Pressed escape from ingame, back to main menu
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneManager.LoadScene("DonutDash");
             }
             else // Pressed escape from main menu, exit game
             {
@@ -76,4 +76,11 @@ public class MyGameManager : MonoBehaviour
         this.ingame = ingame;
     }
 
+    public static int updateHighScore(int score)
+    {
+        int highscore = PlayerPrefs.HasKey("highscore") ? Mathf.Max(PlayerPrefs.GetInt("highscore"), score) : score;
+        PlayerPrefs.SetInt("highscore", highscore);
+        PlayerPrefs.Save();
+        return highscore;
+    }
 }

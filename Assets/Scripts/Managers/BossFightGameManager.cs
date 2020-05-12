@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour
+public class BossFightGameManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,9 +14,8 @@ public class GameOver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            MyGameManager.skipCutscene = true;
             SceneManager.LoadScene("DonutDash");
         }
     }

@@ -987,6 +987,8 @@ MonoBehaviour:
   eatSound: {fileID: 3444220539518907414, guid: 61362541f6fea134b8a2279efc67f5c3,
     type: 3}
   camera: {fileID: 673965140}
+  UI: {fileID: 1939219213}
+  gameOverText: {fileID: 474693325}
 --- !u!50 &929287148
 Rigidbody2D:
   serializedVersion: 4
@@ -1068,6 +1070,7 @@ Transform:
   - {fileID: 1223592055}
   - {fileID: 1939219214}
   - {fileID: 910985643}
+  - {fileID: 1563476301}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1425,6 +1428,49 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &1563476300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563476301}
+  - component: {fileID: 1563476302}
+  m_Layer: 0
+  m_Name: BossFightGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563476301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563476300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1079302605}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563476302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563476300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815554fb0525a7f40959e6b631ff9401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1874545807
 GameObject:
   m_ObjectHideFlags: 0
@@ -5958,7 +6004,7 @@ GameObject:
   - component: {fileID: 1939219215}
   - component: {fileID: 1939219218}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6060,6 +6106,7 @@ MonoBehaviour:
   toActivate:
   - {fileID: 929287143}
   - {fileID: 1223592052}
+  playerScript: {fileID: 929287147}
 --- !u!1 &2102073373
 GameObject:
   m_ObjectHideFlags: 0

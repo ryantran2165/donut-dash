@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class BossFightPlayer : MonoBehaviour
 {
@@ -10,7 +11,10 @@ public class BossFightPlayer : MonoBehaviour
     [SerializeField] private GameObject deathSound;
     [SerializeField] private GameObject eatSound;
     [SerializeField] private Camera camera;
+    [SerializeField] private GameObject UI;
+    [SerializeField] private Text gameOverText;
 
+    private SpriteRenderer renderer;
     private Rigidbody2D rigidbody;
     
     private Vector2 movement;
@@ -19,6 +23,7 @@ public class BossFightPlayer : MonoBehaviour
     private Vector3 maxPos;
 
     private int score;
+    private bool isPlayerDead;
 
     private const float DIST_FROM_SCREEN = 2f;
     private const float SPEED = 2000f;
@@ -30,7 +35,7 @@ public class BossFightPlayer : MonoBehaviour
     void Start()
     {
         // Set player position
-        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+        renderer = GetComponent<SpriteRenderer>();
         float playerX = ScreenUtility.getXLeftOnscreen(renderer, camera) + DIST_FROM_SCREEN;
         transform.position = new Vector3(playerX, 0);
 
@@ -44,72 +49,116 @@ public class BossFightPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Poll input
-        verticalMovement = Input.GetAxisRaw("Vertical") * SPEED;
+        if (!isPlayerDead)
+        {
+            // Poll input
+            verticalMovement = Input.GetAxisRaw("Vertical") * SPEED;
 
-        // Clamp position
-        if (transform.position.y <= minPos.y)
-        {
-            transform.position = minPos;
+            // Clamp position
+            if (transform.position.y <= minPos.y)
+            {
+                transform.position = minPos;
+            }
+            else if (transform.position.y >= maxPos.y)
+            {
+                transform.position = maxPos;
+            }
         }
-        else if (transform.position.y >= maxPos.y)
+        else
         {
-            transform.position = maxPos;
+            // Destroy player once off screen
+            if (renderer.bounds.max.y < ScreenUtility.getDownEdge(camera))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        // Move vertical
-        movement.Set(0, verticalMovement * Time.fixedDeltaTime);
-        rigidbody.AddForce(movement);
+        if (!isPlayerDead)
+        {
+            // Move vertical
+            movement.Set(0, verticalMovement * Time.fixedDeltaTime);
+            rigidbody.AddForce(movement);
 
-        // Clamp velocity
-        if (rigidbody.velocity.y > MAX_SPEED)
-        {
-            rigidbody.velocity = new Vector2(0, MAX_SPEED);
-        }
-        else if (rigidbody.velocity.y < -MAX_SPEED)
-        {
-            rigidbody.velocity = new Vector2(0, -MAX_SPEED);
+            // Clamp velocity
+            if (rigidbody.velocity.y > MAX_SPEED)
+            {
+                rigidbody.velocity = new Vector2(0, MAX_SPEED);
+            }
+            else if (rigidbody.velocity.y < -MAX_SPEED)
+            {
+                rigidbody.velocity = new Vector2(0, -MAX_SPEED);
+            }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Destroy the donut
-        Destroy(collision.gameObject);
-
-        if (collision.CompareTag("RegularDonut"))
+        if (!isPlayerDead)
         {
-            // Regular = +1 to score
-            Instantiate(eatParticleSystem, transform.position, Quaternion.identity);
-            Instantiate(eatSound, transform.position, Quaternion.identity);
-            score++;
+            // Destroy the donut
+            Destroy(collision.gameObject);
 
-            // Win
-            if (score == SCORE_TO_WIN)
+            if (collision.CompareTag("RegularDonut"))
             {
-                // Play burp sound = death sound
+                // Regular = +1 to score
+                Instantiate(eatParticleSystem, transform.position, Quaternion.identity);
+                Instantiate(eatSound, transform.position, Quaternion.identity);
+                score++;
+
+                // Win
+                if (score == SCORE_TO_WIN)
+                {
+                    // Play burp sound = death sound
+                    Instantiate(deathSound, transform.position, Quaternion.identity);
+
+                    // Activate bird manager
+                    MyGameManager.activateBirdManager = true;
+
+                    // Go back to DonutDash scene
+                    SceneManager.UnloadSceneAsync("BossFight");
+                    DonutDashSingleton.setActive(true);
+                }
+            }
+            else if (collision.CompareTag("FlamingDonut"))
+            {
+                // Flag player as dead
+                isPlayerDead = true;
+
+                // Flaming = dead
+                Instantiate(deathParticleSystem, transform.position, Quaternion.identity);
                 Instantiate(deathSound, transform.position, Quaternion.identity);
 
-                // Activate bird manager
-                MyGameManager.activateBirdManager = true;
+                // Change player rigid body type to Dynamic
+                rigidbody.bodyType = RigidbodyType2D.Dynamic;
 
-                // Go back to DonutDash scene
-                SceneManager.UnloadSceneAsync("BossFight");
-                DonutDashSingleton.setActive(true);
+                // Turn gravity on for player
+                rigidbody.gravityScale = 3f;
+
+                // Add torque
+                Vector3 force = new Vector2(50f, 0f);
+                Vector2 pos = new Vector2(transform.position.x, renderer.bounds.max.y);
+                rigidbody.AddForceAtPosition(force, pos);
+
+                // Remove animation
+                GetComponent<Animator>().enabled = false;
+
+                // Reactive UI
+                UI.SetActive(true);
+
+                // Update high score
+                int highscore = MyGameManager.updateHighScore(Player.totalScore);
+
+                // Update GameOver text
+                gameOverText.text = "The donut thief got away!\nHighscore: " + highscore + "\nScore: " + Player.totalScore + "\nPress 'R' to replay!";
             }
         }
-        else if (collision.CompareTag("FlamingDonut"))
-        {
-            // Flaming = dead
-            Instantiate(deathParticleSystem, transform.position, Quaternion.identity);
-            Instantiate(deathSound, transform.position, Quaternion.identity);
+    }
 
-            // Go back to DonutDash scene
-            SceneManager.UnloadSceneAsync("BossFight");
-            DonutDashSingleton.setActive(true);
-        }
+    public bool playerIsDead()
+    {
+        return isPlayerDead;
     }
 }
