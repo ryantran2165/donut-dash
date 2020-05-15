@@ -20,9 +20,14 @@ public class Obstacle : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            // Screen shake
+            ScreenShake screenShake = Camera.main.GetComponent<ScreenShake>();
+            screenShake.enabled = true;
+            screenShake.triggerShake();
+
+            // Set game over
             GameObject playerObject = collision.gameObject;
-            Player player = playerObject.GetComponent<Player>();
-            player.setGameOver();
+            playerObject.GetComponent<Player>().setGameOver();
         }
     }
 
@@ -30,10 +35,14 @@ public class Obstacle : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            // Screen shake
+            ScreenShake screenShake = Camera.main.GetComponent<ScreenShake>();
+            screenShake.enabled = true;
+            screenShake.triggerShake();
+
+            // Set game over
             GameObject playerObject = collision.gameObject;
-            Player player = playerObject.GetComponent<Player>();
-            player.setGameOver();
+            playerObject.GetComponent<Player>().setGameOver();
         }
     }
-
 }

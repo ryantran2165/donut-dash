@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip sticWalkSound;
     [SerializeField] private AudioClip thicWalkSound;
     [SerializeField] private AudioClip thiccWalkSound;
+    [SerializeField] private ParticleSystem jumpParticleSystem;
+    [SerializeField] private ParticleSystem walkParticleSystem;
 
     private AudioSource audioSource;
     private Player player;
@@ -29,6 +31,11 @@ public class PlayerMovement : MonoBehaviour
     private const float THIC_VOLUME = 0.5f;
     private const float THICC_VOLUME = 0.5f;
 
+    private Animator animator;
+    private float particleY;
+    private const float PARTICLE_Y_OFFSET = -0.5f;
+    private bool alreadySpawnedWalkParticle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,11 +45,40 @@ public class PlayerMovement : MonoBehaviour
         movement = new Vector2();
         float vertExtentHalf = camera.orthographicSize;
         horzExtentHalf = vertExtentHalf * Screen.width / Screen.height;
+
+        // Get jump particle system spawn y position
+        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+        particleY = renderer.bounds.min.y + PARTICLE_Y_OFFSET;
+
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Spawn walk particle system
+        int animationProgress = ((int) (animator.GetCurrentAnimatorStateInfo(0).normalizedTime * 100)) % 100;
+        if (animationProgress >= 50)
+        {
+            if (!alreadySpawnedWalkParticle)
+            {
+                // Only spawn one walk particle for every animation cycle
+                alreadySpawnedWalkParticle = true;
+
+                // Create walk particle system
+                ParticleSystem walkParticle = Instantiate(walkParticleSystem, new Vector3(transform.position.x, particleY), Quaternion.identity);
+
+                // Rotate particle system 180 degrees if player is walking left
+                if (transform.localScale.x < 0)
+                {
+                    walkParticle.transform.Rotate(new Vector3(0f, 180f, 0f), Space.Self);
+                }
+            }
+        } else
+        {
+            alreadySpawnedWalkParticle = false;
+        }
+
         // Poll input
         horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
@@ -77,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        // Left screen boundary
         float leftEdge = camera.transform.position.x - horzExtentHalf;
         if (player.transform.position.x < leftEdge + LEFT_BOUNDARY_OFFSET)
         {
@@ -112,8 +149,14 @@ public class PlayerMovement : MonoBehaviour
         // Jump, velocity < 1f to make sure no double jump
         if (isGrounded && jump && rigidBody.velocity.y < 1f)
         {
+            // Toggle grounded flag
             isGrounded = false;
+
+            // Add jump force
             rigidBody.AddForce(Vector2.up * jumpForce);
+
+            // Create jump particle system
+            Instantiate(jumpParticleSystem, new Vector3(transform.position.x, particleY), Quaternion.identity);
         }
         jump = false;
     }

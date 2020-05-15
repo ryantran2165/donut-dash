@@ -124,6 +124,11 @@ public class BossFightPlayer : MonoBehaviour
             }
             else if (collision.CompareTag("FlamingDonut"))
             {
+                // Screen shake
+                ScreenShake screenShake = camera.GetComponent<ScreenShake>();
+                screenShake.enabled = true;
+                screenShake.triggerShake();
+
                 // Flag player as dead
                 isPlayerDead = true;
 

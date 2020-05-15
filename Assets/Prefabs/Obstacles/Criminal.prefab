@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f2718695c7ae7243896471a64368a76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mode: 0
 --- !u!114 &4297586827378462277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,3 +191,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb170eed0abd7204b9965fc7a740c6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpParticleSystem: {fileID: 7406497105139192426, guid: a2fe27177d5b22149b1f1ff7a551187b,
+    type: 3}
