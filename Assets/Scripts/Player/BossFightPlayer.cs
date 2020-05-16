@@ -143,7 +143,7 @@ public class BossFightPlayer : MonoBehaviour
                 rigidbody.gravityScale = 3f;
 
                 // Add torque
-                Vector3 force = new Vector2(50f, 0f);
+                Vector3 force = new Vector2(Random.Range(0, 2) == 0 ? 50f : -50f, 0f);
                 Vector2 pos = new Vector2(transform.position.x, renderer.bounds.max.y);
                 rigidbody.AddForceAtPosition(force, pos);
 

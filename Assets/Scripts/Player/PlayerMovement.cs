@@ -8,8 +8,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxSpeed = 10f;
     [SerializeField] private float jumpForce = 400f;
     [SerializeField] private Camera camera;
-    [SerializeField] private Transform groundTransform;
-    [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private AudioClip sticWalkSound;
     [SerializeField] private AudioClip thicWalkSound;
     [SerializeField] private AudioClip thiccWalkSound;
@@ -24,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     private bool jump;
     private float horizontalMove;
     private Vector2 movement;
-    private float horzExtentHalf;
     private const float LEFT_BOUNDARY_OFFSET = 0.5f;
 
     private const float STIC_VOLUME = 0.5f;
@@ -32,9 +29,11 @@ public class PlayerMovement : MonoBehaviour
     private const float THICC_VOLUME = 0.5f;
 
     private Animator animator;
+    private bool alreadySpawnedWalkParticle;
     private float particleY;
     private const float PARTICLE_Y_OFFSET = -0.5f;
-    private bool alreadySpawnedWalkParticle;
+
+    private const float SPEED_BOOST = 1000f;    
 
     // Start is called before the first frame update
     void Start()
@@ -43,8 +42,6 @@ public class PlayerMovement : MonoBehaviour
         player = GetComponent<Player>();
         rigidBody = GetComponent<Rigidbody2D>();
         movement = new Vector2();
-        float vertExtentHalf = camera.orthographicSize;
-        horzExtentHalf = vertExtentHalf * Screen.width / Screen.height;
 
         // Get jump particle system spawn y position
         SpriteRenderer renderer = GetComponent<SpriteRenderer>();
@@ -80,21 +77,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Poll input
-        horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
+        horizontalMove = Input.GetAxisRaw("Horizontal") * (speed + (player.isPlayerCoffeeBoosted() ? SPEED_BOOST : 0));
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
         {
             jump = true;
-        }
-
-        // Cast circle to check if grounded
-        isGrounded = false;
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundTransform.position, .5f, whatIsGround);
-        for (int i = 0; i < colliders.Length; i++)
-        {
-            if (colliders[i].gameObject != gameObject)
-            {
-                isGrounded = true;
-            }
         }
 
         // Walk sound
@@ -114,7 +100,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Left screen boundary
-        float leftEdge = camera.transform.position.x - horzExtentHalf;
+        float leftEdge = ScreenUtility.getLeftEdge(camera);
         if (player.transform.position.x < leftEdge + LEFT_BOUNDARY_OFFSET)
         {
             player.transform.position = new Vector3(leftEdge + LEFT_BOUNDARY_OFFSET, player.transform.position.y);
@@ -146,18 +132,17 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = flippedScale;
         }
 
-        // Jump, velocity < 1f to make sure no double jump
+        // Jump, velocity check to ensure no double jump
         if (isGrounded && jump && rigidBody.velocity.y < 1f)
         {
-            // Toggle grounded flag
-            isGrounded = false;
-
             // Add jump force
             rigidBody.AddForce(Vector2.up * jumpForce);
 
             // Create jump particle system
             Instantiate(jumpParticleSystem, new Vector3(transform.position.x, particleY), Quaternion.identity);
         }
+
+        // If player requested another jump before the player hits the ground, jump request is still reset
         jump = false;
     }
 
@@ -174,6 +159,22 @@ public class PlayerMovement : MonoBehaviour
     public bool playerIsGrounded()
     {
         return isGrounded;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
     }
 
 }

@@ -11,6 +11,8 @@ public class BackgroundManager : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private Transform parent;
 
+    private Player playerScript;
+
     private GameObject[] curRepeatingObjects;
     private SpriteRenderer[] curRepeatingRenderers;
     private SpriteRenderer[] repeatingRenderers;
@@ -32,6 +34,8 @@ public class BackgroundManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerScript = player.GetComponent<Player>();
+
         int repeating = repeatingObjects.Count;
         curRepeatingObjects = new GameObject[repeating / 2];
         curRepeatingRenderers = new SpriteRenderer[repeating / 2];
@@ -130,7 +134,7 @@ public class BackgroundManager : MonoBehaviour
         for (int i = 0; i < rigidBodies.Count; i++)
         {
             // Don't move backgrounds if game over, player moving backwards, or player is behind camera
-            if (playerRigidBody == null || playerRigidBody.velocity.x < 0f || player.transform.position.x < camera.transform.position.x)
+            if (playerRigidBody == null || playerScript.checkGameOver() || playerRigidBody.velocity.x < 0f || player.transform.position.x < camera.transform.position.x)
             {
                 rigidBodies[i].velocity = Vector2.zero;
             }

@@ -6,6 +6,7 @@ public class CameraMovement : MonoBehaviour
 {
     [SerializeField] private GameObject player;
 
+    private Player playerScript;
     private Vector3 vec3;
     private float initialY;
 
@@ -14,6 +15,7 @@ public class CameraMovement : MonoBehaviour
     {
         vec3 = new Vector3();
         initialY = transform.position.y;
+        playerScript = player.GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -22,17 +24,15 @@ public class CameraMovement : MonoBehaviour
         
     }
 
-    private void LateUpdate()
+    void LateUpdate()
     {
-        if (player == null)
+        if (player != null && !playerScript.checkGameOver())
         {
-            return;
+            Vector3 camPos = transform.position;
+            Vector3 playerPos = player.transform.position;
+
+            vec3.Set(Mathf.Max(camPos.x, playerPos.x), Mathf.Max(initialY, playerPos.y), camPos.z);
+            transform.position = vec3;
         }
-
-        Vector3 camPos = transform.position;
-        Vector3 playerPos = player.transform.position;
-
-        vec3.Set(Mathf.Max(camPos.x, playerPos.x), Mathf.Max(initialY, playerPos.y), camPos.z);
-        transform.position = vec3;
     }
 }

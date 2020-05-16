@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject deathSound;
     [SerializeField] private GameObject villian;
     [SerializeField] private Camera camera;
+    [SerializeField] private GameObject boostParticleSystem;
+
     [SerializeField] private bool debugMode;
 
     private Text thiccText;
@@ -40,7 +42,13 @@ public class Player : MonoBehaviour
     private int scoreByFood;
     private float maxX;
 
+    private bool isGameOver;
+
     private bool isVillianSpawned;
+
+    private float coffeeBoostTimer;
+    private bool isCoffeeBoosted;
+    private const float COFFEE_BOOST_TIME = 5f;
 
     private const float MIN_MASS = 0.4f;
     private const float MAX_MASS = 1.5f;
@@ -66,9 +74,34 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        updateScore();
-        checkIdle();
+        // Only update stuff if not game over
+        if (!isGameOver)
+        {
+            updateScore();
+            checkIdle();
 
+            // Update coffee boost timer
+            if (isCoffeeBoosted)
+            {
+                coffeeBoostTimer -= Time.deltaTime;
+
+                if (coffeeBoostTimer < 0)
+                {
+                    // Toggle flag
+                    isCoffeeBoosted = false;
+
+                    // Deactivate boost particle system
+                    boostParticleSystem.SetActive(false);
+                }
+            }
+        }
+        else if (renderer.bounds.max.y < ScreenUtility.getDownEdge(camera))
+        {
+            // Destroy player once off screen
+            Destroy(gameObject);
+        }
+
+        // Debug for spawning villian manually
         if (debugMode && Input.GetKeyDown(KeyCode.V))
         {
             float spawnX = ScreenUtility.getXRightOffscreen(villian.GetComponent<SpriteRenderer>(), camera);
@@ -200,6 +233,9 @@ public class Player : MonoBehaviour
 
     public void setGameOver()
     {
+        // Toggle game over flag
+        isGameOver = true;
+
         // Deactivate score and thicc text
         scoreTextObject.SetActive(false);
         thiccTextObject.SetActive(false);
@@ -217,7 +253,44 @@ public class Player : MonoBehaviour
         Instantiate(deathParticleSystem, transform.position, Quaternion.identity);
         Instantiate(deathSound, transform.position, Quaternion.identity);
 
-        // Destroy the player
-        Destroy(gameObject);
+        // Unfreeze rotation
+        rigidBody.freezeRotation = false;
+
+        // Reset velocity and add torque
+        rigidBody.velocity = Vector2.zero;
+        Vector3 force = new Vector2(Random.Range(0, 2) == 0 ? 50f : -50f, 0f);
+        Vector2 pos = new Vector2(transform.position.x, renderer.bounds.max.y);
+        rigidBody.AddForceAtPosition(force, pos);
+
+        // Remove animation
+        animator.enabled = false;
+
+        // Disable movement
+        playerMovement.enabled = false;
+
+        // Disable collisions
+        GetComponent<BoxCollider2D>().enabled = false;
+    }
+
+    public void activateCoffeeBoost()
+    {
+        // Toggle flag
+        isCoffeeBoosted = true;
+
+        // Reset boost timer
+        coffeeBoostTimer = COFFEE_BOOST_TIME;
+
+        // Activate boost particle system
+        boostParticleSystem.SetActive(true);
+    }
+
+    public bool isPlayerCoffeeBoosted()
+    {
+        return isCoffeeBoosted;
+    }
+
+    public bool checkGameOver()
+    {
+        return isGameOver;
     }
 }
