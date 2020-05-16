@@ -26,7 +26,7 @@ public class IntroCutscene : MonoBehaviour
     }
 
     // Called by Animation Event attached to IntroCutScene Animation
-    public void onFinishTransition()
+    public void onFinish()
     {
         // Activate all the deactivated objects
         foreach (GameObject toActivateObject in toActivate)

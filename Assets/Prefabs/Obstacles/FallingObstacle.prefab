@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3390996797572498613}
   m_Layer: 0
   m_Name: FallingObstacle
-  m_TagString: FallingObstacle
+  m_TagString: DestroyOnBossIntro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

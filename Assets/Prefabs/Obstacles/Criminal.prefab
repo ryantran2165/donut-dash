@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 4297586827378462278}
   m_Layer: 0
   m_Name: Criminal
-  m_TagString: Untagged
+  m_TagString: DestroyOnBossIntro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

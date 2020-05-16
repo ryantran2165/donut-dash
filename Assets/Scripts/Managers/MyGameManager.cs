@@ -14,7 +14,7 @@ public class MyGameManager : MonoBehaviour
 
     private bool ingame;
     public static bool skipCutscene;
-    public static bool activateAfterBossFight;
+    public static bool activateObjectsAfterWin;
 
     // Start is called before the first frame update
     void Start()
@@ -64,9 +64,9 @@ public class MyGameManager : MonoBehaviour
         }
 
         // Activate bird manager after boss fight win
-        if (activateAfterBossFight)
+        if (activateObjectsAfterWin)
         {
-            activateAfterBossFight = false;
+            activateObjectsAfterWin = false;
 
             foreach (GameObject obj in toActivateAfterBossFight)
             {

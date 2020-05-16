@@ -104,6 +104,7 @@ public class Player : MonoBehaviour
         // Debug for spawning villian manually
         if (debugMode && Input.GetKeyDown(KeyCode.V))
         {
+            isVillianSpawned = true;
             float spawnX = ScreenUtility.getXRightOffscreen(villian.GetComponent<SpriteRenderer>(), camera);
             villian.transform.position = new Vector3(spawnX, villian.transform.position.y);
             villian.SetActive(true);

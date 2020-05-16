@@ -7,6 +7,7 @@ public class CreditsManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> randomObjects;
     [SerializeField] private Camera camera;
+    [SerializeField] private Transform parent;
 
     private float timer;
 
@@ -28,7 +29,9 @@ public class CreditsManager : MonoBehaviour
         // Return to main menu
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("DonutDash");
+            // Go back to DonutDash scene
+            SceneManager.UnloadSceneAsync("CreditScene");
+            DonutDashSingleton.setActive(true);
         }
 
         timer -= Time.deltaTime;
@@ -56,7 +59,7 @@ public class CreditsManager : MonoBehaviour
             }            
 
             // Spawn random object
-            GameObject spawnedObject = Instantiate(randomObject, new Vector3(x, y), Quaternion.identity);
+            GameObject spawnedObject = Instantiate(randomObject, new Vector3(x, y), Quaternion.identity, parent);
 
             // Set velocity to a target within range of center radius
             Rigidbody2D rigidbody = spawnedObject.GetComponent<Rigidbody2D>();

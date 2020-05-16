@@ -42,13 +42,14 @@ public class Title : MonoBehaviour
             }
             else if (Input.GetKeyDown(KeyCode.C)) // Change to credits scene
             {
-                SceneManager.LoadScene("CreditScene");
+                DonutDashSingleton.setActive(false);
+                SceneManager.LoadScene("CreditScene", LoadSceneMode.Additive);
             }
         }
     }
 
     // Called by Animation Event attached to Title Transition Animation
-    public void onFinishTransition()
+    public void onFinish()
     {
         // Activate all the deactivated objects
         foreach (GameObject toActivateObject in toActivate)

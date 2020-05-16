@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip sticWalkSound;
     [SerializeField] private AudioClip thicWalkSound;
     [SerializeField] private AudioClip thiccWalkSound;
+    [SerializeField] private AudioClip sticJumpSound;
+    [SerializeField] private AudioClip thicJumpSound;
+    [SerializeField] private AudioClip thiccJumpSound;
     [SerializeField] private ParticleSystem jumpParticleSystem;
     [SerializeField] private ParticleSystem walkParticleSystem;
 
@@ -140,6 +143,20 @@ public class PlayerMovement : MonoBehaviour
 
             // Create jump particle system
             Instantiate(jumpParticleSystem, new Vector3(transform.position.x, particleY), Quaternion.identity);
+
+            // Jump sound
+            if (player.getThiccLevel() < Player.THIC_THRESHOLD) // Stic
+            {
+                audioSource.PlayOneShot(sticJumpSound);
+            }
+            else if (player.getThiccLevel() < Player.THICC_THRESHOLD) // Thic
+            {
+                audioSource.PlayOneShot(thicJumpSound);
+            }
+            else // Thicc+
+            {
+                audioSource.PlayOneShot(thiccJumpSound);
+            }
         }
 
         // If player requested another jump before the player hits the ground, jump request is still reset

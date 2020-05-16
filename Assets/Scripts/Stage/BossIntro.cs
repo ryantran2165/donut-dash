@@ -16,11 +16,11 @@ public class BossIntro : MonoBehaviour
             toDeActivateObject.SetActive(false);
         }
 
-        // Destroy all falling obstacles (anvils and flaming donuts)
-        GameObject[] fallingObstacles = GameObject.FindGameObjectsWithTag("FallingObstacle");
-        foreach (GameObject fallingObstacle in fallingObstacles)
+        // Destroy obstacles so when player comes back, not instantly killed
+        GameObject[] toDestroyObjects = GameObject.FindGameObjectsWithTag("DestroyOnBossIntro");
+        foreach (GameObject toDestroy in toDestroyObjects)
         {
-            Destroy(fallingObstacle);
+            Destroy(toDestroy);
         }
     }
 
@@ -30,7 +30,7 @@ public class BossIntro : MonoBehaviour
         
     }
 
-    public void onFinishTransition()
+    public void onFinish()
     {
         // Set to boss fight
         DonutDashSingleton.setActive(false);

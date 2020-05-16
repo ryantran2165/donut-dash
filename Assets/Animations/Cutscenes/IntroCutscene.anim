@@ -2008,7 +2008,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 10.783334
-    functionName: onFinishTransition
+    functionName: onFinish
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: eceef0a2fd2b353469cb1f4c645f57e3,
       type: 3}

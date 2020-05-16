@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BossFightPlayer : MonoBehaviour
@@ -13,6 +12,9 @@ public class BossFightPlayer : MonoBehaviour
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject UI;
     [SerializeField] private Text gameOverText;
+    [SerializeField] private GameObject bossDefeatedObject;
+
+    [SerializeField] private int scoreToWin = 5;
 
     private SpriteRenderer renderer;
     private Rigidbody2D rigidbody;
@@ -28,8 +30,6 @@ public class BossFightPlayer : MonoBehaviour
     private const float DIST_FROM_SCREEN = 2f;
     private const float SPEED = 2000f;
     private const float MAX_SPEED = 10f;
-
-    private const int SCORE_TO_WIN = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -109,17 +109,10 @@ public class BossFightPlayer : MonoBehaviour
                 score++;
 
                 // Win
-                if (score == SCORE_TO_WIN)
+                if (score == scoreToWin)
                 {
-                    // Play burp sound = death sound
-                    Instantiate(deathSound, transform.position, Quaternion.identity);
-
-                    // Activate object after boss fight
-                    MyGameManager.activateAfterBossFight = true;
-
-                    // Go back to DonutDash scene
-                    SceneManager.UnloadSceneAsync("BossFight");
-                    DonutDashSingleton.setActive(true);
+                    // Activate boss defeated
+                    bossDefeatedObject.SetActive(true);
                 }
             }
             else if (collision.CompareTag("FlamingDonut"))
