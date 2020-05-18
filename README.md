@@ -4,6 +4,7 @@ Chase the donut thief in this randomly generated, infinite 2D platformer! Eat co
 Download: https://ryantran2165.itch.io/donut-dash
 
 Programming: Ryan Tran
+
 Art & Music: Matt Slade
 
 OST by Matt Slade: https://donutdash.bandcamp.com/releases
