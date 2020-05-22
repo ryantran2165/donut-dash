@@ -43,7 +43,8 @@ public class Bird : MonoBehaviour
             GameObject birdPoopObject = Instantiate(birdPoop, new Vector3(spawnX, spawnY), Quaternion.identity);
 
             // Set the poop's x-scale
-            birdPoopObject.transform.localScale = new Vector3(-transform.localScale.x, 1, 1);
+            float scale = birdPoopObject.transform.localScale.x;
+            birdPoopObject.transform.localScale = new Vector3(transform.localScale.x < 0 ? scale : -scale, scale, scale);
 
             // Set poop's velocity to half of bird's
             Rigidbody2D poopRigidBody = birdPoopObject.GetComponent<Rigidbody2D>();

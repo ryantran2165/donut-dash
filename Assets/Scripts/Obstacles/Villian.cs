@@ -11,6 +11,7 @@ public class Villian : MonoBehaviour
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private GameObject villianLaughSound;
     [SerializeField] private GameObject bossIntro;
+    [SerializeField] private float bossFightTimer = 15f;
 
     private Rigidbody2D villianRigidbody;
     private Vector2 movement;
@@ -19,7 +20,6 @@ public class Villian : MonoBehaviour
     private float targetVariation;
     private Vector2 offScreenTarget;
     private bool alreadySetVel;
-    private float bossFightTimer = 15f;
     private const float MIN_SPAWN_TIME = 1f;
     private const float MAX_SPAWN_TIME = 2f;
     private const float SPEED = 500f;

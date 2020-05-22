@@ -32,8 +32,38 @@ TextureImporter:
   - first:
       213: -2583999033886006502
     second: Fat Copper 11 fps_9
+  - first:
+      213: -4900996046277244941
+    second: Thic_0
+  - first:
+      213: -8345017252319330896
+    second: Thic_1
+  - first:
+      213: -2501822313601444593
+    second: Thic_2
+  - first:
+      213: 3466346667708192919
+    second: Thic_3
+  - first:
+      213: 6802260081115482727
+    second: Thic_4
+  - first:
+      213: -8562692934700811011
+    second: Thic_5
+  - first:
+      213: 8264032011283559761
+    second: Thic_6
+  - first:
+      213: -4062035927280560887
+    second: Thic_7
+  - first:
+      213: -2932583157730819472
+    second: Thic_8
+  - first:
+      213: -1248531089932627006
+    second: Thic_9
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -87,6 +117,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -116,211 +147,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fat Copper 11 fps_0
+      name: Thic_0
       rect:
         serializedVersion: 2
-        x: 349
-        y: 3261
-        width: 294
-        height: 742
+        x: 175
+        y: 1631
+        width: 146
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aa1103a44aa27e40800000000000000
-      internalID: 5652767694072650404
+      spriteID: 3f70d00001a2cfbb0800000000000000
+      internalID: -4900996046277244941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_1
+      name: Thic_1
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 3293
-        width: 326
-        height: 742
+        x: 671
+        y: 1647
+        width: 162
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4489a58f624aa87c0800000000000000
-      internalID: -4068258826093422524
+      spriteID: 0bdfff6d50b803c80800000000000000
+      internalID: -8345017252319330896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_2
+      name: Thic_2
       rect:
         serializedVersion: 2
-        x: 2301
-        y: 3325
-        width: 422
-        height: 742
+        x: 1151
+        y: 1663
+        width: 210
+        height: 369
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29cc8ec0c61e87fe0800000000000000
-      internalID: -1190954247250195310
+      spriteID: f05d3aa6cddb74dd0800000000000000
+      internalID: -2501822313601444593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_3
+      name: Thic_3
       rect:
         serializedVersion: 2
-        x: 253
-        y: 2301
-        width: 422
-        height: 742
+        x: 128
+        y: 1151
+        width: 209
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 500802685ad976730800000000000000
-      internalID: 3992332928932675589
+      spriteID: 7981b15cdefea1030800000000000000
+      internalID: 3466346667708192919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_4
+      name: Thic_4
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 2237
-        width: 326
-        height: 742
+        x: 671
+        y: 1119
+        width: 162
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e28a29a39a09d000800000000000000
-      internalID: 61091699260818148
+      spriteID: 76a45bcf08b766e50800000000000000
+      internalID: 6802260081115482727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_5
+      name: Thic_5
       rect:
         serializedVersion: 2
-        x: 2397
-        y: 2237
-        width: 294
-        height: 742
+        x: 1199
+        y: 1119
+        width: 146
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6663fef7194ef0a0800000000000000
-      internalID: -6845954016146135442
+      spriteID: dfc396a94243b2980800000000000000
+      internalID: -8562692934700811011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_6
+      name: Thic_6
       rect:
         serializedVersion: 2
-        x: 349
-        y: 1261
-        width: 326
-        height: 742
+        x: 175
+        y: 639
+        width: 162
+        height: 354
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 786f9796b5e808130800000000000000
-      internalID: 3567007428140201607
+      spriteID: 155730d545dbfa270800000000000000
+      internalID: 8264032011283559761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_7
+      name: Thic_7
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 1307
-        width: 390
-        height: 742
+        x: 671
+        y: 671
+        width: 194
+        height: 338
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04fb802d46ad57bb0800000000000000
-      internalID: -4938801289786507456
+      spriteID: 905519188dfb0a7c0800000000000000
+      internalID: -4062035927280560887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_8
+      name: Thic_8
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 1301
-        width: 390
-        height: 742
+        x: 1183
+        y: 671
+        width: 193
+        height: 338
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ac37885ab10e3920800000000000000
-      internalID: 2971814703971908768
+      spriteID: 0724921d72f5d47d0800000000000000
+      internalID: -2932583157730819472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fat Copper 11 fps_9
+      name: Thic_9
       rect:
         serializedVersion: 2
-        x: 305
-        y: 202
-        width: 338
-        height: 742
+        x: 159
+        y: 112
+        width: 162
+        height: 353
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a13a54db19ac32cd0800000000000000
-      internalID: -2583999033886006502
+      spriteID: 2c3d885b6935caee0800000000000000
+      internalID: -1248531089932627006
       vertices: []
       indices: 
       edges: []

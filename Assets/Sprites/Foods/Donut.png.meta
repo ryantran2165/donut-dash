@@ -26,8 +26,32 @@ TextureImporter:
   - first:
       213: 2791170680750269466
     second: Donut v3_7
+  - first:
+      213: 2569236167131993415
+    second: Donut_0
+  - first:
+      213: -4679137011999025096
+    second: Donut_1
+  - first:
+      213: 4476870113323317140
+    second: Donut_2
+  - first:
+      213: -2691570216170933860
+    second: Donut_3
+  - first:
+      213: -471828966928880493
+    second: Donut_4
+  - first:
+      213: -9084065464734190217
+    second: Donut_5
+  - first:
+      213: 7650678264061166655
+    second: Donut_6
+  - first:
+      213: -8256593588793591246
+    second: Donut_7
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -81,6 +105,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -110,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Donut v3_0
+      name: Donut_0
       rect:
         serializedVersion: 2
-        x: 254
-        y: 2335
-        width: 483
-        height: 483
+        x: 90
+        y: 821
+        width: 169
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c649408d4d5d390800000000000000
-      internalID: -7794089555839914965
+      spriteID: 7451dfd7ea2c7a320800000000000000
+      internalID: 2569236167131993415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Donut v3_1
+      name: Donut_1
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 2335
-        width: 291
-        height: 483
+        x: 483
+        y: 821
+        width: 103
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bbb453edd1a5b4d0800000000000000
-      internalID: -3119409192510374990
+      spriteID: 8385a60cdad501fb0800000000000000
+      internalID: -4679137011999025096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Donut v3_2
+      name: Donut_2
       rect:
         serializedVersion: 2
-        x: 2494
-        y: 2335
-        width: 163
-        height: 483
+        x: 877
+        y: 821
+        width: 57
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdcbc6b4dff563ce0800000000000000
-      internalID: -1425846690519401249
+      spriteID: 497f23a06a9012e30800000000000000
+      internalID: 4476870113323317140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Donut v3_3
+      name: Donut_3
       rect:
         serializedVersion: 2
-        x: 350
-        y: 1310
-        width: 291
-        height: 483
+        x: 123
+        y: 461
+        width: 103
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41a3b42537da2f830800000000000000
-      internalID: 4103532921301449236
+      spriteID: c913c11262f95aad0800000000000000
+      internalID: -2691570216170933860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Donut v3_4
+      name: Donut_4
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 1310
-        width: 483
-        height: 483
+        x: 449
+        y: 461
+        width: 170
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 692fd6fb96bf1c3f0800000000000000
-      internalID: -882147620386114922
+      spriteID: 39ce67fed0ab379f0800000000000000
+      internalID: -471828966928880493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Donut v3_5
+      name: Donut_5
       rect:
         serializedVersion: 2
-        x: 2398
-        y: 1310
-        width: 292
-        height: 483
+        x: 843
+        y: 461
+        width: 102
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997073bf8adc812b0800000000000000
-      internalID: -5613510809864435815
+      spriteID: 775ff1ad69aeee180800000000000000
+      internalID: -9084065464734190217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Donut v3_6
+      name: Donut_6
       rect:
         serializedVersion: 2
-        x: 415
-        y: 286
-        width: 163
-        height: 484
+        x: 146
+        y: 101
+        width: 57
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e075e119a180d1a0800000000000000
-      internalID: -6786782075297632027
+      spriteID: f340b2c985bac2a60800000000000000
+      internalID: 7650678264061166655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Donut v3_7
+      name: Donut_7
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 286
-        width: 291
-        height: 484
+        x: 483
+        y: 101
+        width: 103
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14ea9522fa3cb620800000000000000
-      internalID: 2791170680750269466
+      spriteID: 23ab03550efaa6d80800000000000000
+      internalID: -8256593588793591246
       vertices: []
       indices: 
       edges: []

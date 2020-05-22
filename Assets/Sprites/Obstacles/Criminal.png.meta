@@ -32,8 +32,38 @@ TextureImporter:
   - first:
       213: -810079383703986901
     second: Jumping Criminal 4 fps_9
+  - first:
+      213: -8478271600928706407
+    second: Criminal_0
+  - first:
+      213: -2454559911662241234
+    second: Criminal_1
+  - first:
+      213: -8687335434148682061
+    second: Criminal_2
+  - first:
+      213: 5786140968220890149
+    second: Criminal_3
+  - first:
+      213: 647039718841812068
+    second: Criminal_4
+  - first:
+      213: 7729300760383547984
+    second: Criminal_5
+  - first:
+      213: 162052277174526315
+    second: Criminal_6
+  - first:
+      213: 5829127030954166169
+    second: Criminal_7
+  - first:
+      213: -7960936013994490995
+    second: Criminal_8
+  - first:
+      213: 4579361977480894540
+    second: Criminal_9
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -87,6 +117,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -116,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_0
+      name: Criminal_0
       rect:
         serializedVersion: 2
-        x: 317
-        y: 3101
-        width: 358
-        height: 678
+        x: 150
+        y: 1454
+        width: 166
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d4297b9ec6fb7080800000000000000
-      internalID: -9188479247487261485
+      spriteID: 990bc5516e0275a80800000000000000
+      internalID: -8478271600928706407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_1
+      name: Criminal_1
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 3101
-        width: 358
-        height: 678
+        x: 630
+        y: 1454
+        width: 166
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ff3774ff3a64670800000000000000
-      internalID: 8522679661656014713
+      spriteID: e2a3571e3c6afedd0800000000000000
+      internalID: -2454559911662241234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_2
+      name: Criminal_2
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 3101
-        width: 358
-        height: 678
+        x: 1110
+        y: 1454
+        width: 166
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2261c83de101daea0800000000000000
-      internalID: -5860009815554910686
+      spriteID: 3b667ea3372607780800000000000000
+      internalID: -8687335434148682061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_3
+      name: Criminal_3
       rect:
         serializedVersion: 2
-        x: 317
-        y: 2077
-        width: 358
-        height: 678
+        x: 150
+        y: 974
+        width: 166
+        height: 317
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59816d039c5fe7760800000000000000
-      internalID: 7457668277428689045
+      spriteID: 5241427ed808c4050800000000000000
+      internalID: 5786140968220890149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_4
+      name: Criminal_4
       rect:
         serializedVersion: 2
-        x: 1373
-        y: 2077
-        width: 326
-        height: 742
+        x: 644
+        y: 974
+        width: 152
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c704bbf5d7f84d00800000000000000
-      internalID: 957287419239204806
+      spriteID: 4648225323fbaf800800000000000000
+      internalID: 647039718841812068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_5
+      name: Criminal_5
       rect:
         serializedVersion: 2
-        x: 2429
-        y: 2077
-        width: 326
-        height: 742
+        x: 1139
+        y: 974
+        width: 151
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 111cbd519e3841d20800000000000000
-      internalID: 3248366268358312209
+      spriteID: 05a61d8071ef34b60800000000000000
+      internalID: 7729300760383547984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_6
+      name: Criminal_6
       rect:
         serializedVersion: 2
-        x: 381
-        y: 1053
-        width: 326
-        height: 742
+        x: 179
+        y: 494
+        width: 151
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e9b4688cb3388f20800000000000000
-      internalID: 3425044401450432995
+      spriteID: b61e70000b9bf3200800000000000000
+      internalID: 162052277174526315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_7
+      name: Criminal_7
       rect:
         serializedVersion: 2
-        x: 1405
-        y: 1053
-        width: 326
-        height: 742
+        x: 659
+        y: 494
+        width: 151
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d455230f8623b0a0800000000000000
-      internalID: -6867102611134917418
+      spriteID: 99786ae862835e050800000000000000
+      internalID: 5829127030954166169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_8
+      name: Criminal_8
       rect:
         serializedVersion: 2
-        x: 2429
-        y: 1053
-        width: 326
-        height: 742
+        x: 1139
+        y: 494
+        width: 151
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbea6bd92906441c0800000000000000
-      internalID: -4520381943145648452
+      spriteID: d838e36cfd2158190800000000000000
+      internalID: -7960936013994490995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumping Criminal 4 fps_9
+      name: Criminal_9
       rect:
         serializedVersion: 2
-        x: 349
-        y: 29
-        width: 326
-        height: 742
+        x: 164
+        y: 15
+        width: 152
+        height: 346
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2dd47ea71502c4f0800000000000000
-      internalID: -810079383703986901
+      spriteID: c48ddadb4792d8f30800000000000000
+      internalID: 4579361977480894540
       vertices: []
       indices: 
       edges: []

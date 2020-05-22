@@ -24,7 +24,7 @@ TextureImporter:
       213: 9177113774106814834
     second: Bird_6
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,6 +78,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -103,6 +104,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -110,10 +123,10 @@ TextureImporter:
       name: Bird_0
       rect:
         serializedVersion: 2
-        x: 317
-        y: 3357
-        width: 1414
-        height: 486
+        x: 84
+        y: 885
+        width: 372
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,10 +144,10 @@ TextureImporter:
       name: Bird_1
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 3357
-        width: 1414
-        height: 486
+        x: 624
+        y: 885
+        width: 372
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +165,10 @@ TextureImporter:
       name: Bird_2
       rect:
         serializedVersion: 2
-        x: 317
-        y: 2333
-        width: 1414
-        height: 486
+        x: 84
+        y: 615
+        width: 372
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +186,10 @@ TextureImporter:
       name: Bird_3
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 2333
-        width: 1414
-        height: 486
+        x: 624
+        y: 615
+        width: 372
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +207,10 @@ TextureImporter:
       name: Bird_4
       rect:
         serializedVersion: 2
-        x: 317
-        y: 1213
-        width: 1414
-        height: 582
+        x: 84
+        y: 320
+        width: 372
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +228,10 @@ TextureImporter:
       name: Bird_5
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 1213
-        width: 1414
-        height: 582
+        x: 624
+        y: 320
+        width: 372
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +249,10 @@ TextureImporter:
       name: Bird_6
       rect:
         serializedVersion: 2
-        x: 317
-        y: 285
-        width: 1414
-        height: 486
+        x: 84
+        y: 75
+        width: 372
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

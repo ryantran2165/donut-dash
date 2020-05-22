@@ -14,8 +14,11 @@ TextureImporter:
   - first:
       213: 7436583963133844264
     second: VillianHoverboardIdle_3
+  - first:
+      213: -5474649011723722699
+    second: VillianHoverboardIdle_2
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -69,6 +72,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -101,10 +105,10 @@ TextureImporter:
       name: VillianHoverboardIdle_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1088
-        width: 832
-        height: 928
+        x: 48
+        y: 543
+        width: 417
+        height: 465
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,10 +126,10 @@ TextureImporter:
       name: VillianHoverboardIdle_1
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 1088
-        width: 832
-        height: 928
+        x: 559
+        y: 543
+        width: 417
+        height: 465
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,34 +144,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VillianHoverboardIdle_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 832
-        height: 928
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ea81e0c7c8080530800000000000000
-      internalID: 3821313937851386596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: VillianHoverboardIdle_3
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 96
-        width: 832
-        height: 928
+        x: 559
+        y: 48
+        width: 417
+        height: 465
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,6 +160,27 @@ TextureImporter:
       bones: []
       spriteID: 82b95f8b6bd043760800000000000000
       internalID: 7436583963133844264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VillianHoverboardIdle_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 417
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530a342dab32604b0800000000000000
+      internalID: -5474649011723722699
       vertices: []
       indices: 
       edges: []

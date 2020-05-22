@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class BossIntro : MonoBehaviour
 {
     [SerializeField] private List<GameObject> toDeActivate;
+    [SerializeField] private VideoPlayer videoPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -27,16 +29,15 @@ public class BossIntro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
+        // Video done
+        if (videoPlayer.isPrepared && !videoPlayer.isPlaying)
+        {
+            // Set to boss fight
+            DonutDashSingleton.setActive(false);
+            SceneManager.LoadScene("BossFight", LoadSceneMode.Additive);
 
-    public void onFinish()
-    {
-        // Set to boss fight
-        DonutDashSingleton.setActive(false);
-        SceneManager.LoadScene("BossFight", LoadSceneMode.Additive);
-
-        // Destroy this object
-        Destroy(gameObject);
+            // Destroy this object
+            Destroy(gameObject);
+        }
     }
 }

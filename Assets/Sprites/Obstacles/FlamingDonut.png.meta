@@ -21,7 +21,7 @@ TextureImporter:
       213: 375400832197997582
     second: FlamingDonut_1
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -75,6 +75,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -107,10 +108,10 @@ TextureImporter:
       name: FlamingDonut_0
       rect:
         serializedVersion: 2
-        x: 224
-        y: 1216
-        width: 544
-        height: 672
+        x: 118
+        y: 641
+        width: 287
+        height: 355
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43db1aeac9943f550800000000000000
-      internalID: 6193374849858125108
+      spriteID: 2a09dbd5683ab9480800000000000000
+      internalID: -8891333241819262814
       vertices: []
       indices: 
       edges: []
@@ -128,10 +129,10 @@ TextureImporter:
       name: FlamingDonut_1
       rect:
         serializedVersion: 2
-        x: 224
-        y: 192
-        width: 544
-        height: 672
+        x: 118
+        y: 101
+        width: 287
+        height: 355
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e043c836111b53500800000000000000
-      internalID: 375400832197997582
+      spriteID: 8c0d4d05c52d7d270800000000000000
+      internalID: 8275314134251524296
       vertices: []
       indices: 
       edges: []

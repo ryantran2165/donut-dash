@@ -14,8 +14,20 @@ TextureImporter:
   - first:
       213: 3887371104025403671
     second: Coffee alternate 2 fps_3
+  - first:
+      213: -1850988681521255122
+    second: Coffee_0
+  - first:
+      213: -7134575736312797528
+    second: Coffee_1
+  - first:
+      213: -213068306603212959
+    second: Coffee_2
+  - first:
+      213: -4664722853351780192
+    second: Coffee_3
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -69,6 +81,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -98,13 +111,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Coffee alternate 2 fps_0
+      name: Coffee_0
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1312
-        width: 544
-        height: 608
+        x: 168
+        y: 691
+        width: 288
+        height: 322
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +125,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bcaa772ad450cfc0800000000000000
-      internalID: -3476685616388068169
+      spriteID: e2d28a2e997ff46e0800000000000000
+      internalID: -1850988681521255122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coffee alternate 2 fps_1
+      name: Coffee_1
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1312
-        width: 416
-        height: 608
+        x: 708
+        y: 691
+        width: 221
+        height: 322
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c1f7cf51ff7458a0800000000000000
-      internalID: -6317283702623178297
+      spriteID: 8a664fd1b25ecfc90800000000000000
+      internalID: -7134575736312797528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coffee alternate 2 fps_2
+      name: Coffee_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 288
-        width: 544
-        height: 608
+        x: 84
+        y: 151
+        width: 288
+        height: 322
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e93032d05f19130800000000000000
-      internalID: 3571905416252333573
+      spriteID: 16f750801870b0df0800000000000000
+      internalID: -213068306603212959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Coffee alternate 2 fps_3
+      name: Coffee_3
       rect:
         serializedVersion: 2
-        x: 1312
-        y: 288
-        width: 416
-        height: 608
+        x: 691
+        y: 151
+        width: 221
+        height: 322
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,8 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7116d854c67b2f530800000000000000
-      internalID: 3887371104025403671
+      spriteID: 0a012569743934fb0800000000000000
+      internalID: -4664722853351780192
       vertices: []
       indices: 
       edges: []

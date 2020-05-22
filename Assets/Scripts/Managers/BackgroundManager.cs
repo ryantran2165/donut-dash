@@ -24,6 +24,7 @@ public class BackgroundManager : MonoBehaviour
     private float nextSpawnInterval;
     private float lastLightX;
     private const float MIN_LIGHT_INTERVAL = 15f;
+    private const float GROUND_Y = 1.325f;
 
     private const float LAYER_1_SPEED = 0.7f;
     private const float LAYER_2_SPEED = 0.5f;
@@ -87,7 +88,7 @@ public class BackgroundManager : MonoBehaviour
                 GameObject spawnedObject = Instantiate(toSpawnObject, parent);
                 SpriteRenderer renderer = spawnedObject.GetComponent<SpriteRenderer>();
                 float spawnX = ScreenUtility.getXRightOffscreen(renderer, camera);
-                spawnedObject.transform.position = new Vector3(spawnX, spawnedObject.transform.position.y);
+                spawnedObject.transform.position = new Vector3(spawnX, GROUND_Y + renderer.bounds.size.y / 2f);
                 rigidBodies.Add(spawnedObject.GetComponent<Rigidbody2D>());
                 lastSpawnX = spawnX;
                 nextSpawnInterval = renderer.bounds.size.x / 2;

@@ -12,7 +12,7 @@ public class BossFightPlayer : MonoBehaviour
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject UI;
     [SerializeField] private Text gameOverText;
-    [SerializeField] private GameObject bossDefeatedObject;
+    [SerializeField] private GameObject bossOutro;
 
     [SerializeField] private int scoreToWin = 5;
 
@@ -111,8 +111,8 @@ public class BossFightPlayer : MonoBehaviour
                 // Win
                 if (score == scoreToWin)
                 {
-                    // Activate boss defeated
-                    bossDefeatedObject.SetActive(true);
+                    // Activate boss outro
+                    bossOutro.SetActive(true);
                 }
             }
             else if (collision.CompareTag("FlamingDonut"))

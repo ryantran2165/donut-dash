@@ -1,49 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class WinScreen : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer fadeToWhiteRenderer;
-
-    private bool activateFadeToWhite;
-    private float fadeTimer;
-
-    private const float FADE_TIME = 1f;
+    [SerializeField] private GameObject winScreenAudio;
+    [SerializeField] private GameObject fadeToWhite;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        // Separate because when deactivated, still want to hear it continue for the fade out to white
+        winScreenAudio.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (activateFadeToWhite)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            // Increase fade timer
-            fadeTimer += Time.deltaTime;
-
-            // Clamp alpha to max of 1f
-            float alpha = Mathf.Min(fadeTimer / FADE_TIME, 1f);
-            fadeToWhiteRenderer.color = new Color(1f, 1f, 1f, alpha);
-
-            // Done fading
-            if (alpha == 1f)
-            {
-                // Activate object after boss fight
-                MyGameManager.activateObjectsAfterWin = true;
-
-                // Go back to DonutDash scene
-                SceneManager.UnloadSceneAsync("BossFight");
-                DonutDashSingleton.setActive(true);
-            }
-        }
-        else if (Input.GetKeyDown(KeyCode.Space))
-        {
-            activateFadeToWhite = true;
+            fadeToWhite.SetActive(true);
+            Destroy(gameObject);
         }
     }
 }

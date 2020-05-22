@@ -32,8 +32,38 @@ TextureImporter:
   - first:
       213: 1839038627904022672
     second: Thicccccccc Copper 8 fps_9
+  - first:
+      213: -2504526383389133954
+    second: Thicc_0
+  - first:
+      213: -5095958835642912062
+    second: Thicc_1
+  - first:
+      213: 5365147662782720084
+    second: Thicc_2
+  - first:
+      213: -7353017423312686591
+    second: Thicc_3
+  - first:
+      213: -6929129774276650473
+    second: Thicc_4
+  - first:
+      213: 2270326185072064375
+    second: Thicc_5
+  - first:
+      213: 8311074867467730340
+    second: Thicc_6
+  - first:
+      213: -1518744455895759640
+    second: Thicc_7
+  - first:
+      213: 4094117627853281508
+    second: Thicc_8
+  - first:
+      213: -8256431834841649899
+    second: Thicc_9
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -87,6 +117,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -116,211 +147,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_0
+      name: Thicc_0
       rect:
         serializedVersion: 2
-        x: 317
-        y: 3250
-        width: 390
-        height: 774
+        x: 160
+        y: 1631
+        width: 193
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c241420d764049890800000000000000
-      internalID: -7452326639471160276
+      spriteID: e733f7b16822e3dd0800000000000000
+      internalID: -2504526383389133954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_1
+      name: Thicc_1
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 3275
-        width: 390
-        height: 774
+        x: 671
+        y: 1647
+        width: 194
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f26823fe67d2a13a0800000000000000
-      internalID: -6693987907290364369
+      spriteID: 2c2bd7340748749b0800000000000000
+      internalID: -5095958835642912062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_2
+      name: Thicc_2
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 3325
-        width: 390
-        height: 771
+        x: 1183
+        y: 1663
+        width: 193
+        height: 385
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1491ef3a15f336590800000000000000
-      internalID: -7682226919487694527
+      spriteID: 4586eaf9f55d47a40800000000000000
+      internalID: 5365147662782720084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_3
+      name: Thicc_3
       rect:
         serializedVersion: 2
-        x: 317
-        y: 2269
-        width: 390
-        height: 774
+        x: 160
+        y: 1135
+        width: 193
+        height: 386
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e677ca79e65a0d800800000000000000
-      internalID: 635189441868887918
+      spriteID: 10270388c95d4f990800000000000000
+      internalID: -7353017423312686591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_4
+      name: Thicc_4
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 2217
-        width: 390
-        height: 774
+        x: 671
+        y: 1119
+        width: 194
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad1ac7174f797ea20800000000000000
-      internalID: 3091606745344942554
+      spriteID: 71a58a1be29c6df90800000000000000
+      internalID: -6929129774276650473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_5
+      name: Thicc_5
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 2223
-        width: 390
-        height: 774
+        x: 1183
+        y: 1119
+        width: 193
+        height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b0a5377d45a3e2c0800000000000000
-      internalID: -4403494258507145035
+      spriteID: 777fc79f2a1d18f10800000000000000
+      internalID: 2270326185072064375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_6
+      name: Thicc_6
       rect:
         serializedVersion: 2
-        x: 317
-        y: 1246
-        width: 390
-        height: 774
+        x: 160
+        y: 639
+        width: 193
+        height: 354
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92870e98b64ded2d0800000000000000
-      internalID: -3251928322575140823
+      spriteID: 4ad3719de8ed65370800000000000000
+      internalID: 8311074867467730340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_7
+      name: Thicc_7
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 1300
-        width: 390
-        height: 774
+        x: 671
+        y: 671
+        width: 194
+        height: 354
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e48780a09790cfa0800000000000000
-      internalID: -5782455274119396126
+      spriteID: 8e44db9c6f55ceae0800000000000000
+      internalID: -1518744455895759640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_8
+      name: Thicc_8
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 1283
-        width: 390
-        height: 774
+        x: 1183
+        y: 655
+        width: 193
+        height: 354
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5239a14be81278e00800000000000000
-      internalID: 1046842335177642789
+      spriteID: 4e81cdc7a4a31d830800000000000000
+      internalID: 4094117627853281508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Thicccccccc Copper 8 fps_9
+      name: Thicc_9
       rect:
         serializedVersion: 2
-        x: 317
-        y: 202
-        width: 390
-        height: 774
+        x: 160
+        y: 112
+        width: 193
+        height: 369
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 098e07073e3958910800000000000000
-      internalID: 1839038627904022672
+      spriteID: 51d690c9df24b6d80800000000000000
+      internalID: -8256431834841649899
       vertices: []
       indices: 
       edges: []
