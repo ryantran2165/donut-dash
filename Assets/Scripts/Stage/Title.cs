@@ -2,26 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class Title : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> toActivate;
     [SerializeField] private List<GameObject> toDeActivate;
-    [SerializeField] private RuntimeAnimatorController transitionAnimation;
     [SerializeField] private MyGameManager gameManager;
+    [SerializeField] private GameObject titleTransition;
+    [SerializeField] private GameObject prescreen;
 
-    private Animator animator;
     private bool inTransition;
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Title isn't destroyed immediately, so transition video has time to prepare
         if (!inTransition)
         {
             // Change title animation to the transition
@@ -36,8 +37,13 @@ public class Title : MonoBehaviour
                     toDeActivateObject.SetActive(false);
                 }
 
-                // Change to transition animation
-                animator.runtimeAnimatorController = transitionAnimation;
+                // Destroy prescreen
+                Destroy(prescreen);
+
+                // Activate transition
+                titleTransition.SetActive(true);
+
+                // Flag transition
                 inTransition = true;
             }
             else if (Input.GetKeyDown(KeyCode.C)) // Change to credits scene
@@ -46,18 +52,6 @@ public class Title : MonoBehaviour
                 SceneManager.LoadScene("CreditScene", LoadSceneMode.Additive);
             }
         }
-    }
-
-    // Called by Animation Event attached to Title Transition Animation
-    public void onFinish()
-    {
-        // Activate all the deactivated objects
-        foreach (GameObject toActivateObject in toActivate)
-        {
-            toActivateObject.SetActive(true);
-        }
-
-        // Destroy this title object
-        Destroy(gameObject);
+        
     }
 }

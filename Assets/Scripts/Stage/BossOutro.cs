@@ -6,7 +6,7 @@ using UnityEngine.Video;
 public class BossOutro : MonoBehaviour
 {
     [SerializeField] private List<GameObject> toDeActivate;
-    [SerializeField] private GameObject winScreen;
+    [SerializeField] private GameObject winLoop;
     [SerializeField] private VideoPlayer videoPlayer;
     [SerializeField] private GameObject black;
 
@@ -26,7 +26,7 @@ public class BossOutro : MonoBehaviour
         if (videoPlayer.isPrepared && !videoPlayer.isPlaying)
         {
             black.SetActive(true);
-            winScreen.SetActive(true);
+            winLoop.SetActive(true);
             Destroy(gameObject);
         }
     }

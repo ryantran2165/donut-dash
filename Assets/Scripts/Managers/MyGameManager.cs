@@ -28,8 +28,8 @@ public class MyGameManager : MonoBehaviour
             ingame = true;
 
             // Set donut shop position
-            SpriteRenderer renderer = donutShop.GetComponent<SpriteRenderer>();
-            donutShop.transform.position = new Vector3(ScreenUtility.getXRightOnscreen(renderer, camera), donutShop.transform.position.y);
+            //SpriteRenderer renderer = donutShop.GetComponent<SpriteRenderer>();
+            //donutShop.transform.position = new Vector3(ScreenUtility.getXRightOnscreen(renderer, camera), donutShop.transform.position.y);
 
             // Activate
             foreach (GameObject toActivate in toActivate)
